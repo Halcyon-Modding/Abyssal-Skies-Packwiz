@@ -5784,9 +5784,8 @@ hash = "cf9fa9c87951fe9ff1825afb7d137f0b0eed2bfe0170786b270bc919b7a6909e"
 metafile = true
 
 [[files]]
-file = "mods/arch_mc.pw.toml"
-hash = "7a0cae2f929ecb600bae2c99e41af51f16f5ae5035b3b8991473576dd4782b49"
-metafile = true
+file = "mods/arch_mc-1.0.4-neoforge-1.21.1.jar"
+hash = "865ad5bef39eb1c1e72a403945c0df2c4fa3972f787d09cfe8f8b09af4edb611"
 
 [[files]]
 file = "mods/architects-palette.pw.toml"
