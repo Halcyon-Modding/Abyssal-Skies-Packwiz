@@ -5725,7 +5725,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "456a0babaee386899b88481cfe1c81423ab34e50f7d55c8c0f235878a8454324"
+hash = "9e2e28c6e4f4b85b7196158fd67a5efc6c3423035f0bf22d3c1851ab8d43ea8f"
 metafile = true
 
 [[files]]
@@ -5839,7 +5839,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "e2f2a6f6ff38054ce8d91a43a20b79ea7b4e84cb924142fb7d2bcfdd95fe5b57"
+hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
 metafile = true
 
 [[files]]
@@ -5859,7 +5859,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "de04eb0405fe173992455f5600914877609964865ac2a8a9d3dbeedc7b795905"
+hash = "ae08a084722418d43530c9332b72d4f8e3cb106c601b0b199c068cc40731356a"
 metafile = true
 
 [[files]]
@@ -5958,7 +5958,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "e9a8d009d97c91d0db1fc1411396e7279d659d613d6f051cc3f44d2b669011af"
+hash = "790bb2fd302150470e1b2f2223cca5987f29af41edf97481cd5ddfda6fb21c01"
 metafile = true
 
 [[files]]
@@ -5983,7 +5983,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-crafting.pw.toml"
-hash = "55df2b553b2ff4bc51bec0f1128a9b1d1d5c0ab713f0a074d8f7e8f0fc524c6f"
+hash = "c4222841169214cd4db3ee2347e3d41a0eb9451e6b09f80d0e2739f25b5ddd44"
 metafile = true
 
 [[files]]
@@ -6043,7 +6043,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+hash = "616036c38fafbcaf00c0720d947ec39f571d885a014f0c81b5eeeb4193784e0e"
 metafile = true
 
 [[files]]
@@ -6173,7 +6173,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctm.pw.toml"
-hash = "e0b7b35b16b7bd9bd494a4e32c2b5058bb67fa4b0979e33551fe40247ea937ef"
+hash = "fa13d87b5db41c2f963a919872ef276dd44ef0567f3cd23ca8dbe7b923e8a7ac"
 metafile = true
 
 [[files]]
@@ -6188,7 +6188,7 @@ metafile = true
 
 [[files]]
 file = "mods/cut-through.pw.toml"
-hash = "1dc3ed614d1be444f0ed687ab40168437cef77f25a9ebfbdd2ac250de6da3d87"
+hash = "27788d3b80ad864f96044fe2f86608e1d4204ba1c55f32c6953df7d1cc050f81"
 metafile = true
 
 [[files]]
@@ -6218,7 +6218,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
-hash = "fa1137faf7286f950ebf0dd28dbfb954c4c131c691c758646de589e35cb10e2e"
+hash = "ed31b4b816703ac3f1f00e52be969bd1fb7f7f54326bbb2ca863e85345a1eabe"
 metafile = true
 
 [[files]]
@@ -6233,22 +6233,22 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-crosshair.pw.toml"
-hash = "0e78b65907acf67e72c78165f55b846cdc475520837d555a1f156874422da5f7"
+hash = "a0cfada83bf175d97c8c1fa5dd22bf6c9a72a21108e3778caa2d08cf5e1b6eab"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "e2a3aca8101a179153b92e99000a10d06e4b5d285d358fbe457a53690d12dab5"
+hash = "8bc57beb0d3d0c34a2ac8c50d70490623dd350ce62d0ccde9a16a1b000a514b1"
 metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "f619c1ed2e189f9d482d081411fccee4bd26c05cce52a5db914f1989303f080c"
+hash = "03c4f9a926fc9bd90fc98c6dac2a39e70b28303e4f3519756a7b246444548654"
 metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "818543951213135340b708b4e7093b5ca011ca23739fe125ce9201370770f240"
+hash = "1ad7fbdbe89f53b0e29657c228e138ace1110b42f07a3957102df8ab1e8f838e"
 metafile = true
 
 [[files]]
@@ -6258,7 +6258,7 @@ metafile = true
 
 [[files]]
 file = "mods/ears.pw.toml"
-hash = "95fa97a402a1dec86ca05d27f9cb519249bef970ab3d5edbf3654d5717d08afe"
+hash = "20b1a4c590adf3bf74644d5558f446d04dd692fbcbe1ca7f6f2fadf1ad9033ae"
 metafile = true
 
 [[files]]
@@ -6298,7 +6298,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "298f2a99e309853181e71938c2358c4b2c7c6c19137dcf6bcefb736d43ab6f65"
+hash = "cc68235aff068c4a38af04e4091516720bb731cbb3789b1f6736f096523b336f"
 metafile = true
 
 [[files]]
@@ -6338,12 +6338,12 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "6d51c8adfc6782f216a150dedda2ea64969a639f4e21401eb5c5b5ac8c9ab28f"
+hash = "82d72ac4b1d62c7a1d14de30f403513dead518f1218f94ddba452f2f4bca21c2"
 metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "dc4686bed086fa566a0146be599134e6617dbd7b893a1e2ef70fe5a8e90c7559"
+hash = "04112db8cc0255891c0054989255a8b95a37e97d610d8eae6d6cc12ed734cc55"
 metafile = true
 
 [[files]]
@@ -6363,7 +6363,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "3e92a40a7d790339afb8438366c5d4590a5113873dc7e434a4f8357cc07bb80a"
+hash = "124fa36625bf2f382f6a993861cce883e775c6b79263337ee38d58b12e083491"
 metafile = true
 
 [[files]]
@@ -6403,7 +6403,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "962f814c2d04b4e878ef6241c56658b4b71ef513fc1c4963ddb22c0fe17a1de9"
+hash = "72471ae43e5e2d976d380ada3c2d7159e1004685c7200c80eaa8f0caac787cb2"
 metafile = true
 
 [[files]]
@@ -6428,7 +6428,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwa.pw.toml"
-hash = "a2a21a0ccd62f47304301f07cf2cd5fd3536fc3b7513924d64a91d028edbcf2b"
+hash = "1ab6fc158866d491bacf21bdcbb2adef24717547e3888012c00e5c0ae689feab"
 metafile = true
 
 [[files]]
@@ -6476,7 +6476,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-overlays.pw.toml"
-hash = "06143de4c9d23a46941bc0eacbc465ea409aa4824b764a23110d8054ec00f2d0"
+hash = "69977c74e67da84c138fa9042138b5466cd6f84d408af607515828ee64488d91"
 metafile = true
 
 [[files]]
@@ -6541,7 +6541,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "5345bb641d6b9307c6a05f12885315537386519476bd2aee79d9fd1181268a7a"
+hash = "9cf35d5b0b7ab064ea54e393af17304e5264ee6a59f5224fb5b79ad3c45ea22f"
 metafile = true
 
 [[files]]
@@ -6676,7 +6676,7 @@ metafile = true
 
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
-hash = "0f697b680492ec68f4db792705f84f27fa54afacba3c92a578e2c1b821bc894f"
+hash = "de97e04da7383f948463a2c2dd73884a474a9b20a64591061dd27cd0bc8988c2"
 metafile = true
 
 [[files]]
@@ -6790,7 +6790,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
-hash = "4357774fa2bb92e3d6b75a475c41c4cc314e98af696bf591c47ff2621ad5ecac"
+hash = "8c29843ea8daff8f4e2db30292a690de72ca5cfb52732e5bd0ea76a365923da0"
 metafile = true
 
 [[files]]
@@ -6854,7 +6854,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "df9eeb2fda08c5d1004088997ef7232164ced9902b8e98c979ef2c9b38857e20"
+hash = "4d1ee8193b88483ac46edb2464b6106fff8380c134d52a72b67bb814251a0832"
 metafile = true
 
 [[files]]
@@ -6974,12 +6974,12 @@ metafile = true
 
 [[files]]
 file = "mods/shut-up-gl-error.pw.toml"
-hash = "7791080b71ec48acc714f00438a44f224292582063750d63bc9225533519686a"
+hash = "f0ecaea959e3342034edac9b288e871aa3271e59796625677161d3a457876d6c"
 metafile = true
 
 [[files]]
 file = "mods/simple-discord-rich-presence.pw.toml"
-hash = "6e612f80ed4abfaf2dad996bc4a4545d5c54aa9a89024faeb4d7776b715c7316"
+hash = "4beec4c12ebb272218a28a65b827e4e72c362cba3e3f9b82fca6da3f249becc1"
 metafile = true
 
 [[files]]
@@ -6999,22 +6999,22 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "c4ebb45eb6e49b9e6a1dfcbae4f7b67da70088f7e672a70d1fff2308d72ff9bc"
+hash = "36fe43b253614ca6396e85698d0760f1a586e551a85fbc42f206144d41216019"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "c9291e44e1fd34eddbc1a2a9d69a90cb6c29d214abe4d3f282d9eaed62fa3416"
+hash = "3d615c32683131c6a98a7da16c28263c5ca5cf50e4f33029e8c72c3558bb362c"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "b9d4d42709629f2d52cb9d33bedf298bbea635b53f69946f9ec2735c47dfbd83"
+hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
 metafile = true
 
 [[files]]
 file = "mods/sound.pw.toml"
-hash = "36bc1bb632d1203c91d99298214b08b6babc7da301fff00fded2a1f705592f17"
+hash = "a3060b1d5a7b39e084cad66292d2258cc78d6e028b3e3d1a5925636cac5472c4"
 metafile = true
 
 [[files]]
@@ -7049,7 +7049,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-skybox.pw.toml"
-hash = "ffb597a68c1593d9ae249f4a2c30a822de03c7fe378f30da003513b28fc131e5"
+hash = "05e156c269d0edca7b59ace1516ff5f02a37064f6d085a87e54df352dcf0e695"
 metafile = true
 
 [[files]]
