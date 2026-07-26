@@ -1,0 +1,13 @@
+name = "Bountiful Pears"
+filename = "bountifulpears-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1b478f967286591403deac07438b4f708ea0415"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8474130
+project-id = 1610018

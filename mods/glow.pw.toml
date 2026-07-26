@@ -1,0 +1,13 @@
+name = "Glow"
+filename = "glow-1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "edef7d25a3eb1542639a4fc85dad46531fb19141"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8467188
+project-id = 1318311

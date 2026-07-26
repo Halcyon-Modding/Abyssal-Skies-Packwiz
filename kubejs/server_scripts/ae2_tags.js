@@ -1,0 +1,36 @@
+ServerEvents.tags('item', event => {
+  event.add('forge:ae_card', 
+    'ae2:basic_card', 
+    'ae2:redstone_card', 
+    'ae2:capacity_card', 
+    'ae2:void_card', 
+    'ae2:fuzzy_card', 
+    'ae2:speed_card', 
+    'ae2:inverter_card', 
+    'ae2:crafting_card', 
+    'ae2:equal_distribution_card', 
+    'ae2:energy_card', 
+    'ae2wtlib:magnet_card')
+  event.add('forge:ae_cable', 
+    'ae2:fluix_glass_cable',
+    'ae2:fluix_covered_cable',
+    'ae2:toggle_bus',
+    'ae2:inverted_toggle_bus')
+  event.add('forge:ae_panels', 
+    'ae2:semi_dark_monitor',
+    'ae2:monitor',
+    'ae2:dark_monitor',
+    'ae2:crafting_terminal',
+    'ae2:pattern_encoding_terminal',
+    'ae2:storage_monitor',
+    'ae2:conversion_monitor',
+    'ae2:pattern_access_terminal')
+  event.add('forge:ae_tools', 
+    'ae2:entropy_manipulator',
+    'ae2:charged_staff',
+    'ae2:color_applicator',
+    'ae2:matter_cannon',
+    'ae2:network_tool',
+    'ae2:memory_card',
+    'ae2:meteorite_compass')
+})

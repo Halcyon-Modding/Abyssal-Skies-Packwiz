@@ -1,0 +1,13 @@
+name = "Drizzleproof"
+filename = "drizzleproof-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BOFbTsjc/versions/zoEqqc9L/drizzleproof-1.21.1-3.0.0.jar"
+hash-format = "sha512"
+hash = "62ce86ec90581acf4972acb1de2aad7a47150e6d054781ab2d2f54e053be9af1d8a8090a3a40b09fd4dc99a39f06162ef39c018d9b3784c6831f723ef912f441"
+
+[update]
+[update.modrinth]
+mod-id = "BOFbTsjc"
+version = "zoEqqc9L"

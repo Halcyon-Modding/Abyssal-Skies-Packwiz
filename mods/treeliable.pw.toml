@@ -1,0 +1,13 @@
+name = "Treeliable"
+filename = "treeliable-neoforge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1cb4162537b92d393981779701ea6cd7319aab31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8160590
+project-id = 1502764

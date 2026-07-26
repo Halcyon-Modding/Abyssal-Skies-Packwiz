@@ -1,0 +1,13 @@
+name = "Scorching Nether"
+filename = "scorchingnether-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21a79b9bb0119c06457d63d183ca03a43ded82fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8286106
+project-id = 1539710

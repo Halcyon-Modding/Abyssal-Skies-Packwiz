@@ -1,0 +1,13 @@
+name = "Player Drops Head"
+filename = "player-drops-head-v.3.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cz5Ve1NT/versions/3Ot3yE1C/player-drops-head-v.3.3.1.jar"
+hash-format = "sha512"
+hash = "a2a78d1a7921ca8a05bb8ea2b6c83ce57281257d43b2d2b13fb641d50a08ea9db2763897bec38c81129103e536340cd698393559610faebf2fb321ba0777033d"
+
+[update]
+[update.modrinth]
+mod-id = "cz5Ve1NT"
+version = "3Ot3yE1C"

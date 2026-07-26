@@ -1,0 +1,13 @@
+name = "Scavenge"
+filename = "Scavenge-Neoforge-1.21-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "539d43fcbdd5d164d8881a33578f875e950b906b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5482918
+project-id = 282988

@@ -1,0 +1,86 @@
+type = user_variables
+
+variable {
+  name = tan_color
+  value = #f7ecd3
+  reset_on_launch = false
+}
+
+variable {
+  name = offset_down_from_center
+  value = 600
+  reset_on_launch = false
+}
+
+variable {
+  name = half_gui_height
+  value = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2","decimal":"false"}}
+  reset_on_launch = false
+}
+
+variable {
+  name = black_color
+  value = #131d21
+  reset_on_launch = false
+}
+
+variable {
+  name = progress_bar_width
+  value = 400
+  reset_on_launch = false
+}
+
+variable {
+  name = poster_width
+  value = 100
+  reset_on_launch = false
+}
+
+variable {
+  name = yellow_color
+  value = #d8a650
+  reset_on_launch = false
+}
+
+variable {
+  name = poster_height
+  value = 200
+  reset_on_launch = false
+}
+
+variable {
+  name = stamp_size
+  value = 40
+  reset_on_launch = false
+}
+
+variable {
+  name = progress_bar_height
+  value = 10
+  reset_on_launch = false
+}
+
+variable {
+  name = gui_width
+  value = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}","decimal":"false"}}
+  reset_on_launch = false
+}
+
+variable {
+  name = half_gui_width
+  value = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"false"}}
+  reset_on_launch = false
+}
+
+variable {
+  name = gui_height
+  value = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}","decimal":"false"}}
+  reset_on_launch = false
+}
+
+variable {
+  name = quarter_gui_height
+  value = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 4","decimal":"false"}}
+  reset_on_launch = false
+}
+

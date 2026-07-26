@@ -1,0 +1,13 @@
+name = "Finally Useful Stonecutter (Search + Memory + Large GUI)"
+filename = "finally_useful_stonecutter-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8aa26a207727b6085691ceb422def4780c9c17f9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8454388
+project-id = 1611052

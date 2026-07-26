@@ -1,0 +1,143 @@
+#The maximum amount of items that a given mote return use can return.
+#Capped to be a positive integer between 640 and 64000.
+# Default: 32000
+# Range: 64 ~ 64000
+maxItemsReturned = 32000
+#The maximum amount of records allowed in each Mote Nexus.
+#Capped to be a positive integer between 128 and 16384.
+# Default: 1023
+# Range: 128 ~ 16384
+maxRecordsForNexus = 1023
+#The cost of setting your permanent mote nexus.
+# Default: 32.0
+# Range: 0.0 ~ 100000.0
+bindMoteNexusCost = 32.0
+#The cost of *temporarily* setting your permanent mote nexus.
+# Default: 0.001
+# Range: 0.0 ~ 100000.0
+tempBindMoteNexusCost = 0.001
+#The cost of mediafying an item into a mote.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+mediafyItemCost = 0.1
+#The cost of returning an item from a mote.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+returnItemCost = 0.1
+#The cost of crafting an item from a mote.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+craftItemCost = 0.1
+#The cost of trading with a villager from a mote.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+tradeItemCost = 0.1
+#The cost of using a mote on a block.
+# Default: 0.25
+# Range: 0.0 ~ 100000.0
+useItemOnCost = 0.25
+#The cost of upkeeping a cylic wisp, in dust per tick.
+# Default: 0.0325
+# Range: 0.0 ~ 100000.0
+cyclicWispUpkeep = 0.0325
+#The cost of upkeeping a projectile wisp, in dust per tick.
+# Default: 0.01625
+# Range: 0.0 ~ 100000.0
+projectileWispUpkeep = 0.01625
+#The discount of a paused wisp.
+# Default: 0.77
+# Range: 0.0 ~ 100000.0
+pausedWispUpkeep = 0.77
+#The discount factor (the cost is divided by this) for a bound wisp.
+# Default: 20.0
+# Range: 0.0 ~ 100000.0
+boundWispUpkeep = 20.0
+#The cost multiplier for having a player entity in a wisp somewhere.
+#More specifically, cost is calculated as this^numPlayers.
+# Default: 20.0
+# Range: 0.0 ~ 100000.0
+playerContainingWispUpkeep = 20.0
+#
+#The cost of setting the move speed of a wisp. Not static, based on highest wisp speed set.
+# Default: 1.0
+# Range: 0.0 ~ 100000.0
+setMoveSpeedCost = 1.0
+#The cost of summoning a cyclic wisp.
+# Default: 3.0
+# Range: 0.0 ~ 100000.0
+summonCyclicWispCost = 3.0
+#The cost of summoning a cyclic wisp. Minimum is 0.5 dust.
+# Default: 1.7
+# Range: 0.5 ~ 100000.0
+summonProjectileWispCost = 1.7
+#The cost for making a block fall.
+# Default: 1.5
+# Range: 0.0 ~ 100000.0
+fallingBlockCost = 1.5
+#The cost for freezing a block.
+# Default: 1.0
+# Range: 0.0 ~ 100000.0
+freezeCost = 1.0
+#The cost for summoning a particle.
+# Default: 0.002
+# Range: 0.0 ~ 100000.0
+particlesCost = 0.002
+#The cost for summoning a particle.
+# Default: 0.125
+# Range: 0.0 ~ 100000.0
+placeTypeCost = 0.125
+#The cost for smelting one item/mote/block.
+# Default: 0.75
+# Range: 0.0 ~ 100000.0
+smeltCost = 0.75
+#The cost for making a gate.
+# Default: 320.0
+# Range: 0.0 ~ 100000.0
+makeGateCost = 320.0
+#The cost for marking an entity for a gate.
+# Default: 0.05
+# Range: 0.0 ~ 100000.0
+markEntityCost = 0.05
+#The cost for closing a gate.
+# Default: 2.5
+# Range: 0.0 ~ 100000.0
+closeGateCost = 2.5
+#The scale factor for a drifting gate's distance from the target.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+driftingScaleFactor = 0.1
+#The maximum offset that an entity-anchored gate can have.
+# Default: 32.0
+# Range: 0.0 ~ 100000.0
+maxGateOffset = 32.0
+#The cost scaling factor for consuming *your own* wisp.
+# Default: 5.0
+# Range: 0.0 ~ 100000.0
+consumeOwnWispCost = 5.0
+#The cost scaling factor for consuming someone else's wisp.
+# Default: 1.5
+# Range: 0.0 ~ 100000.0
+consumeWispScalingFactor = 1.5
+#The cost for setting your bound wisp.
+# Default: 50.0
+# Range: 0.0 ~ 100000.0
+setBoundWispCost = 50.0
+#The constant cost for ticking a block.
+# Default: 0.1
+# Range: 0.0 ~ 100000.0
+tickConstantCost = 0.1
+#The scaling factor for ticking a block.
+# Default: 0.001
+# Range: 0.0 ~ 100000.0
+tickScalingFactor = 0.001
+#A random tick from Accelerate happens one in N times, where N is this number.
+# Default: 1365
+# Range: 0 ~ 2100
+randomTickProbability = 1365
+#Disallowed blocks in Accelerate.
+accelerateDisallowed = ["hexcasting:impetus_look", "create:deployer"]
+#The chance for a slipway to form is this number.
+#Set to 0 for none to spawn.
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+slipwayChance = 0.5

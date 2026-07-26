@@ -1,0 +1,11 @@
+ [
+   {
+     "inputs": "minecraft:glowstone",
+     "output": "abyssal_decor:crystalized_glowstone",
+     "player_blocks": false,
+     "dimensions": [
+       "minecraft:nether"
+     ]
+    }
+ ]
+ 

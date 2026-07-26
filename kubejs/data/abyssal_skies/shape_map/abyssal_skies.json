@@ -1,0 +1,44 @@
+{
+  "priority": 502,
+  "add": {
+    "/industrialhellscape:(?<material>.+?)_pipe_conduit/": {
+      "shapes": [
+        "industrialhellscape:${material}_pipe_conduit_planar_corner",
+        "industrialhellscape:${material}_pipe_conduit_inner_corner",
+        "industrialhellscape:${material}_pipe_conduit_outer_corner"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/industrialhellscape:(?<material>.+?)_railing/": {
+      "shapes": [
+        "industrialhellscape:${material}_stair_railing"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/industrialhellscape:(?<material>.+?)_bolted_bracket/": {
+      "shapes": [
+        "industrialhellscape:small_${material}_bolted_bracket"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/(?<ns>[^:]+):(?<material>.+?)_pillar_trim/": {
+      "shapes": [
+        "${ns}:${material}_corner_trim"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "industrialhellscape:horizontal_grate": ["industrialhellscape:horizontal_cutout_grate", "industrialhellscape:vertical_grate", "industrialhellscape:vertical_cutout_grate"],
+    "industrialhellscape:horizontal_vesselplate": ["industrialhellscape:horizontal_reinforced_vesselplate", "industrialhellscape:vertical_vesselplate", "industrialhellscape:vertical_reinforced_vesselplate"],
+    "industrialhellscape:gray_horizontal_vesselplate": ["industrialhellscape:gray_horizontal_reinforced_vesselplate", "industrialhellscape:gray_vertical_vesselplate", "industrialhellscape:gray_vertical_reinforced_vesselplate"],
+    "industrialhellscape:vesselglass": ["industrialhellscape:reinforced_vesselglass"],
+    "industrialhellscape:gray_vesselglass": ["industrialhellscape:gray_reinforced_vesselglass"]
+  }
+}

@@ -1,0 +1,6 @@
+#If sentinels should attempt to follow sub-levels through assembly, disassembly, splitting, etc.
+sentinel_follows_sub_level = true
+#The max side length of a frame along the z axis.
+# Default: 18
+# Range: > 1
+frame_max_width = 18

@@ -1,0 +1,16 @@
+#The maximum matrix width/height.
+# Default: 144
+# Range: 3 ~ 512
+maxMatrixSize = 144
+#The maximum length of a string.
+# Default: 1728
+# Range: 1 ~ 32768
+maxStringSize = 1728
+#The cost for writing a string to a given block, in dust.
+# Default: 0.01
+# Range: 1.0E-4 ~ 10000.0
+setBlockStringCost = 0.01
+#The cost of naming an entity with the Name spell.
+# Default: 0.01
+# Range: 1.0E-4 ~ 10000.0
+nameCost = 0.01

@@ -1,0 +1,13 @@
+name = "Penchant"
+filename = "penchant-0.3.7+connector+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BTORUTmf/versions/wcsDwzvg/penchant-0.3.7%2Bconnector%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "53fac968b5bd7cf16151bbb135adc3ea650252289bcd805329d0dbc33cbebdda89513cd096e0581f74a113e1dd83ad8fd14d9e5f97639fa0708d2ffbc4966686"
+
+[update]
+[update.modrinth]
+mod-id = "BTORUTmf"
+version = "wcsDwzvg"

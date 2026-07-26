@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "ae2:certus_quartz_crystal",
+    "b": "minecraft:redstone"
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "id": "ae2:charged_certus_quartz_crystal",
+    "count": 8
+  }
+}

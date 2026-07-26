@@ -1,0 +1,2 @@
+#If vector iotas should display local coordinates when inside of a sub-level plot
+custom_vector_display = true

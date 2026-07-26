@@ -1,0 +1,13 @@
+name = "Magic Feather: Replumed"
+filename = "MagicFeather-1.21.1-NeoForge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2a66312cd1b74577ebd6961b5ec72c7a19d7a68b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6240819
+project-id = 978715

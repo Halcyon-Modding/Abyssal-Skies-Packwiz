@@ -1,0 +1,13 @@
+name = "Sable: Floaters"
+filename = "sablefloaters-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f1f4014dc10bbd58ed84af8357558225b748268"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8311356
+project-id = 1575208

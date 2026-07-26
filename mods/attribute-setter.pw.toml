@@ -1,0 +1,13 @@
+name = "Attribute Setter"
+filename = "attributesetter-2.2.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3dad823dee57493350a5d92a79533bacfebfe84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8288281
+project-id = 1064034

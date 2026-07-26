@@ -1,0 +1,13 @@
+name = "Incision"
+filename = "incision-1.0.11-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc05d58534e5a71df9bf92abef1a396a8ee2eeca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8222828
+project-id = 1501949

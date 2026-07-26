@@ -1,0 +1,13 @@
+name = "Abyssal Skies"
+author = "Halcyon Development"
+version = "0.0.1a"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "be33a24162ed0e7e569c06aeed1a5c39fcdde4ff713ca9c16281ad4fa2fa7826"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.235"

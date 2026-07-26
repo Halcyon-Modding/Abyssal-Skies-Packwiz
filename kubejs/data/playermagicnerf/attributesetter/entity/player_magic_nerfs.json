@@ -1,0 +1,16 @@
+{
+    "minecraft:player" :[
+        {
+            "attribute": "irons_spellbooks:cooldown_reduction",
+            "value": -0.15,
+            "uuid": "cfa1e761-4cbb-4be5-9ab7-df5b8103e79e",
+            "operation": "MULTIPLY_BASE"
+        },
+        {
+            "attribute": "irons_spellbooks:spell_power",
+            "value": -0.15,
+            "uuid": "cdf495f1-9d9c-48fe-be37-15deb04af9ca",
+            "operation": "MULTIPLY_BASE"
+        }
+    ]
+}
