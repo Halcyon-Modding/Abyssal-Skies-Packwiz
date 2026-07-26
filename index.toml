@@ -7128,6 +7128,11 @@ hash = "a4936281b7fdf6005961596c6f2b952c8f1bc62b16138630492b57aa0629366c"
 metafile = true
 
 [[files]]
+file = "mods/wax-stamps-seals.pw.toml"
+hash = "920dbb560760f271eb2873917808a2070d37e2caf773453b6b7633314ec77ffc"
+metafile = true
+
+[[files]]
 file = "mods/world-casting-neoforge-1.21.1-0.0.0-8.jar"
 hash = "506389ae37c1d26669a41979d6c1a4e1b6365da4dd11518a8f553038803f7c92"
 

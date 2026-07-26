@@ -1,0 +1,13 @@
+name = "Wax Stamps & Seals"
+filename = "waxstampsseals-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JUOXfydf/versions/vwPU0tFq/waxstampsseals-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "22d0e4808945d5eac181ba9501594146a5f67cdadbdb8d966b4deaecdd25f979b8cf700c5135813eb6c0cb8c2fc092bbabe6c349b9064d615fea70622bb463d0"
+
+[update]
+[update.modrinth]
+mod-id = "JUOXfydf"
+version = "vwPU0tFq"
