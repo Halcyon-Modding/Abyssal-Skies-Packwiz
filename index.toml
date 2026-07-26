@@ -5720,7 +5720,7 @@ metafile = true
 
 [[files]]
 file = "mods/adapted-mobs.pw.toml"
-hash = "65aef9d6589962e432f04933d521addcda1358a51cba3deda3a431f9c6c2d050"
+hash = "db5615f66d4cb40b47c665cd4a4012b5d2ada34713eaf53a3791291febef3b3a"
 metafile = true
 
 [[files]]
@@ -6084,7 +6084,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
+hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
 metafile = true
 
 [[files]]
@@ -6124,7 +6124,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lift-n-load.pw.toml"
-hash = "625c7069fd84e6b2deda2cddfc73d949b3ddd19ca8aad63deb935cae0ab9f961"
+hash = "77fe9aeb9f970359adfbe2b929ffc65b595dd5dbe48bc164c04601bbd19322fa"
 metafile = true
 
 [[files]]
@@ -6304,7 +6304,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "346f28e2ec19543a6b410bf2cf5389401bc6d1aa0189e39d07bf11d64d8bd321"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
@@ -6771,7 +6771,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "5de9db0e10c89eae874a1af537cb3738eee5e9ddaf1daa7ba96a8b3d571a2668"
+hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
 metafile = true
 
 [[files]]
@@ -7130,7 +7130,7 @@ metafile = true
 
 [[files]]
 file = "mods/wax-stamps-seals.pw.toml"
-hash = "3cd0dfc06027eed075a0437c819a03064590cf81fff3dce8457349c82b4851cb"
+hash = "920dbb560760f271eb2873917808a2070d37e2caf773453b6b7633314ec77ffc"
 metafile = true
 
 [[files]]

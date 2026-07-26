@@ -3,11 +3,11 @@ filename = "AdaptedMobs-neoforge-1.21.1-1.1.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "da5c4403a74d525507f83e6d7fcbbd43c1f11170"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/H5xbZtYP/versions/vbCAjQ8D/AdaptedMobs-neoforge-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "1010dea05778c1f29e0bf6e58700fe0598834192424666b0020de4d5642fcbeae0664199d20f42330cbe85558db0f5fa6cf3a95c0355bd4b39e2e66641dab1e2"
 
 [update]
-[update.curseforge]
-file-id = 8441863
-project-id = 632429
+[update.modrinth]
+mod-id = "H5xbZtYP"
+version = "vbCAjQ8D"
