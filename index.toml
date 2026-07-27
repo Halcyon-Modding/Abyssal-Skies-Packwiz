@@ -5642,7 +5642,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "04f78f258c36d8afed4e18a4ec72024fa970c3987be971fb33b349415a46e776"
+hash = "e106d311bab5cace92579294d168f1efbb1195ee9f617c843c6fdda9a8e274f5"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/loot_table/magic_items/reward_ink.json"
@@ -6711,7 +6711,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-density-functions.pw.toml"
-hash = "406f3e1fa88677bd95eb0079ec44ffae8f0dfbb32929f60ed572a94b1d32a287"
+hash = "b6e8ae2daa9f2c75ce4e0b59caba87fba179f9a18cd456c65c3ccc31c1a688cd"
 metafile = true
 
 [[files]]

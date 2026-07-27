@@ -78,6 +78,12 @@
     "abyssal_decor:grime": ["abyssal_decor:grime_carpet"],
     "abyssal_decor:red_stucco": ["abyssal_decor:red_cracked_stucco"],
     "abyssal_decor:white_stucco": ["abyssal_decor:white_cracked_stucco"],
-    "abyssal_decor:yellow_stucco": ["abyssal_decor:cracked_yellow_stucco"]
+    "abyssal_decor:yellow_stucco": ["abyssal_decor:cracked_yellow_stucco"],
+    "arch_mc:smooth_red_sandstone_arch_1": ["arch_mc:red_smooth_sandstone_arch_3"],
+    "arch_mc:granite_arch_1": ["arch_mc:granite_bricks_arch_3"],
+    "arch_mc:diorite_arch_1": ["arch_mc:diorite_bricks_arch_3"],
+    "arch_mc:polished_diorite_arch_1": ["arch_mc:polished_diorite_bricks_arch_3"],
+    "arch_mc:polished_granite_arch_1": ["arch_mc:polished_granite_bricks_arch_3"],
+    "arch_mc:deepslate_cut_bricks_arch_1": ["arch_mc:deepslate_cut_bricks_bricks_arch_2"]
   }
 }
