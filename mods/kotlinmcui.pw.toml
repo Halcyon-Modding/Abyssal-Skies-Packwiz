@@ -1,0 +1,13 @@
+name = "KotlinMCUI"
+filename = "kotlinmcui-1.0.0-alpha.32.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/q8Q5ZFT7/versions/5mbjROvY/kotlinmcui-1.0.0-alpha.32.jar"
+hash-format = "sha512"
+hash = "c2e7d8b828bb7ce4dbac41b66cb1aee3c97378dc464449b321f3a725bacd8867cfe4dce033d9ca9af44ccee88d3602f1dc96c5cb65e798ea50c1b1be994d3fe4"
+
+[update]
+[update.modrinth]
+mod-id = "q8Q5ZFT7"
+version = "5mbjROvY"
