@@ -6933,6 +6933,11 @@ hash = "372884bca2b235e017aefc1d631c8481dae9aa66983d619c8818c6c8d79e88eb"
 metafile = true
 
 [[files]]
+file = "mods/repair-your-portal!.pw.toml"
+hash = "ae445dc597ee6e280f4da8812a642c06e2b9b87bccca6ae755ea98e40fe927fc"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
