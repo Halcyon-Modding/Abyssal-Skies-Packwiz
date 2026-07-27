@@ -1,13 +1,13 @@
 name = "All Tutta's Needs"
-filename = "alltuttasneeds-2.1.0.jar"
+filename = "alltuttasneeds-3.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "466a4dfb1923ea31aff7679ce9361cec59d5e3e9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/XVZogNXg/versions/LUifDxcS/alltuttasneeds-3.0.0.jar"
+hash-format = "sha512"
+hash = "9b5a167729848ac1b48a83ab6b4c6c55a96232c8b8c8dc53a051196ee4e3b349f3951223d0e37c4cc3d2c702e8b43d401b95259ed2fef438cf9bd841713b9201"
 
 [update]
-[update.curseforge]
-file-id = 8428073
-project-id = 1224550
+[update.modrinth]
+mod-id = "XVZogNXg"
+version = "LUifDxcS"

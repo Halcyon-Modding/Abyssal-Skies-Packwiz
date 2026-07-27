@@ -1,0 +1,13 @@
+name = "Ticks"
+filename = "ticks-0.1.2-alpha+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/X0B3FAp6/versions/MWWkv4MN/ticks-0.1.2-alpha%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "22b9829fbaac026c99f407f53a31e99559a965f86cf0197cf32cb7cd5b7774ef21d3792dd7a7bbca0ac5280d211fa699f8a19f67af9c5f7a42ffba6e22b1ac57"
+
+[update]
+[update.modrinth]
+mod-id = "X0B3FAp6"
+version = "MWWkv4MN"

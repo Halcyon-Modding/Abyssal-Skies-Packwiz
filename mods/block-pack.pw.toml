@@ -1,0 +1,13 @@
+name = "Block Pack - Add furniture blocks & even more furniture blocks!"
+filename = "bf_blockpack-neoforge-1.21.1-1.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dff30592ccb9da9d7fdfef6e76f691e74259c54d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8430659
+project-id = 1574574

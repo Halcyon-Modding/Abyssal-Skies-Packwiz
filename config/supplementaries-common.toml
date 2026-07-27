@@ -184,11 +184,11 @@
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		# Default: 2
 		# Range: 1 ~ 50
-		sack_increment = 2
+		sack_increment = 3
 		#How many slots should a sack have
 		# Default: 9
 		# Range: 1 ~ 27
-		slots = 9
+		slots = 12
 
 	[functional.bamboo_spikes]
 		enabled = true
