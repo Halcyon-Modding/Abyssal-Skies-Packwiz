@@ -5642,7 +5642,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "c91ed705a1b694f5f4f0886330c44bd0e195d512fca5b90b28c756f4f16ae068"
+hash = "04f78f258c36d8afed4e18a4ec72024fa970c3987be971fb33b349415a46e776"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/loot_table/magic_items/reward_ink.json"

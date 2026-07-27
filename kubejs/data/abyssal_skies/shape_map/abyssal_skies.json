@@ -35,10 +35,49 @@
         "is_blockitem": true
       }
     },
+    "/arch_mc:(?<material>.+?)_arch_1/": {
+      "shapes": [
+        "arch_mc:${material}_arch_2",
+        "arch_mc:${material}_arch_3"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/abyssal_decor:(?<material>.+?)_timber/": {
+      "shapes": [
+        "abyssal_decor:${material}_wooden_frame"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/abyssal_decor:(?<material>.+?)_sconce/": {
+      "shapes": [
+        "abyssal_decor:big_${material}_sconce"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/abyssal_decor:small_(?<material>.+?)_bars/": {
+      "shapes": [
+        "abyssal_decor:small_${material}_bars_corner",
+        "abyssal_decor:vertical_${material}_bars"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
     "industrialhellscape:horizontal_grate": ["industrialhellscape:horizontal_cutout_grate", "industrialhellscape:vertical_grate", "industrialhellscape:vertical_cutout_grate"],
     "industrialhellscape:horizontal_vesselplate": ["industrialhellscape:horizontal_reinforced_vesselplate", "industrialhellscape:vertical_vesselplate", "industrialhellscape:vertical_reinforced_vesselplate"],
     "industrialhellscape:gray_horizontal_vesselplate": ["industrialhellscape:gray_horizontal_reinforced_vesselplate", "industrialhellscape:gray_vertical_vesselplate", "industrialhellscape:gray_vertical_reinforced_vesselplate"],
     "industrialhellscape:vesselglass": ["industrialhellscape:reinforced_vesselglass"],
-    "industrialhellscape:gray_vesselglass": ["industrialhellscape:gray_reinforced_vesselglass"]
+    "industrialhellscape:gray_vesselglass": ["industrialhellscape:gray_reinforced_vesselglass"],
+    "abyssal_decor:bare_timber": ["abyssal_decor:wooden_frame"],
+    "abyssal_decor:grime": ["abyssal_decor:grime_carpet"],
+    "abyssal_decor:red_stucco": ["abyssal_decor:red_cracked_stucco"],
+    "abyssal_decor:white_stucco": ["abyssal_decor:white_cracked_stucco"],
+    "abyssal_decor:yellow_stucco": ["abyssal_decor:cracked_yellow_stucco"]
   }
 }
