@@ -7013,6 +7013,11 @@ hash = "2016aad1b4925a00af8887564050dd9bfb083d194900c7d0e6021648cdee9876"
 metafile = true
 
 [[files]]
+file = "mods/simplefog.pw.toml"
+hash = "51360d5511c94affc4ba91372b0f01e8bdfd9882effc7e04c67ed01a6c6742b8"
+metafile = true
+
+[[files]]
 file = "mods/smooth-skies.pw.toml"
 hash = "5a9a51d8024fac91021dd163d5f651946851b6f5cd7ca57ef337375d6a3455db"
 metafile = true
