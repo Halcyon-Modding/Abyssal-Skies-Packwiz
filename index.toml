@@ -5888,11 +5888,6 @@ hash = "f91cd1f2d802f9587f2ed13b380cc782518ce0471e593b5c07047cd79702ace3"
 metafile = true
 
 [[files]]
-file = "mods/blue-archive-halo.pw.toml"
-hash = "0ec22b8635c62f93293ad4ed32e9d79e9b61c8124242867cdfec3a4964f07e5f"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
@@ -6592,16 +6587,6 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
-metafile = true
-
-[[files]]
-file = "mods/kotlinmcui-backend.pw.toml"
-hash = "f8aa699aaf5ea31e24a8cc6d230c1145190049272f0e9b3228979f375e72f310"
-metafile = true
-
-[[files]]
-file = "mods/kotlinmcui.pw.toml"
-hash = "bd8bd7085ab714dea30fafe4fed35cfb04620b7dc4f5fb14f9e0b8a4fd39df4c"
 metafile = true
 
 [[files]]
