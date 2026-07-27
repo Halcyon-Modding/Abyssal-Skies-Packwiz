@@ -6,3 +6,7 @@ side = "client"
 url = "https://github.com/Halcyon-Modding/Abyssal-Skies-Packwiz/raw/refs/heads/main/mods/voxy-0.2.15-beta.jar"
 hash-format = "sha256"
 hash = "8D50D1CA6FDFCDD6F74D0AC7CB8A11D4939BFC5A1A869C91EA4DAE2C6BF7A651"
+
+[option]
+optional = true
+default = false

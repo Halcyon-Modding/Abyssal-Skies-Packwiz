@@ -7159,12 +7159,12 @@ metafile = true
 
 [[files]]
 file = "mods/voxy-server-side-forge-neoforge.pw.toml"
-hash = "6b3159eaf9e25de8c3c80666e311d18644a79677fdb673206344c5cbecf62bb8"
+hash = "c0fc136619be2b4db1257c920338c465bcdc3cdf066db5d826e3911e66b835a4"
 metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "12212a8d9cf05774b9a3eb3b4794988178ad06ce58170da1d38fca571688e018"
+hash = "788981a0d017f799c33659e9e592ff01cf56da825923b2a3281f2d249d09c3a4"
 metafile = true
 
 [[files]]
