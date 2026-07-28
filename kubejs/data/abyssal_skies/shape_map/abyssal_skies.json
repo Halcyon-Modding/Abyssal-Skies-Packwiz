@@ -69,6 +69,40 @@
         "is_blockitem": true
       }
     },
+    "/(?<ns>[^:]+):(?<material>.+?)_fence/": {
+      "shapes": [
+        "${ns}:${material}_fence_gate"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/(?<ns>[^:]+):(?<material>.+?)_chest/": {
+      "shapes": [
+        "${ns}:trapped_${material}_chest"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/everycomp:q/(?<ns>[^:]+)/(?<material>.+?)_chest/": {
+      "shapes": [
+       "everycomp:q/${ns}/trapped_${material}_chest"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+    "/(?<ns>[^:]+):(?<material>.+?)_planks/": {
+      "shapes": [
+        "quark:vertical_${material}_planks",
+        "${ns}:vertical_${material}_planks",
+        "everycomp:q/${ns}/vertical_${material}_planks"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
     "industrialhellscape:horizontal_grate": ["industrialhellscape:horizontal_cutout_grate", "industrialhellscape:vertical_grate", "industrialhellscape:vertical_cutout_grate"],
     "industrialhellscape:horizontal_vesselplate": ["industrialhellscape:horizontal_reinforced_vesselplate", "industrialhellscape:vertical_vesselplate", "industrialhellscape:vertical_reinforced_vesselplate"],
     "industrialhellscape:gray_horizontal_vesselplate": ["industrialhellscape:gray_horizontal_reinforced_vesselplate", "industrialhellscape:gray_vertical_vesselplate", "industrialhellscape:gray_vertical_reinforced_vesselplate"],
@@ -84,6 +118,10 @@
     "arch_mc:diorite_arch_1": ["arch_mc:diorite_bricks_arch_3"],
     "arch_mc:polished_diorite_arch_1": ["arch_mc:polished_diorite_bricks_arch_3"],
     "arch_mc:polished_granite_arch_1": ["arch_mc:polished_granite_bricks_arch_3"],
-    "arch_mc:deepslate_cut_bricks_arch_1": ["arch_mc:deepslate_cut_bricks_bricks_arch_2"]
+    "arch_mc:deepslate_cut_bricks_arch_1": ["arch_mc:deepslate_cut_bricks_bricks_arch_2"],
+    "chest": ["trapped_chest"],
+    "abyssal_decor:small_clean_iron_bars": ["abyssal_decor:small_clean_bars_corner"],
+    "abyssal_decor:small_dull_iron_bars": ["abyssal_decor:small_dull_bars_corner"]
+    
   }
 }

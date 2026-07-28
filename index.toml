@@ -878,7 +878,7 @@ hash = "6ebc923bce134c67e18218b4172b02ba379ad3cac2ed0ca35044bb79938f39ab"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "2736c73b6299cb277af5ca7df207d019468f0d3d211ee81f6c2d8e5b4dcac647"
+hash = "783c987f9c67300bcb76cfd06e5c35110ac9e95602c72ec702e3c341a118a71a"
 
 [[files]]
 file = "config/everycomp-hazardous-1.toml.bak"
@@ -5642,7 +5642,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "e106d311bab5cace92579294d168f1efbb1195ee9f617c843c6fdda9a8e274f5"
+hash = "251ad7af37c7101518706e9a75c08c201f010962d5df71a1e49115ac05c3eb4c"
 
 [[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"
@@ -5952,11 +5952,6 @@ metafile = true
 [[files]]
 file = "mods/biolith.pw.toml"
 hash = "f53d98dc09fb5abb52798e5dfd25297d85a290e1e4874d8208b981654799121e"
-metafile = true
-
-[[files]]
-file = "mods/block-pack.pw.toml"
-hash = "080b115ad7fb4e37f81722d815c684925a9a9b0932b48b0d445db67e9b3f451f"
 metafile = true
 
 [[files]]
