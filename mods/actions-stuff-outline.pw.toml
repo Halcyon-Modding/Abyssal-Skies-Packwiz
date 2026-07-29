@@ -1,0 +1,13 @@
+name = "Re - Enchanted - Outline"
+filename = "astoutline-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d82e7d3e1788c217d3df93b677919ba0bae28d77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8364813
+project-id = 1553649
