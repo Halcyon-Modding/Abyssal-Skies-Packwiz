@@ -5791,11 +5791,6 @@ hash = "4329c0aad3406ee89e5be7e1bc846251b8a99d131308bd2c4a7ff300e6858b8c"
 metafile = true
 
 [[files]]
-file = "mods/actions-stuff-outline.pw.toml"
-hash = "941e8e8945ce61fd5e21469a5672b5b806f57b8a35cdb01bd8bc1c0825ed3711"
-metafile = true
-
-[[files]]
 file = "mods/adapted-mobs.pw.toml"
 hash = "db5615f66d4cb40b47c665cd4a4012b5d2ada34713eaf53a3791291febef3b3a"
 metafile = true
