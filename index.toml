@@ -7381,10 +7381,6 @@ file = "resourcepacks/Vercte's Satchels Retextured 1.1 (1.21.1).zip"
 hash = "ad2391475aa51abe12b2915820b7c1fd81959b4988dfaf887346940a78bc816d"
 
 [[files]]
-file = "servers.dat"
-hash = "cb571ce7df13e8acbced62722172f98b5c6f410c676bccd223f1901e6d26703e"
-
-[[files]]
 file = "vista_ffmpeg_bin/ffmpeg-8.1.2-essentials_build/LICENSE"
 hash = "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
 
