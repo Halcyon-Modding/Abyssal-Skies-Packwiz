@@ -578,7 +578,7 @@ hash = "09be006fc0369fdce4009aa0b4336ed3e8a975c892ab0276b9c13a680d46662c"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "03e4858e141353192b4616f179003be4086cca2a4c22aa37872f610ac6285573"
+hash = "31e66560f4e44cef00802cb3f8deb5c99eaf9c92bec87d85805d8815b0f85380"
 
 [[files]]
 file = "config/bigwater-client.toml"
@@ -634,7 +634,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "08315812fee8fa061a39e68b577639b49968c72523fa69ccfe7323f0cafefb64"
+hash = "c6572a433d7cbacc45e3f19d6ad42eb1ce69efea950de828a4f59e7337277ca2"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -650,7 +650,7 @@ hash = "a5068b44183cf05a773c6119c13cd8bda95d05ef566f83eaab508f4fe156ec65"
 
 [[files]]
 file = "config/connectiblechains.toml"
-hash = "ee67bf5b38d9b1d68f51fb369d6f106ed687c1570d018985c5670f2279a570dd"
+hash = "fd70645a46fca0ebc32a12d0361de2ce1a3484037dafd48b9d970f089786df6c"
 
 [[files]]
 file = "config/connector.json"
@@ -827,6 +827,7 @@ hash = "2a0e761f7293d92e3700aad72acc63c00140c3bfc95ac305eba41cfec8197f2c"
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
+preserve = true
 
 [[files]]
 file = "config/dynamiccrosshair.json5"
@@ -5526,7 +5527,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zipline.json"
-hash = "91ed15c2784fe68d2758ab21cf769fd4ff52c0c823e098b38464adce6362ae6b"
+hash = "843adffd325a9e75c8061d58e8c4f57d8b3b9a2f5577f40cd35391363b8b8d72"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -5782,7 +5783,7 @@ hash = "f36393a53e219291c9bb4303b397f113fee15ec0d1265149dfb717e061f51cb2"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "cf8ae4e7f22ea3aac4926337518a905ae1ff6c9c17e58567ff77a4b1dd371939"
+hash = "bf9ec9ee74f4f123c3bc2d8edbe535f3bdaa7ecdec9b263d1863033a9a45db25"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -5846,11 +5847,6 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
-metafile = true
-
-[[files]]
-file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "3c20a0801a1a000e6f55deb28d3c9e6165b4370bff93c7d59b054413f72272e9"
 metafile = true
 
 [[files]]
@@ -7143,11 +7139,6 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
-file = "mods/ssrd.pw.toml"
-hash = "8618456848113ee95a9996a7bd56495db4407c7b43bbcf88946a6920813c7b3f"
-metafile = true
-
-[[files]]
 file = "mods/stoat.pw.toml"
 hash = "21d617ff2c762149531476491f0db598bd7eeeb6fa6ab60bb73eed9870013cc7"
 metafile = true
@@ -7363,6 +7354,10 @@ hash = "d0ef3d680c7e72ef5b28a635b130fd800e8c8d074e3f59d8f99da325181b5971"
 [[files]]
 file = "resourcepacks/No Potion Particles.zip"
 hash = "6ba1185db5ada65b3a9c09ac6ba803ff442d88786a1c464ec38e93c573ee5ba5"
+
+[[files]]
+file = "resourcepacks/Simple Radio Re-Created 1.0.zip"
+hash = "75adab0c342a4e82ae04f6dd59b58449f8d15d6d81faaa5fce530a88d9a85330"
 
 [[files]]
 file = "resourcepacks/Soft-Weather-1.0-Universal.zip"

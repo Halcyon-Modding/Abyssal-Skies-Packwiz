@@ -9,5 +9,5 @@
   "exitJumpMultiplier": 1.4,
   "consumeDurability": true,
   "releaseCooldown": 10,
-  "jumpRequiredToDismount": true
+  "jumpRequiredToDismount": false
 }
