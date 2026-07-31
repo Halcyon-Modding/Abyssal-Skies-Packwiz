@@ -5783,7 +5783,7 @@ hash = "f36393a53e219291c9bb4303b397f113fee15ec0d1265149dfb717e061f51cb2"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "bf9ec9ee74f4f123c3bc2d8edbe535f3bdaa7ecdec9b263d1863033a9a45db25"
+hash = "0078d34f6790d29d920abadccd472b9304ac51b04f4d212120cccd3ce052bf49"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -6648,11 +6648,6 @@ metafile = true
 [[files]]
 file = "mods/kiwi.pw.toml"
 hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
-metafile = true
-
-[[files]]
-file = "mods/kleeslabs.pw.toml"
-hash = "239ce94d468f02f6ace4c69e171a5668138a143936e313992635cb3d2a2a5a8c"
 metafile = true
 
 [[files]]

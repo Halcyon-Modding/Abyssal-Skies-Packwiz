@@ -110,4 +110,7 @@ ServerEvents.tags('block',
             .add('malum:soulwood_log')
             .add('malum:exposed_soulwood_log')
 			.add('natures_spirit:alluaudia')
+
+        event.get('#rizzleproof:static_blocks')
+        .add('nomansland:wooden_scaffolding')
  })
