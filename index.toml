@@ -6098,6 +6098,11 @@ hash = "4b542e562c85faa3531ef7b1dc05bbe3be423e76f78e1e63ea9508e2c11460ab"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "b66c76dd9148686b0bccc5166839892b2442197504510bd9cca1306755a18ad1"
 metafile = true
@@ -6638,6 +6643,11 @@ metafile = true
 [[files]]
 file = "mods/jinxedlib.pw.toml"
 hash = "1350afbe0b8ffcd889f3093b5e1feadb255224a1c887acbcc30a36e50450b351"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "66a57cc8d304db7381210763955db9be51ca984c29292dc7ede40b40816130d0"
 metafile = true
 
 [[files]]
