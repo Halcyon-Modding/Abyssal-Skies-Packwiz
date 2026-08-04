@@ -6198,6 +6198,11 @@ hash = "84f6c106884a14db42757a319563892a8b352cc535edcc427ea82b63162db8e2"
 metafile = true
 
 [[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "8d3d93487823b5c630123d9796f670114f9ffefc5361fc133a6a30be2f6369ed"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
 metafile = true
