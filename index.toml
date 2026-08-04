@@ -5763,7 +5763,7 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "320cbdc3705c9ffd295558d646234d09317f21b485de44c1f6b677272ef79df2"
+hash = "1aacda20cadb26f0a023049500c1a988e6e2eba6f78013c9b8a3b9ad6fc2dacc"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
@@ -5783,7 +5783,7 @@ hash = "f36393a53e219291c9bb4303b397f113fee15ec0d1265149dfb717e061f51cb2"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "0078d34f6790d29d920abadccd472b9304ac51b04f4d212120cccd3ce052bf49"
+hash = "8320448ba8c98afe761539f317eb5909c782241ee7289bdbee440c1243c09719"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

@@ -111,6 +111,6 @@ ServerEvents.tags('block',
             .add('malum:exposed_soulwood_log')
 			.add('natures_spirit:alluaudia')
 
-        event.get('#rizzleproof:static_blocks')
+        event.get('drizzleproof:static_blocks')
         .add('nomansland:wooden_scaffolding')
  })
