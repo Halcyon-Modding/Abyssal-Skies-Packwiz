@@ -42,7 +42,7 @@ hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
 [[files]]
 file = "config/alltuttasneeds-startup.toml"
-hash = "c5f16018d7e6052a62ce1b7a557fdbb375fb3b361d9e033e1cf09f13c35e5f9c"
+hash = "deb53b6beb134ef7c544cfa9a448a18c06878f53cbba41157a16c7081ce16274"
 
 [[files]]
 file = "config/allurement-client.toml"
@@ -6713,6 +6713,11 @@ metafile = true
 [[files]]
 file = "mods/lmft.pw.toml"
 hash = "1b78273918bdbfe66d38f35b6ec2fbaa7e862fb9dca67cc99a725df768365e96"
+metafile = true
+
+[[files]]
+file = "mods/loading-protection.pw.toml"
+hash = "c39179fe954c9181445a9ecc4e63bfd702d37ff14d87c366e17db4c488ad3f0c"
 metafile = true
 
 [[files]]

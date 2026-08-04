@@ -38,9 +38,9 @@
 	[beds.general]
 		#Master switch for the whole beds module. Disabling registers none of its content
 		#and leaves vanilla and other mods' bed behavior unchanged.
-		moduleEnabled = false
+		moduleEnabled = true
 		#Shows Tutta's Beds descriptions on bed items.
-		tooltipsEnabled = false
+		tooltipsEnabled = true
 
 		[beds.content.mattresses]
 			#Disabling also disables every straw-mattress bed variant.
@@ -200,37 +200,3 @@
 			strawMattressEnabled = true
 			#Disabling also disables every Tier LOW canvas-covered variant, for every material.
 			canvasCoverEnabled = true
-
-	[delights.general]
-		#Master switch for Tutta's Delights.
-		#The module only loads when Farmer's Delight is installed.
-		moduleEnabled = true
-
-	[delights.content]
-		#Enables the suckling pig content group.
-		sucklingPigEnabled = true
-		#Enables the ancient content group.
-		ancientEnabled = true
-		#Enables the potato content group.
-		potatoEnabled = true
-		#Enables the creeper content group.
-		creeperEnabled = true
-		#Enables the slime content group.
-		slimeEnabled = true
-		#Enables the frozen treats content group.
-		frozenTreatsEnabled = true
-		#Enables the frog content group.
-		frogEnabled = true
-		#Enables the extra meals content group.
-		extraMealsEnabled = true
-		#Enables the breaded content group.
-		breadedEnabled = true
-		#Enables the sandwich portions content group.
-		sandwichPortionsEnabled = true
-		#Enables the undead content group.
-		undeadEnabled = true
-
-	[delights.recipes]
-		#Uses cheese wedges instead of milk in recipes where milk represents cheese.
-		#The milk recipe is used when Brewin' and Chewin' is not installed.
-		useCheeseWedges = false
