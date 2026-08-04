@@ -61,6 +61,18 @@ file = "config/amendments-common.toml"
 hash = "88a7589f5f621ab65ccf7445b1553206390ae7e89a99d04e129fdd195bb40feb"
 
 [[files]]
+file = "config/analogaudio/analogaudio.client.toml"
+hash = "dc4f4a56a03602dbfe9ea54dd5223c6bec28d59d3d7e01e22909fa857fc8aae0"
+
+[[files]]
+file = "config/analogaudio/analogaudio.fileserver.toml"
+hash = "8a8c3ffce960dc88f2ddaeb3867b6a3724eb501e4851e672a53861f5b700cec4"
+
+[[files]]
+file = "config/analogaudio/analogaudio.server.toml"
+hash = "42795deefa5920bf133920b435ddd63f17451d6c12674c5c72d8b44202e61635"
+
+[[files]]
 file = "config/artifacts/client.toml"
 hash = "fea09c9256febaf3cc2dc9f09a44624d9a2896ed7b0ea7766c02dd597d964c74"
 
@@ -70,7 +82,7 @@ hash = "f262c61f4f63bfd3c3e2fa5ed30176b9d447755725ff0dfe08b84df26faca607"
 
 [[files]]
 file = "config/artifacts/items.toml"
-hash = "0d4971e2356a4ceabc4c4b2d69c81c2d3fbcf4b46e384423098f3856dcd2689c"
+hash = "29ac23a5999673f315699ab81fda5f54bfb53fc81910183cee22523328459025"
 
 [[files]]
 file = "config/attributefix/artifacts/generic.attack_burning_duration.json"
@@ -5039,7 +5051,7 @@ hash = "2db3ac5121e652fc89122055e032f034f433fe4764acb2e93af9c88848267178"
 
 [[files]]
 file = "config/loadingprotection-common.toml"
-hash = "7d6c64429c82a24116652d7e343d9c9479e07ed6742d5899a546749dfc96c8e6"
+hash = "0a8f173b2debd8ca18d0b8390ab09b5e4d01c5e9d978982cd0818b49d05a5a48"
 
 [[files]]
 file = "config/magicfeather-common.toml"
@@ -5651,7 +5663,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "251ad7af37c7101518706e9a75c08c201f010962d5df71a1e49115ac05c3eb4c"
+hash = "dbfe43b407cdff6890b2c8b7ed253cc26a5d3750340045185d3a4c3b6c6f2922"
 
 [[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"

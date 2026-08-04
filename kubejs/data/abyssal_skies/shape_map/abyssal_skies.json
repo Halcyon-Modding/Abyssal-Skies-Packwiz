@@ -103,6 +103,21 @@
         "is_blockitem": true
       }
     },
+    "/xkdeco:(?<material>.+?)_roof/": {
+      "shapes": [
+        "xkdeco:${material}_roof_ridge",
+        "xkdeco:${material}_roof_small_end",
+        "xkdeco:${material}_roof_small_eave",
+        "xkdeco:${material}_roof_flat",
+        "xkdeco:${material}_roof_eave",
+        "xkdeco:${material}_roof_end",
+        "xkdeco:${material}_roof_deco",
+        "xkdeco:${material}_roof_tip"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
     "industrialhellscape:horizontal_grate": ["industrialhellscape:horizontal_cutout_grate", "industrialhellscape:vertical_grate", "industrialhellscape:vertical_cutout_grate"],
     "industrialhellscape:horizontal_vesselplate": ["industrialhellscape:horizontal_reinforced_vesselplate", "industrialhellscape:vertical_vesselplate", "industrialhellscape:vertical_reinforced_vesselplate"],
     "industrialhellscape:gray_horizontal_vesselplate": ["industrialhellscape:gray_horizontal_reinforced_vesselplate", "industrialhellscape:gray_vertical_vesselplate", "industrialhellscape:gray_vertical_reinforced_vesselplate"],

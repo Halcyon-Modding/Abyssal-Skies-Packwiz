@@ -399,7 +399,7 @@
 	generateAsLoot = true
 	#Whether the Snorkel's water breathing effect depletes when underwater
 	#Allowed Values: true, false
-	isInfinite = false
+	isInfinite = true
 	#The duration of the water breathing effect that is applied by the Snorkel
 	#Range: 0 ~ 72000
 	waterBreathingDuration = 30
