@@ -6703,6 +6703,11 @@ hash = "76806236c79f5437953100c618c15aaba2c4e349e29d83113286bb808c687683"
 metafile = true
 
 [[files]]
+file = "mods/letsabletick.pw.toml"
+hash = "f2213984282fdf01ef8a3e9352ef1bbba2aa6a128d0920e8f56d2842b866d840"
+metafile = true
+
+[[files]]
 file = "mods/lever-drugster.pw.toml"
 hash = "cc39df3b09679a88cd5a8f2f45aff596f4c30228bb2c0c233f3ccb57a1de2d03"
 metafile = true
