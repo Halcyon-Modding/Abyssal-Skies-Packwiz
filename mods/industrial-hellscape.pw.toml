@@ -1,13 +1,13 @@
 name = "Industrial Hellscape"
-filename = "industrialhellscape-1.0.3.jar"
+filename = "industrialhellscape-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8c776a466c49c8a37335e2e3aad72c8830aca65f"
+hash = "02e91d4eeafe8f77c6ec20e6ef7521b152576ea0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8175736
+file-id = 8567760
 project-id = 1302110
