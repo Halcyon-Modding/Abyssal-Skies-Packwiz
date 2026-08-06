@@ -1,0 +1,13 @@
+name = "Same Size Return Portal"
+filename = "samesizereturnportal-neoforge-1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/cXQNPVxO/versions/9P9gSp5f/samesizereturnportal-neoforge-1.21.jar"
+hash-format = "sha512"
+hash = "57d09369639b94026141b7cc61363c46b1bc8674948c3a655da978c67089713811295b237d754bb186d44bfea8f7ecf887754b3120fe55c9f17f880a8fcd6923"
+
+[update]
+[update.modrinth]
+mod-id = "cXQNPVxO"
+version = "9P9gSp5f"

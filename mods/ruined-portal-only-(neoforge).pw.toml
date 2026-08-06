@@ -1,0 +1,13 @@
+name = "Ruined Portal Only (Neoforge)"
+filename = "ruinedportalonly-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zIBPvPL0/versions/feLkLcsV/ruinedportalonly-1.0.jar"
+hash-format = "sha512"
+hash = "bc76b0f52c4a02184b5f79111dc3f56b3e3c2212e9d27acdd35db747cc11e4cdeee157f7b19ce4c2c2d1d5a91c8c150dfda675bd1ad6a2f528215b6e4cd599e2"
+
+[update]
+[update.modrinth]
+mod-id = "zIBPvPL0"
+version = "feLkLcsV"
