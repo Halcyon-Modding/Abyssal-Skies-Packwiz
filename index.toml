@@ -5786,12 +5786,12 @@ file = "kubejs/server_scripts/loot.js"
 hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+file = "kubejs/server_scripts/ozyrecipes.js"
+hash = "f4ef681c61487e32215a974f5af15e6d190e4abd37192f941e7393a557cec3f9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "f36393a53e219291c9bb4303b397f113fee15ec0d1265149dfb717e061f51cb2"
+hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -6307,6 +6307,11 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "27788d3b80ad864f96044fe2f86608e1d4204ba1c55f32c6953df7d1cc050f81"
+metafile = true
+
+[[files]]
+file = "mods/darker-depths.pw.toml"
+hash = "87421843c73a7d6d7ec8284ad1e5e947b10acda1eec46067ad68dd752f5e9a37"
 metafile = true
 
 [[files]]
@@ -6952,6 +6957,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "a80d243759a5998d1f61cab61a9769526c21e1a9ac2f328ec1f213bb97311bfe"
+metafile = true
+
+[[files]]
+file = "mods/places.pw.toml"
+hash = "107dc243320df55818741a30593c819cdf096f7b4228005e48bad3e3f4ec9fe1"
 metafile = true
 
 [[files]]

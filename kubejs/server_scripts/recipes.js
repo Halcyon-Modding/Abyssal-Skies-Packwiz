@@ -1,7 +1,4 @@
 ServerEvents.recipes(event => {
-
-    const allColors = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
-	const noWhiteAllColors = ['orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
 	
 	// Recipes that required mechanical crafters NO LONGER DO! :D
     event.remove({output: ['createaddition:alternator']})
@@ -46,30 +43,6 @@ ServerEvents.recipes(event => {
 
 	// Brass Changes
 	event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:brass_ingot" } ], "results": [ { "count": 8, "id": "abyssal_decor:seabrass_ingot" } ] })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
      // Brew recipe
      let brew = event.recipes.irons_spellbooks.alchemist_cauldron_brew
