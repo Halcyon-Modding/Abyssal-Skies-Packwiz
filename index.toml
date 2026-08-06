@@ -662,7 +662,7 @@ hash = "a5068b44183cf05a773c6119c13cd8bda95d05ef566f83eaab508f4fe156ec65"
 
 [[files]]
 file = "config/connectiblechains.toml"
-hash = "fd70645a46fca0ebc32a12d0361de2ce1a3484037dafd48b9d970f089786df6c"
+hash = "802b6d4b952df3a0defac23fdae74b5086a94e1e830f2c653e7867c20034ebee"
 
 [[files]]
 file = "config/connector.json"
@@ -5783,7 +5783,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "f4ef681c61487e32215a974f5af15e6d190e4abd37192f941e7393a557cec3f9"
+hash = "3fc77467832ec38534bb71e99f64de74b9e290f2f608bcd0a77236f3a2589650"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5791,7 +5791,7 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "8320448ba8c98afe761539f317eb5909c782241ee7289bdbee440c1243c09719"
+hash = "d1089559c1b6ed8d68d7eaccf51d97bbeaab19e518231d33095f1647c3aa6a33"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
