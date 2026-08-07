@@ -646,7 +646,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "55e554c5c59f533f96856fdeccad5ba5d229d8e3fe9ee26210865c157c4376a0"
+hash = "bc9c33f7f309c01afbc8c208f2cf9d7bb27c1557908d04813e45d6209f89db1e"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -6847,6 +6847,11 @@ hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
+file = "mods/natures-delight.pw.toml"
+hash = "fd48e36ce85570f9328af1722162358f6bb8868ecb4132b4cea5a965bbb215f9"
+metafile = true
+
+[[files]]
 file = "mods/natures-spirit.pw.toml"
 hash = "28c76f903da7d4b27f029d195b0873c0c826080022f8bbb1377d8c83ccd3e47e"
 metafile = true
@@ -6983,6 +6988,11 @@ metafile = true
 [[files]]
 file = "mods/portfolio.pw.toml"
 hash = "8c0605d190142ce6458a5f57ad4d7d7bcbda31d93705f0ac91294ead1e52754f"
+metafile = true
+
+[[files]]
+file = "mods/post-it.pw.toml"
+hash = "4dd1328a634cc0ec838924668d1482a1ca03615140f999c1f8e1202fc7f856e8"
 metafile = true
 
 [[files]]
@@ -7213,6 +7223,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract-api-neoforge.pw.toml"
 hash = "4876aa39c5cc545f28d5314a5ff6f8067d114108b62dc69b97462c302281bb82"
+metafile = true
+
+[[files]]
+file = "mods/the-block-box.pw.toml"
+hash = "34e8d5d17a485e43e5a89bccad58c267dd62755bf43901c33bccf15ae4ea8723"
 metafile = true
 
 [[files]]

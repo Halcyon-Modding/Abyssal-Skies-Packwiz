@@ -1,0 +1,13 @@
+name = "Post It!"
+filename = "postit-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W45bEW8v/versions/xYOiODhK/postit-1.0.2.jar"
+hash-format = "sha512"
+hash = "f05c7e0c0ded9a5c20383254c8650d4ca2a9df9ff2de449c121b854409ac917e5cd202a1d5240fb0f5eeb2b850a04a8f25e976cd2755a6ab710d62f18e9b3f5e"
+
+[update]
+[update.modrinth]
+mod-id = "W45bEW8v"
+version = "xYOiODhK"
