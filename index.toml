@@ -5659,7 +5659,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "dbfe43b407cdff6890b2c8b7ed253cc26a5d3750340045185d3a4c3b6c6f2922"
+hash = "ed0b95aba488132fe8b3adfb7e93d236c40d436e1924b40c1552e568aaf71333"
 
 [[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"
@@ -6614,8 +6614,8 @@ hash = "1a1216ef24fb7ce70eb198dd9979624f7e066309f0e25e1be82a12867cd76985"
 metafile = true
 
 [[files]]
-file = "mods/industrialhellscape-1.1.3.jar"
-hash = "cb3a5b844b78e2bb846ff51b827b7ac46fb1e10e64b889b9612961d1487977e5"
+file = "mods/industrialhellscape-1.1.4.jar"
+hash = "84ba4f5a4ad8161b13bfd8e891f8d6b2dfd7883e9aec345152a0b00cc76c6503"
 
 [[files]]
 file = "mods/inline.pw.toml"
