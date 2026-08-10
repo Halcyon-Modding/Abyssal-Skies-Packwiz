@@ -7298,7 +7298,7 @@ metafile = true
 
 [[files]]
 file = "mods/world-casting.pw.toml"
-hash = "9204ebc19283d4ba95482c4bc47a0dd056ec923fbd2339031b16eeab86599ba7"
+hash = "ccde931f94c7e1a344755bda4e7214f0ab3540924f497adc90a208ce35e734e6"
 metafile = true
 
 [[files]]
