@@ -129,6 +129,12 @@
 			maya_stone = true
 			inca_stone = true
 
+		[types.stone_type.darkerdepths]
+			aridrock = true
+			duskrock = true
+			darkslate = true
+			grimestone = true
+
 		[types.cake.bountifulfares]
 			coconut_cake = false
 			cocoa_cake = false
@@ -243,6 +249,12 @@
 			varnished = true
 			ebony = true
 			mahogany = true
+
+		[types.wood_type.darkerdepths]
+			petrified = true
+
+		[types.wood_type.places]
+			plastic = true
 
 		[types.leaves_type.bountifulfares]
 			apple = false
@@ -409,6 +421,9 @@
 			waxed_weathered_copper_lantern = true
 			waxed_oxidized_copper_lantern = true
 
+		[types.lantern.darkerdepths]
+			glowshroom_lantern = true
+
 		[entries.stone_type.create]
 			#Disables specific entries
 			small_brick_wall = true
@@ -445,15 +460,15 @@
 			brick_lattice = true
 
 		[entries.wood_type.handcrafted]
-			counter = true
+			counter = false
 			corner_trim = true
 			fancy_bed = false
 			desk = false
 			shelf = true
-			cupboard = true
+			cupboard = false
 			dining_bench = true
 			bench = true
-			drawer = true
+			drawer = false
 			pillar_trim = true
 			side_table = false
 			nightstand = false
@@ -472,7 +487,7 @@
 			beam = true
 			support = true
 			seat = true
-			palisade = true
+			palisade = false
 
 		[entries.wood_type.create]
 			window_pane = true
@@ -498,7 +513,7 @@
 
 		[entries.wood_type.nomansland]
 			trimmed_planks = true
-			bookshelf = true
+			bookshelf = false
 
 		[entries.leaves_type.quark]
 			hedge = true
