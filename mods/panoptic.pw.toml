@@ -1,0 +1,13 @@
+name = "Panoptic"
+filename = "Panoptic-1.08a-NeoForge-1.21.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "dde490a61718f6842340f7253f84a92e1f80c457"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8610235
+project-id = 1620784

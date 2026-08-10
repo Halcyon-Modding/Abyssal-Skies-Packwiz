@@ -646,7 +646,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "bc9c33f7f309c01afbc8c208f2cf9d7bb27c1557908d04813e45d6209f89db1e"
+hash = "e2a3fb4fe38eb37fb529fb610a1eabf8795550a2c36297a9dcbdbc176c83a509"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -878,32 +878,8 @@ file = "config/everycomp-common.toml"
 hash = "70ef71e8697b2a640ec737230d5bb63745f049e87959f846a4e489ce0fe93319"
 
 [[files]]
-file = "config/everycomp-entries-1.toml.bak"
-hash = "2b5c3adf0a051091640bd3a071909d924bda79ceb9dce23e634184b899f6bb69"
-
-[[files]]
-file = "config/everycomp-entries-2.toml.bak"
-hash = "2b5c3adf0a051091640bd3a071909d924bda79ceb9dce23e634184b899f6bb69"
-
-[[files]]
-file = "config/everycomp-entries-3.toml.bak"
-hash = "9b2608b1a5a251cbafb5f6ebd35555c4600c86e39987d9a87fe74a40d048d85b"
-
-[[files]]
-file = "config/everycomp-entries-4.toml.bak"
-hash = "789c1295e88728ac2bb3c76b05e108e2b22c4733486e2d5b992bfadb0fb95b8a"
-
-[[files]]
-file = "config/everycomp-entries-5.toml.bak"
-hash = "6ebc923bce134c67e18218b4172b02ba379ad3cac2ed0ca35044bb79938f39ab"
-
-[[files]]
 file = "config/everycomp-entries.toml"
-hash = "783c987f9c67300bcb76cfd06e5c35110ac9e95602c72ec702e3c341a118a71a"
-
-[[files]]
-file = "config/everycomp-hazardous-1.toml.bak"
-hash = "43967b952539ef8b1b41695c59080d60387429bf90f0129046d5cb09a143e9b2"
+hash = "f4afa4485a6c9bd4ead198059f57f5047da7a1c9e73ca8b72d62c4de076b1274"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -6917,6 +6893,16 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
+file = "mods/panoptic.pw.toml"
+hash = "ae82c7c2795d430b2ea1f36686bf74589cdd8054dc6506be2bbd9d2d8c903e5d"
+metafile = true
+
+[[files]]
+file = "mods/panopticon.pw.toml"
+hash = "33100246fbb71ff9dbef6efdb17a2d011bc5564b41c9ce411bf93f3a02b781dd"
+metafile = true
+
+[[files]]
 file = "mods/particle-core.pw.toml"
 hash = "8c29843ea8daff8f4e2db30292a690de72ca5cfb52732e5bd0ea76a365923da0"
 metafile = true
@@ -7311,12 +7297,8 @@ hash = "920dbb560760f271eb2873917808a2070d37e2caf773453b6b7633314ec77ffc"
 metafile = true
 
 [[files]]
-file = "mods/world-casting-neoforge-1.21.1-0.0.0-8.jar"
-hash = "506389ae37c1d26669a41979d6c1a4e1b6365da4dd11518a8f553038803f7c92"
-
-[[files]]
-file = "mods/world-preview-neoforged-(unofficial).pw.toml"
-hash = "e7b937eee11430edcddc8985d59c7fddb8bd818a04b74d1b5f69cb19cb216320"
+file = "mods/world-casting.pw.toml"
+hash = "9204ebc19283d4ba95482c4bc47a0dd056ec923fbd2339031b16eeab86599ba7"
 metafile = true
 
 [[files]]

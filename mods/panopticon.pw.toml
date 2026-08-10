@@ -1,0 +1,13 @@
+name = "Panopticon"
+filename = "Panopticon-1.08-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "028e9d3d1c170f07f0c5f2750e6de55cfe4f8848"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8539970
+project-id = 1620806
