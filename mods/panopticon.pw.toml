@@ -1,6 +1,6 @@
 name = "Panopticon"
 filename = "Panopticon-1.08-NeoForge-1.21.1.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

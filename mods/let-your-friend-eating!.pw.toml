@@ -1,0 +1,13 @@
+name = "Let Your Friend Eating!"
+filename = "LetYourFriendEating_1.1.4_1.21.1_NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qkQbFn8p/versions/7lIuOgMO/LetYourFriendEating_1.1.4_1.21.1_NeoForge.jar"
+hash-format = "sha512"
+hash = "da3208b8cbf3b4d7beabb779c61f35600c3d991297852ace49494ee2d6d40fdf276f172101824755d26cea879ff9bafc8e5baa43675d1144b8df7b44a4e8ff43"
+
+[update]
+[update.modrinth]
+mod-id = "qkQbFn8p"
+version = "7lIuOgMO"

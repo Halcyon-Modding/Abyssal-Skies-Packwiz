@@ -38,43 +38,43 @@
 	[beds.general]
 		#Master switch for the whole beds module. Disabling registers none of its content
 		#and leaves vanilla and other mods' bed behavior unchanged.
-		moduleEnabled = true
+		moduleEnabled = false
 		#Shows Tutta's Beds descriptions on bed items.
-		tooltipsEnabled = true
+		tooltipsEnabled = false
 
 		[beds.content.mattresses]
 			#Disabling also disables every straw-mattress bed variant.
-			strawMattressEnabled = true
+			strawMattressEnabled = false
 			#Disabling also disables every soft-mattress bed variant.
-			softMattressEnabled = true
+			softMattressEnabled = false
 
 		[beds.content.basicCovers]
 			#Disabling also disables every Tier LOW wheat-covered variant.
-			wheatCoverEnabled = true
+			wheatCoverEnabled = false
 			#Disabling also disables every Tier LOW raw-leather-covered variant.
-			leatherCoverEnabled = true
+			leatherCoverEnabled = false
 
 		[beds.content.blankets]
 			#Disabling also disables every Tier NORMAL wool-blanket bed and, since it's
 			#the only blanket with a Tier DELUXE upgrade path, every Tier DELUXE bed too.
-			woolBlanketEnabled = true
+			woolBlanketEnabled = false
 			#Disabling also disables every Tier NORMAL leather-blanket bed.
-			leatherBlanketEnabled = true
+			leatherBlanketEnabled = false
 			#Master switch for Tier DELUXE specifically, independent of woolBlanketEnabled.
-			deluxeTierEnabled = true
+			deluxeTierEnabled = false
 
 		[beds.gameplay.tiers]
 			#Whether the time required to complete sleep changes with the bed tier.
 			#Other mods' beds are treated as Tier BASIC.
-			tieredSleepDurationEnabled = true
+			tieredSleepDurationEnabled = false
 			#Whether vanilla Minecraft beds use the Tier BASIC sleep-duration multiplier.
 			#When disabled, vanilla beds always keep vanilla's five-second sleep duration.
-			vanillaBedsUseTieredSleepDuration = true
+			vanillaBedsUseTieredSleepDuration = false
 			#Whether vanilla Minecraft beds use their resolved tier's respawn rule.
 			#When disabled, vanilla beds always set spawn normally.
-			vanillaBedsUseTierSpawnRules = true
+			vanillaBedsUseTierSpawnRules = false
 			#Whether vanilla Minecraft beds apply their resolved tier's wake effect.
-			vanillaBedsUseTierWakeEffects = true
+			vanillaBedsUseTierWakeEffects = false
 
 			[beds.gameplay.tiers.basic]
 				#Whether beds in this tier set the player's respawn point.

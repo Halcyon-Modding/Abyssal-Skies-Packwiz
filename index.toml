@@ -42,7 +42,7 @@ hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
 [[files]]
 file = "config/alltuttasneeds-startup.toml"
-hash = "deb53b6beb134ef7c544cfa9a448a18c06878f53cbba41157a16c7081ce16274"
+hash = "e003cf690478fad53d4c1b0dbb52537246e0cb7c2ab9f38ed53557041db98d13"
 
 [[files]]
 file = "config/allurement-client.toml"
@@ -5848,9 +5848,8 @@ file = "mods/arch_mc-1.0.4-neoforge-1.21.1.jar"
 hash = "865ad5bef39eb1c1e72a403945c0df2c4fa3972f787d09cfe8f8b09af4edb611"
 
 [[files]]
-file = "mods/architects-palette.pw.toml"
-hash = "ba3e7cf7df718c9bdd38115aa55593c6e03632ec8557a27def13a51f1ac4b773"
-metafile = true
+file = "mods/architects_palette-neoforge-ASV-1.21.1-1.4.0-beta.4.jar"
+hash = "c50451f5b44bdd0a7eb3e56bb8f9fbea144a6baff7615600cacdf8f24ca05c84"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -6679,6 +6678,11 @@ hash = "76806236c79f5437953100c618c15aaba2c4e349e29d83113286bb808c687683"
 metafile = true
 
 [[files]]
+file = "mods/let-your-friend-eating!.pw.toml"
+hash = "930770c2b52367a37a8428b4e2683a4c0eae71b8778cac5c2827d276f1f3a14b"
+metafile = true
+
+[[files]]
 file = "mods/letsabletick.pw.toml"
 hash = "f2213984282fdf01ef8a3e9352ef1bbba2aa6a128d0920e8f56d2842b866d840"
 metafile = true
@@ -6899,7 +6903,7 @@ metafile = true
 
 [[files]]
 file = "mods/panopticon.pw.toml"
-hash = "33100246fbb71ff9dbef6efdb17a2d011bc5564b41c9ce411bf93f3a02b781dd"
+hash = "765fc69764c8f56011d7c284d94213b11e1cf74bae1ac1b2e2251e77224f007b"
 metafile = true
 
 [[files]]
