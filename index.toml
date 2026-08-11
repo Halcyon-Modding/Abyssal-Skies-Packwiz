@@ -5848,8 +5848,8 @@ file = "mods/arch_mc-1.0.4-neoforge-1.21.1.jar"
 hash = "865ad5bef39eb1c1e72a403945c0df2c4fa3972f787d09cfe8f8b09af4edb611"
 
 [[files]]
-file = "mods/architects_palette-neoforge-ASV-1.21.1-1.4.0-beta.4.jar"
-hash = "c50451f5b44bdd0a7eb3e56bb8f9fbea144a6baff7615600cacdf8f24ca05c84"
+file = "mods/architects_palette-neoforge-1.21.1-1.4.0-beta.4_ASV2.jar"
+hash = "8c9d4cdbc04271d57667ce9bed4796480263e5daa816ad2249b96c1a79905067"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -6938,11 +6938,6 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "a80d243759a5998d1f61cab61a9769526c21e1a9ac2f328ec1f213bb97311bfe"
-metafile = true
-
-[[files]]
-file = "mods/places.pw.toml"
-hash = "107dc243320df55818741a30593c819cdf096f7b4228005e48bad3e3f4ec9fe1"
 metafile = true
 
 [[files]]
