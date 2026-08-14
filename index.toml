@@ -5848,8 +5848,8 @@ file = "mods/arch_mc-1.0.4-neoforge-1.21.1.jar"
 hash = "865ad5bef39eb1c1e72a403945c0df2c4fa3972f787d09cfe8f8b09af4edb611"
 
 [[files]]
-file = "mods/architects_palette-neoforge-1.21.1-1.4.0-beta.4_ASV2.jar"
-hash = "8c9d4cdbc04271d57667ce9bed4796480263e5daa816ad2249b96c1a79905067"
+file = "mods/architects_palette-neoforge-1.21.1-1.4.0-beta.4_ASV3.jar"
+hash = "9e7bf9233c8a7ad4e0404d8a3b7c682abcdc75c2ae693cb1a6b8029d0d02a514"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -6589,8 +6589,8 @@ hash = "1a1216ef24fb7ce70eb198dd9979624f7e066309f0e25e1be82a12867cd76985"
 metafile = true
 
 [[files]]
-file = "mods/industrialhellscape-1.1.4.jar"
-hash = "84ba4f5a4ad8161b13bfd8e891f8d6b2dfd7883e9aec345152a0b00cc76c6503"
+file = "mods/industrialhellscape-1.1.5.jar"
+hash = "79bdd7afc88d8285e9c9a455f4679d5dc1d47d69af8c61bbb53c3fd3a5dcb5f6"
 
 [[files]]
 file = "mods/inline.pw.toml"
