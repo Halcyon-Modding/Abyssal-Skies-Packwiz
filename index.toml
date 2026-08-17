@@ -5774,9 +5774,8 @@ file = "kubejs/startup_scripts/main.js"
 hash = "73deabb2fbd703c4bd4d07e3e497e84fb767769254b0d7f94170668eeb312e82"
 
 [[files]]
-file = "mods/abyssal-decor.pw.toml"
-hash = "d50226c94a37c71af5c57af00c5ab3c1713b66c32573b0ef3d72464f0943a2b2"
-metafile = true
+file = "mods/abyssal_decor_1.21.1_0.11.0_Neoforge.jar"
+hash = "d5d35d0665ca8a5693c8b330dca07ffb1a44912c7ad547ae6304b73fead5c7be"
 
 [[files]]
 file = "mods/abyssaline-nether.pw.toml"
