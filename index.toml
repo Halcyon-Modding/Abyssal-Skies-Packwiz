@@ -6060,6 +6060,10 @@ hash = "c4222841169214cd4db3ee2347e3d41a0eb9451e6b09f80d0e2739f25b5ddd44"
 metafile = true
 
 [[files]]
+file = "mods/clinker-1.21.1-0.0.1.7.jar"
+hash = "54acec68e9b65855e5b93189a9ce75072e1144a3eada0ed850d69c8f4469eb71"
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -6762,6 +6766,10 @@ hash = "4acb02c7e590ebb510be417e6269e7f07c7b650cf95080cab0daa3005cc8c919"
 metafile = true
 
 [[files]]
+file = "mods/metros_mod-1.21.1.jar"
+hash = "f9bf57e7b6603bbdc21bf00aed648af5b4e563183ef058bc05473312506c1da8"
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "1e7a69de13ee96b512350358c746a7b3bf67b07bc532fe5b26f7b3b3f7ee8117"
 metafile = true
@@ -7267,6 +7275,11 @@ metafile = true
 [[files]]
 file = "mods/vercte-satchels.pw.toml"
 hash = "ead79d2832279b9349eac8ef5279e52c66bb3360f4b59754ab2806ba4fa8e16d"
+metafile = true
+
+[[files]]
+file = "mods/vintage-beams.pw.toml"
+hash = "3751aeeacc3e5968c3484192e5805f48c1f4613fe3d30d8c1bae97d49d61050f"
 metafile = true
 
 [[files]]
