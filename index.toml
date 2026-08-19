@@ -5886,6 +5886,11 @@ hash = "6ffd3974dac599c325533619265b6d222e3243f7cd9507d78ac2ae00162498d6"
 metafile = true
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
+metafile = true
+
+[[files]]
 file = "mods/azimuth-api.pw.toml"
 hash = "d1c9f25faf345f0a8349b07a97c9f13856c18d753256c6dde9818fdd85e19323"
 metafile = true
@@ -6766,10 +6771,6 @@ hash = "4acb02c7e590ebb510be417e6269e7f07c7b650cf95080cab0daa3005cc8c919"
 metafile = true
 
 [[files]]
-file = "mods/metros_mod-1.21.1.jar"
-hash = "f9bf57e7b6603bbdc21bf00aed648af5b4e563183ef058bc05473312506c1da8"
-
-[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "1e7a69de13ee96b512350358c746a7b3bf67b07bc532fe5b26f7b3b3f7ee8117"
 metafile = true
@@ -7320,6 +7321,11 @@ metafile = true
 [[files]]
 file = "mods/world-casting.pw.toml"
 hash = "ccde931f94c7e1a344755bda4e7214f0ab3540924f497adc90a208ce35e734e6"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "f2dfce29433a6b2a3349db5f4913f4077c74d2e7982c8c4ec51fac5ab09d21ad"
 metafile = true
 
 [[files]]
