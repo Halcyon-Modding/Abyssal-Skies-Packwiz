@@ -7143,6 +7143,11 @@ hash = "2016aad1b4925a00af8887564050dd9bfb083d194900c7d0e6021648cdee9876"
 metafile = true
 
 [[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "27c6365bdc19eff05f3231bff86a4f09b2d584fed40de92d67c00b4cbd52862a"
+metafile = true
+
+[[files]]
 file = "mods/smooth-skies.pw.toml"
 hash = "5a9a51d8024fac91021dd163d5f651946851b6f5cd7ca57ef337375d6a3455db"
 metafile = true
@@ -7270,6 +7275,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-loot-addon-for-loot-integrations.pw.toml"
 hash = "8d43ef6d5520e1801d75562f329668215cf3a523ec5fc360bf3a5f138fe6ec41"
+metafile = true
+
+[[files]]
+file = "mods/veil.pw.toml"
+hash = "1d05a0bc58ce0df0f4ae530586177dd852cfbfa0e27ed07a8d91009cec22706a"
 metafile = true
 
 [[files]]
