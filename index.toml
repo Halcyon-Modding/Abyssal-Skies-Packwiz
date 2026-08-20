@@ -5619,7 +5619,7 @@ hash = "ace09921e751b9643f8a8df49e6248681fa6a2aeb965377e1008739621e4270b"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/functions/tick.mcfunction"
-hash = "3d40779b53d65ce73a7891ed47335c63b7db95a6a8b6158f9d53d8d8499c82ce"
+hash = "fc61aa2b77d19fca59fbf6bb8b52d47a26fb02c543638ed6d480f412af2721bd"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/loot_table/boss_drops/mithril_scrap.json"
