@@ -1,0 +1,1 @@
+execute at @a if block ~ ~2 ~ malum:primordial_soup run execute in clinker:othershore run tp @p 0 200 0
