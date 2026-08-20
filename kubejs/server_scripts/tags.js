@@ -192,3 +192,10 @@ ServerEvents.tags('block',
 
 
  })
+
+ ServerEvents.tags('function',
+     event => {
+        event.get('minecraft:tick')
+        .add('abyssal_skies:tick')
+
+     })

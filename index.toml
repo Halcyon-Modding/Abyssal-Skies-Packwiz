@@ -5750,10 +5750,6 @@ file = "kubejs/data/malum/recipe/spirit_infusion/netherite_scrap.json"
 hash = "256bc936f5091f4eae93e561cb31572b1c3841e21c2934ad6a70f3b072cde2a3"
 
 [[files]]
-file = "kubejs/data/minecraft/tags/function/tick.json"
-hash = "11741999f95b89cde1a4cb233fd7bde4a8415459875797d77efa49a22ce365db"
-
-[[files]]
 file = "kubejs/data/playermagicnerf/attributesetter/entity/player_magic_nerfs.json"
 hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
@@ -5783,7 +5779,7 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "d1089559c1b6ed8d68d7eaccf51d97bbeaab19e518231d33095f1647c3aa6a33"
+hash = "af4403835b2c5ca6c967165746ace3f15ca0424a92f6e126369d23c209206738"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"
