@@ -5594,6 +5594,10 @@ file = "kubejs/assets/simpleradio/models/item/transceiver/using_transceiver_in_h
 hash = "d01e95524718033a68827e5c29b8b36da8d52220fc500911acd8afd9c7d5f075"
 
 [[files]]
+file = "kubejs/client_scripts/arches.js"
+hash = "58ab1af0536df19bcdeff4b56cd2c72338cd03a20722f114754db40555ce9ea4"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -5618,7 +5622,7 @@ file = "kubejs/config/web_server.json"
 hash = "ace09921e751b9643f8a8df49e6248681fa6a2aeb965377e1008739621e4270b"
 
 [[files]]
-file = "kubejs/data/abyssal_skies/functions/tick.mcfunction"
+file = "kubejs/data/abyssal_skies/function/tick.mcfunction"
 hash = "fc61aa2b77d19fca59fbf6bb8b52d47a26fb02c543638ed6d480f412af2721bd"
 
 [[files]]
@@ -5639,7 +5643,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "ed0b95aba488132fe8b3adfb7e93d236c40d436e1924b40c1552e568aaf71333"
+hash = "6d90eabb73d402b335a6fb4027110ba18f583510d3e0710e833f41b60437a6af"
 
 [[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"
@@ -5746,6 +5750,10 @@ file = "kubejs/data/malum/recipe/spirit_infusion/netherite_scrap.json"
 hash = "256bc936f5091f4eae93e561cb31572b1c3841e21c2934ad6a70f3b072cde2a3"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/function/tick.json"
+hash = "11741999f95b89cde1a4cb233fd7bde4a8415459875797d77efa49a22ce365db"
+
+[[files]]
 file = "kubejs/data/playermagicnerf/attributesetter/entity/player_magic_nerfs.json"
 hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
@@ -5756,6 +5764,10 @@ hash = "1aacda20cadb26f0a023049500c1a988e6e2eba6f78013c9b8a3b9ad6fc2dacc"
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
 hash = "9b3f4cbc6caf19495e9ad27abadd85a1f4bd3663301080f88de6224903a9a6ea"
+
+[[files]]
+file = "kubejs/server_scripts/arches.js"
+hash = "bd5ba12589fb336b646954835a0c48cf16678d301fd8137e2e4e58299e70e69b"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
@@ -5772,6 +5784,14 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 [[files]]
 file = "kubejs/server_scripts/tags.js"
 hash = "d1089559c1b6ed8d68d7eaccf51d97bbeaab19e518231d33095f1647c3aa6a33"
+
+[[files]]
+file = "kubejs/startup_scripts/arches.js"
+hash = "6b175c9648c4d7015da1a27a396411ed3b13a4b65605e6c2ab1c27688283e2ff"
+
+[[files]]
+file = "kubejs/startup_scripts/global.js"
+hash = "41f23b675217f95294cdc1c55e00fd4817af43fcc3235baedb5406713c9e9e9b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -5856,7 +5876,7 @@ hash = "9e7bf9233c8a7ad4e0404d8a3b7c682abcdc75c2ae693cb1a6b8029d0d02a514"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
@@ -6636,7 +6656,7 @@ metafile = true
 
 [[files]]
 file = "mods/jamlib.pw.toml"
-hash = "af8428daaf08a29dec8f58f71bcd9e32bf564203754f71b184f6ebb8b09a0c77"
+hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
@@ -7019,7 +7039,7 @@ metafile = true
 
 [[files]]
 file = "mods/reconnectible-chains.pw.toml"
-hash = "21f55631a69b812e36375dda47d7be652b02d8ce74f57ff83bdb0bb952003d90"
+hash = "89bcd16b52523bcd2977ef0a635e92aac370969fe3eacf37e73381e2381ed1ff"
 metafile = true
 
 [[files]]
@@ -7129,7 +7149,7 @@ metafile = true
 
 [[files]]
 file = "mods/shut-up-gl-error.pw.toml"
-hash = "f0ecaea959e3342034edac9b288e871aa3271e59796625677161d3a457876d6c"
+hash = "2a5158acf9b23d9e23fc5097dbf3a12f57458a107b3a2d2794317c298aa203fa"
 metafile = true
 
 [[files]]

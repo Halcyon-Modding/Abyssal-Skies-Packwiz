@@ -44,6 +44,15 @@
         "is_blockitem": true
       }
     },
+    "/abyssal_skies:small_(?<material>.+?)_arch/": {
+      "shapes": [
+        "abyssal_skies:${material}_arch",
+        "abyssal_skies:large_${material}_arch"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
     "/abyssal_decor:(?<material>.+?)_timber/": {
       "shapes": [
         "abyssal_decor:${material}_wooden_frame"
