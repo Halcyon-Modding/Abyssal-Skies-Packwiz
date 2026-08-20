@@ -5787,7 +5787,7 @@ hash = "6b175c9648c4d7015da1a27a396411ed3b13a4b65605e6c2ab1c27688283e2ff"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "41f23b675217f95294cdc1c55e00fd4817af43fcc3235baedb5406713c9e9e9b"
+hash = "d6fc58efb230fbb8ea3c61e07f84ea5ea5219dd329c4907519da2e652ef89f2f"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
