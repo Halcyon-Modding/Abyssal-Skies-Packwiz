@@ -6747,11 +6747,6 @@ hash = "1b78273918bdbfe66d38f35b6ec2fbaa7e862fb9dca67cc99a725df768365e96"
 metafile = true
 
 [[files]]
-file = "mods/loading-protection.pw.toml"
-hash = "b2b00ff458576f2816413be1782b7c22f8f3faae040710b922954008825007de"
-metafile = true
-
-[[files]]
 file = "mods/lodestone.pw.toml"
 hash = "8590e77951c4fb7c1ac4a52f8e1e0fa0103518b8c64ef3ae55ae654bfd6d2594"
 metafile = true
