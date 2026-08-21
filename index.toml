@@ -7359,11 +7359,6 @@ hash = "ccde931f94c7e1a344755bda4e7214f0ab3540924f497adc90a208ce35e734e6"
 metafile = true
 
 [[files]]
-file = "mods/worldedit.pw.toml"
-hash = "74537d95785dd2a5b401d8322ec48d54398d267be6cd5199dd43e52435623828"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "03b30d68893aff0507d36044ab3b43e586f4412274b5de0abe193b9f4a754905"
 metafile = true
@@ -7410,7 +7405,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "73a73db0dc27c95251a4f17d2520d3cc82e07a6725c98c4c95798bcf269009a9"
+hash = "51769cccc281f7fc2f03393284cb6ebb39d8d7fd8b41a4c431199282b75b8cf6"
 preserve = true
 
 [[files]]

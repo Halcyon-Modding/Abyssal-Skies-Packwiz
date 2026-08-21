@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Fluffy Carpets v1.1.zip","file/Farcr\u0027s Re-Crafted V2.28.1.zip","file/Farcr\u0027s Re-Create 1.6.zip","file/Farcr\u0027s Better Dirt V1.2.zip","file/Fancy Crops v1.3.zip","peeping_angels:peeping_overrides","mod/bigwater:resourcepacks/rekindled","file/Vercte\u0027s Satchels Retextured 1.1 (1.21.1).zip","file/The-RCP.zip","file/Gentle Touches-1.1.0.zip","file/New Old Netherrack.zip","file/No Potion Particles.zip","file/Soft-Weather-1.0-Universal.zip","file/Better Create Palettes 1.3 1.20.1.zip","file/Beautiful Buckets 1.2.zip","file/DerpWood.zip","file/Supplementaries Rope Redone v2.0.zip", "file/kaylas_sails.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Fluffy Carpets v1.1.zip","file/Farcr\u0027s Re-Crafted V2.28.1.zip","file/Farcr\u0027s Re-Create 1.6.zip","file/Farcr\u0027s Better Dirt V1.2.zip","file/Fancy Crops v1.3.zip","peeping_angels:peeping_overrides","mod/bigwater:resourcepacks/rekindled","file/Vercte\u0027s Satchels Retextured 1.1 (1.21.1).zip","file/The-RCP.zip","file/Gentle Touches-1.1.0.zip","file/New Old Netherrack.zip","file/No Potion Particles.zip","file/Soft-Weather-1.0-Universal.zip","file/Better Create Palettes 1.3 1.20.1.zip","file/Beautiful Buckets 1.2.zip","file/DerpWood.zip","file/Supplementaries Rope Redone v2.0.zip","file/kaylas_sails.zip","file/Simple Radio Re-Created 1.0.zip"]
 incompatibleResourcePacks:["file/The-RCP.zip","file/Better Create Palettes 1.3 1.20.1.zip","file/DerpWood.zip"]
 lastServer:
 lang:en_us
