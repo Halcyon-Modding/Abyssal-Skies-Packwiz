@@ -839,7 +839,6 @@ hash = "2a0e761f7293d92e3700aad72acc63c00140c3bfc95ac305eba41cfec8197f2c"
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
-preserve = true
 
 [[files]]
 file = "config/dynamiccrosshair.json5"
@@ -5378,6 +5377,31 @@ file = "config/sodiumdynamiclights-client.toml"
 hash = "5b36aeb152da44539b205ccf3e87f0edf46079f7be97aa677bf53c2f370d62d9"
 
 [[files]]
+file = "config/sounds/chat.json"
+hash = "194b5a65755eeb180546d93f7eb80fd2773f5696e0838547d57ec871a5eeec89"
+preserve = true
+
+[[files]]
+file = "config/sounds/event.json"
+hash = "690ecaab33f6d9d5599ffdf340b92980eaa92ea1231edd1b6d9e81553b9a3ee3"
+preserve = true
+
+[[files]]
+file = "config/sounds/mod_utils.json"
+hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
+preserve = true
+
+[[files]]
+file = "config/sounds/ui.json"
+hash = "79b31d6ff30b6d2634b6161422cdbb425988f3b09dfa8e89fb0bfb9e3bc7663d"
+preserve = true
+
+[[files]]
+file = "config/sounds/world.json"
+hash = "f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7"
+preserve = true
+
+[[files]]
 file = "config/ssrd-common.toml"
 hash = "f02c4f19736ba21f48c0100128ad3208d2cec4e2fae2fa52b3a3b8639cc69c3c"
 
@@ -6484,11 +6508,6 @@ hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
 metafile = true
 
 [[files]]
-file = "mods/farsight.pw.toml"
-hash = "de6f8baf05357d0561e7fee40a5ff1149d30005f32ed88879056709263698dfc"
-metafile = true
-
-[[files]]
 file = "mods/fast-ip-ping.pw.toml"
 hash = "124fa36625bf2f382f6a993861cce883e775c6b79263337ee38d58b12e083491"
 metafile = true
@@ -7391,7 +7410,8 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7cd7e248025b14657409ad039946276902a41a8af01ec586e7935bda1f34119d"
+hash = "73a73db0dc27c95251a4f17d2520d3cc82e07a6725c98c4c95798bcf269009a9"
+preserve = true
 
 [[files]]
 file = "resourcepacks/Beautiful Buckets 1.2.zip"
@@ -7456,6 +7476,10 @@ hash = "91839cd737177ec9659782cfbd34f086586a52f8994a250f6618c660c8b126f6"
 [[files]]
 file = "resourcepacks/Vercte's Satchels Retextured 1.1 (1.21.1).zip"
 hash = "ad2391475aa51abe12b2915820b7c1fd81959b4988dfaf887346940a78bc816d"
+
+[[files]]
+file = "resourcepacks/kaylas_sails.zip"
+hash = "1e74daa7cae8384f1fca5613cfc7cc2c1dfcb30861362f325def9c02bbd3b0d0"
 
 [[files]]
 file = "vista_ffmpeg_bin/ffmpeg-8.1.2-essentials_build/LICENSE"

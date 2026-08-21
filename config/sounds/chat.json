@@ -1,0 +1,29 @@
+{
+	"typingSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 0.2,
+		"volume": 0.1,
+		"id": "typing",
+		"soundEvent": "nomansland:block.dross_tiles.hit"
+	},
+	"messageSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 1.4,
+		"volume": 0.8,
+		"id": "message",
+		"soundEvent": "nomansland:block.wooden_scaffolding.place"
+	},
+	"mentionSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.9,
+		"id": "mention",
+		"soundEvent": "minecraft:block.note_block.chime"
+	},
+	"mentionKeywords": [
+		"@Ozymandeas"
+	],
+	"ignoreSystemChats": false,
+	"enableChatSoundCooldown": false,
+	"chatSoundCooldown": 0.5
+}
