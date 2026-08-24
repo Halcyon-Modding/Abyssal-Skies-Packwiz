@@ -5274,7 +5274,7 @@ hash = "a2e5cbc82a366653def86423e294fb20cf79e5c556d8740f76507c070fd5a464"
 
 [[files]]
 file = "config/reliable_replacer/glowstone.json"
-hash = "009f35b8b95ef7dc14d46a51d2946bd7d4787dca59b8b20d4ace28cabb64d73e"
+hash = "c97545edeeca6910af3a8837606cd4639e10a639922464e7e3d87839a1e5df1f"
 
 [[files]]
 file = "config/reliable_replacer/swapper.json"
@@ -5927,11 +5927,6 @@ metafile = true
 [[files]]
 file = "mods/autochefs-delight.pw.toml"
 hash = "6ffd3974dac599c325533619265b6d222e3243f7cd9507d78ac2ae00162498d6"
-metafile = true
-
-[[files]]
-file = "mods/axiom.pw.toml"
-hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
 metafile = true
 
 [[files]]
