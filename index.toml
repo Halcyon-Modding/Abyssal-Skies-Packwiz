@@ -5226,7 +5226,7 @@ hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "19b488ff6f177b55c4a4d879c694e48bc2e33e895653d7ce203d671f611e1630"
+hash = "353c8294ddd5ce9022d62f9497c8cf198e8cd7b0eeb81352dfe545d4c796f894"
 
 [[files]]
 file = "config/recipeessentials.json"
@@ -5977,6 +5977,11 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "72ca919be55dd04a4d8369ef530427382fe6c4e6df35c4d3d67fbf0ff365622f"
+metafile = true
+
+[[files]]
+file = "mods/betterspawn.pw.toml"
+hash = "2be173e0baf5e0edbf106ca8315c940bf4ef5526ed2e9ce4f9bc235e1f7ecc2a"
 metafile = true
 
 [[files]]
@@ -7350,7 +7355,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
-hash = "2318ff4cf768a5457c41c334046dea1347bf6e53ad8ff3e318d3461302c75964"
+hash = "a4936281b7fdf6005961596c6f2b952c8f1bc62b16138630492b57aa0629366c"
 metafile = true
 
 [[files]]
