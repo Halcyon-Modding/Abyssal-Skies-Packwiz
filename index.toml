@@ -1094,7 +1094,7 @@ hash = "da4fb53b577c315efd9b2972ef27b25a487ed93d371e9e6ca590c6c21f3b13cb"
 
 [[files]]
 file = "config/fancymenu/assets/menusplash.txt"
-hash = "9a577444c9846129dfbc045615fe26a584bf7cd0e82983dba447eabc191ecab6"
+hash = "28a9622edf1fb41546b0cdc897b1602f38d7cdf9fbfb25b79a42e64f5659d00a"
 
 [[files]]
 file = "config/fancymenu/assets/music1.ogg"
@@ -1206,7 +1206,7 @@ hash = "8291aa20ed7e056747e5c05c6b7928335f3fb5e762536720118d7baf62f30fe8"
 
 [[files]]
 file = "config/fancymenu/customization/credits_layout.txt"
-hash = "e47543fc3ed90a569bf663dee548e87b0c053535d51c6222294156220f0f2709"
+hash = "6b40bf7b616e073a6656767871211f34eb3a1597634aa5aaa76b1583686056d4"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
