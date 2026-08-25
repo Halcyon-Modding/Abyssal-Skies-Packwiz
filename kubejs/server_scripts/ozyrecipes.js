@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
     })
 
 event.remove({output: [
+'minecraft:bundle',
 'supplementaries:sack',
 'minecraft:chain',
 'suppsquared:copper_lantern',
@@ -31,8 +32,32 @@ event.remove({output: [
 'quark:soul_sandstone',
 'supplementaries:candle_holder',
 'suppsquared:gold_candle_holder',
-'natures_spirit:pink_sandstone'
+'natures_spirit:pink_sandstone',
+'quark:backpack',
+'satchels:satchel',
+'shulker_box',
+'bountifulfares:shulker_tiffin',
+'magicfeather:magic_feather',
+'simpleradio:radiosmither',
+'simpleradio:antenna',
+'dark_prismarine'
 ]})
+
+event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
+event.shaped('satchels:satchel', ['A A', 'BCB', 'ABA'], {A: '#abyssal_skies:binding', B: 'leather', C: 'gold_ingot'})
+event.shaped('shulker_box', ['ABA', 'B B', 'ABA'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
+event.custom({ "type": "architects_palette:warping", "ingredient": [ { "item": "caverns_and_chasms:bejeweled_apple" } ], "result": { "item": "minecraft:chorus_fruit" }, "dimension": "minecraft:the_nether" })
+event.shaped('bountifulfares:shulker_tiffin', ['A', 'B', 'A'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
+event.shaped('magicfeather:magic_feather', ['ABC', 'B B', 'CBC'], {A: 'caverns_and_chasms:turquoise', B: 'malum:cthonic_gold', C: 'malum:cthonic_gold_fragment'})
+event.shaped('simpleradio:transceiver', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
+event.shaped('simpleradio:radio', [' A ', 'BCB'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
+event.shaped('simpleradio:radiosmither', ['AAA', 'B B'], {A: 'create:brass_sheet', A: '#minecraft:planks'})
+event.shaped('simpleradio:speaker', ['ABA', 'A A', 'ACA'], {A: 'create:iron_sheet', B: 'create:transmitter', C: 'create:electron_tube'})
+event.shaped('simpleradio:microphone', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:iron_sheet'})
+event.shaped('simpleradio:transmitter', ['AAA', 'BCB', 'DDD'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet'})
+event.shaped('simpleradio:reciever', ['AAA', 'BCB', 'DED'], {A: 'simpleradio:anetenna', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet', E: 'create:sturdy_sheet'})
+event.shaped('simpleradio:antenna' ['AAA', ' A ', ' B '], {A: 'createaddition:iron_rod', B: 'create:iron_sheet'})
+event.shaped('8x dark_prismarine', ['AAA', 'ABA', 'AAA'], {A: 'prismarine', B: 'black_dye'})
 
 //Colors
 allColors.forEach(color => {
@@ -48,11 +73,9 @@ event.shaped('suppsquared:gold_candle_holder_'+color+'', ['ABA', ' A '], {A: 'go
 })
 
 //Misc Recipes
-event.shaped('supplementaries:sack', ['AA', 'BB', 'BB'], {A: 'string', B: 'farmersdelight:canvas'})
-event.shaped('supplementaries:sack', ['AA', 'BB'], {A: 'string', B: 'nirvana:hemp_cloth'})
-event.shaped('bundle', ['A', 'B'], {A: 'string', B: '#forge:leather'})
-event.shaped('bundle', ['A', 'B'], {A: 'string', B: 'nirvana:hemp_cloth'})
-event.shaped('bundle', [' A ', 'B B', ' B '], {A: 'string', B: 'farmersdelight:canvas'})
+event.shaped('supplementaries:sack', ['AA', 'BB', 'BB'], {A: '#abyssal_skies:binding', B: '#abyssal_skies:cloth'})
+event.shaped('bundle', ['A', 'B'], {A: '#abyssal_skies:binding', B: '#forge:leather'})
+event.shaped('bundle', ['A', 'B'], {A: '#abyssal_skies:binding', B: '#abyssal_skies:cloth'})
 event.shaped('3x farmersdelight:canvas', ['AA', 'AA'], {A: 'supplementaries:flax'})
 event.shaped('2x suppsquared:copper_lantern', ['A', 'B', 'A'], {A: 'minecraft:copper_ingot', B: 'minecraft:torch'})
 event.shaped('4x abyssal_decor:moonsilver_sconce', ['A A', 'AB ', 'A  '], {A: 'abyssal_decor:moonsilver_ingot', B: 'abyssal_decor:moonsilver_nugget'})
@@ -93,8 +116,4 @@ function twoByTwo(inputItem, resultItem, resultAmount) {
     twoByTwo('atmospheric:red_arid_sand', 'atmospheric:red_arid_sandstone', 4)
 	twoByTwo('soul_sand', 'quark:soul_sandstone', 4)
     twoByTwo('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone', 4)
-
-
-
-
 })

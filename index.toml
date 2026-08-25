@@ -5226,7 +5226,7 @@ hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "353c8294ddd5ce9022d62f9497c8cf198e8cd7b0eeb81352dfe545d4c796f894"
+hash = "8c8d27922d442f7afd61b0a21021ba49ce861b9b820e1563ddb764e4442070dc"
 
 [[files]]
 file = "config/recipeessentials.json"
@@ -5262,7 +5262,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/reliable_remover/items.json"
-hash = "04ddacc52b49e5df5532400532e05607d827efc91f28a8c8aa88b504e7a3f6b4"
+hash = "85f9cc0efee4dacded6da315368d014bdcc13dbcc914b9ad32eb6bc1ecd6d4a5"
+
+[[files]]
+file = "config/reliable_remover/pmo.json"
+hash = "e7020c782d5f06ae32424c82ad61a9e2a2afbeb643786fd4e55619d06fc781c4"
 
 [[files]]
 file = "config/reliable_replacer.json"
@@ -5275,6 +5279,10 @@ hash = "a2e5cbc82a366653def86423e294fb20cf79e5c556d8740f76507c070fd5a464"
 [[files]]
 file = "config/reliable_replacer/glowstone.json"
 hash = "c97545edeeca6910af3a8837606cd4639e10a639922464e7e3d87839a1e5df1f"
+
+[[files]]
+file = "config/reliable_replacer/pmo.json"
+hash = "9dff65c79df737b6130b220cbeaa7cadf2fa27c1c902d74a68538d36dc858be5"
 
 [[files]]
 file = "config/reliable_replacer/swapper.json"
@@ -5558,6 +5566,10 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/magicfeather/textures/item/magicfeather.png"
+hash = "a332d8b999bb407686c35314ae51570aeade51ca75a2eaf6944d85c2a2ad0a08"
+
+[[files]]
 file = "kubejs/assets/molten_vents/blockstates/active_molten_end_stone.json"
 hash = "32bbfe77ff583c841c3276e69269907dc0db07e8266c0012faa068057837f6d2"
 
@@ -5620,6 +5632,10 @@ hash = "d01e95524718033a68827e5c29b8b36da8d52220fc500911acd8afd9c7d5f075"
 [[files]]
 file = "kubejs/client_scripts/arches.js"
 hash = "58ab1af0536df19bcdeff4b56cd2c72338cd03a20722f114754db40555ce9ea4"
+
+[[files]]
+file = "kubejs/client_scripts/lang.js"
+hash = "285db45c862de5d8fd429c46d61634e4ac7db18eb88c4acbe7fe98094e3f24c7"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -5799,7 +5815,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "eb08952e3ea861985af82a1fdf801e52800cb083a9cd97c945eb32de49656038"
+hash = "f81ceeaf1ceff4a87922def595078cb27383f5cf043f83bb72b8f18ebf3d2cd9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5807,7 +5823,7 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "af4403835b2c5ca6c967165746ace3f15ca0424a92f6e126369d23c209206738"
+hash = "cf4c869f304013460cb9a91c07a51c8e4f99010f4dbb95279acc8e0ce8c456bf"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"

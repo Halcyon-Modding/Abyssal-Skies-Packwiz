@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove",
+        "items": ["supplementaries:cannon"]
+    },
+    {
+        "action": "remove",
+        "pattern": "/cannon_boat.*/"
+    }
+]

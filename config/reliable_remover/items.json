@@ -1,6 +1,6 @@
 [
     {
         "action": "remove",
-        "items": ["createpropulsion:platinum_ore", "createpropulsion:deepslate_platinum_ore", "createpropulsion:platinum_block", "createpropulsion:raw_platinum_block", "createpropulsion:platinum_casing", "createpropulsion:platinum_fluid_tank", "createpropulsion:platinum_ingot", "createpropulsion:platinum_nugget", "createpropulsion:platinum_sheet", "createpropulsion:raw_platinum", "create:crushed_raw_platinum", "simpleradio:spuddie_talkie", "simpleradio:insulator", "simpleradio:transmitting_module", "simpleradio:receiving_module", "simpleradio:speaker_module", "simpleradio:listener_module", "magicfeather:arcane_feather", "magicfeather:primeval_feather", "magicfeather:stygian_feather"]
+        "items": ["createpropulsion:platinum_ore", "createpropulsion:deepslate_platinum_ore", "createpropulsion:platinum_block", "createpropulsion:raw_platinum_block", "createpropulsion:platinum_casing", "createpropulsion:platinum_fluid_tank", "createpropulsion:platinum_ingot", "createpropulsion:platinum_nugget", "createpropulsion:platinum_sheet", "createpropulsion:raw_platinum", "create:crushed_raw_platinum", "simpleradio:spuddie_talkie", "simpleradio:insulator", "simpleradio:transmitting_module", "simpleradio:receiving_module", "simpleradio:speaker_module", "simpleradio:listener_module", "magicfeather:arcane_feather", "magicfeather:primeval_feather", "magicfeather:stygian_feather", "analogaudio:walkie_talkie", "aeronautics_utility_objects:damping_stress_bearing", "minecraft:elytra"]
     }
 ]

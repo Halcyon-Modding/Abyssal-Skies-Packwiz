@@ -99,6 +99,16 @@ ServerEvents.tags('item',
         'supplementaries:fire_pit'
         
     ])
+
+    event.get('abyssal_skies:cloth')
+    .add(['farmersdelight:canvas', 'nirvana:hemp_cloth'])
+
+    event.get('abyssal_skies:binding')
+    .add(['supplementaries:rope', 'farmersdelight:rope', 'darkerdepths:rope', 'minecraft:string'])
+
+    event.remove('magicfeather:magic_feather', 'curios:charm')
+    event.add('magicfeather:magic_feather', 'curios:ring')
+
 })
 
 
