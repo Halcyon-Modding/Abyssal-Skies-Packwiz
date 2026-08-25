@@ -1,8 +1,5 @@
 ServerEvents.recipes(event => {
-
-    const allColors = ['white', 'light_gray', 'gray', 'black', 'brown', 'maroon', 'rose', 'red', 'coral', 'ginger', 'orange', 'tan', 'beige', 'yellow', 'olive', 'amber', 'lime', 'forest', 'green', 'verdant', 'teal', 'cyan', 'aqua', 'mint', 'light_blue', 'blue', 'navy', 'slate', 'indigo', 'purple', 'magenta', 'pink']
     const vanillaColors = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
-    const dyeDepotColors = ['maroon', 'rose', 'coral', 'ginger', 'tan', 'beige', 'olive', 'amber', 'forest', 'verdant', 'teal', 'aqua', 'mint', 'navy', 'slate', 'indigo']
 
     const removedIds = [
     'minecraft:vesselplate_smelt_recycle',
@@ -19,39 +16,7 @@ ServerEvents.recipes(event => {
     'abyssal_decor:moonsilver_ingot_recipe',
     'abyssal_decor:seabrass_ingot_recipe',
     'abyssal_decor:deepbronze_ingot_temp_recipe',
-    'abyssal_decor:deepbronze_block_smelt',
-    //Dyes
-    'minecraft:light_blue_dye_from_blue_orchid',
-    'minecraft:light_gray_dye_from_azure_bluet',
-    'windswept:yellow_dye_from_mimosa',
-    'windswept:light_blue_dye_from_nightshade',
-    'windswept:blue_dye_from_bluebells',
-    'windswept:red_dye_from_red_rose_bush',
-    'dye_depot:rose_dye_from_rose_bush',
-    'minecraft:orange_dye_from_torchflower',
-    'minecraft:orange_dye_from_open_eyeblossom',
-    'minecraft:yellow_dye_from_wildflowers',
-    'windswept:red_dye_from_wild_ginger',
-    'windswept:orange_dye_from_lions_tail',
-    'windswept:purple_dye_from_lupine',
-    'minecraft:cyan_dye_from_pitcher_plant',
-    'verdant:purple_dye_from_anemone',
-    'verdant:orange_dye_from_poker',
-    'verdant:red_dye_from_salvia',
-    'verdant:green_dye_from_saguaro_block',
-    'verdant:green_dye_from_saguaro_arm',
-    'abyssal_decor:daffodil_dye',
-    'abyssal_decor:fever_blossom_dye',
-    'windswept:yellow_dye_from_yellow_petals',
-    'windswept:red_dye_from_red_rose',
-    'windswept_delights:cutting/bluebells',
-    'windswept_delights:cutting/nightshade',
-    'farmersdelight:cutting/blue_orchid',
-    'windswept_delights:cutting/mimosa',
-    'farmersdelight:cutting/torchflower',
-    'windswept_delights:cutting/red_rose',
-    'windswept_delights:cutting/ginger_flower',
-    'farmersdelight:cutting/rose_bush',
+    'abyssal_decor:deepbronze_block_smelt'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -60,20 +25,18 @@ ServerEvents.recipes(event => {
 event.remove({output: [
 'supplementaries:sack',
 'minecraft:chain',
-'minecraft:copper_chain',
 'suppsquared:copper_lantern',
 'minecraft:sandstone',
 'minecraft:red_sandstone',
 'quark:soul_sandstone',
 'supplementaries:candle_holder',
-'waxed:soul_candle_holder',
 'suppsquared:gold_candle_holder',
-'waxed:gold_soul_candle_holder',
+'natures_spirit:pink_sandstone'
 ]})
 
 //Colors
 allColors.forEach(color => {
-event.remove({output: ['supplementaries:flag_'+color+'', 'supplementaries:candle_holder_'+color+'', 'suppsquared:gold_candle_holder_'+color+'']})
+event.remove({output: ['supplementaries:candle_holder_'+color+'', 'suppsquared:gold_candle_holder_'+color+'']})
 })
 
 vanillaColors.forEach(color => {

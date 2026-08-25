@@ -5646,6 +5646,10 @@ file = "kubejs/config/web_server.json"
 hash = "ace09921e751b9643f8a8df49e6248681fa6a2aeb965377e1008739621e4270b"
 
 [[files]]
+file = "kubejs/data/abyssal_skies/advancements/copper_lantern.json"
+hash = "e810b3ed43cc39089d3d413fb986c89a4c39f89bcde72007280c893b55ece6c6"
+
+[[files]]
 file = "kubejs/data/abyssal_skies/function/tick.mcfunction"
 hash = "fc61aa2b77d19fca59fbf6bb8b52d47a26fb02c543638ed6d480f412af2721bd"
 
@@ -5795,7 +5799,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "3fc77467832ec38534bb71e99f64de74b9e290f2f608bcd0a77236f3a2589650"
+hash = "eb08952e3ea861985af82a1fdf801e52800cb083a9cd97c945eb32de49656038"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -7480,6 +7484,10 @@ hash = "ad2391475aa51abe12b2915820b7c1fd81959b4988dfaf887346940a78bc816d"
 [[files]]
 file = "resourcepacks/kaylas_sails.zip"
 hash = "1e74daa7cae8384f1fca5613cfc7cc2c1dfcb30861362f325def9c02bbd3b0d0"
+
+[[files]]
+file = "servers.dat"
+hash = "cb571ce7df13e8acbced62722172f98b5c6f410c676bccd223f1901e6d26703e"
 
 [[files]]
 file = "vista_ffmpeg_bin/ffmpeg-8.1.2-essentials_build/LICENSE"
