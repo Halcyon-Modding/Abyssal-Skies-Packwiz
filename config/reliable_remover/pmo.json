@@ -5,6 +5,6 @@
     },
     {
         "action": "remove",
-        "pattern": "/cannon_boat.*/"
+        "pattern": "/.*cannon_boat.*/"
     }
 ]

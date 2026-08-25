@@ -5018,7 +5018,7 @@ hash = "2fdc49c2cb1cd008cf0dfc65e6f274ba1263a33e6e746da46274c30f763a9573"
 
 [[files]]
 file = "config/lmft.json"
-hash = "2db3ac5121e652fc89122055e032f034f433fe4764acb2e93af9c88848267178"
+hash = "7564aee7b7bf3477b71532d3fda3223c5455182d6b516850887184c4412e8c3d"
 
 [[files]]
 file = "config/loadingprotection-common.toml"
@@ -5266,7 +5266,7 @@ hash = "85f9cc0efee4dacded6da315368d014bdcc13dbcc914b9ad32eb6bc1ecd6d4a5"
 
 [[files]]
 file = "config/reliable_remover/pmo.json"
-hash = "e7020c782d5f06ae32424c82ad61a9e2a2afbeb643786fd4e55619d06fc781c4"
+hash = "85bb24ccfb6114c441ab7c8b51627e4ed250fe3c7c58fe9e278e24d66fada2f2"
 
 [[files]]
 file = "config/reliable_replacer.json"
@@ -5568,6 +5568,10 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 [[files]]
 file = "kubejs/assets/magicfeather/textures/item/magicfeather.png"
 hash = "a332d8b999bb407686c35314ae51570aeade51ca75a2eaf6944d85c2a2ad0a08"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/item/bundle.json"
+hash = "217e59fda2350ccbfab355b09fa0b8653c170a682bc890818b004169b0e4df4a"
 
 [[files]]
 file = "kubejs/assets/molten_vents/blockstates/active_molten_end_stone.json"
