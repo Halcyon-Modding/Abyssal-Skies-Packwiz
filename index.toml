@@ -6860,6 +6860,11 @@ hash = "4cfd1812bc27fc5f94b9cd112b956e6c128c12ef83e8ba32edb25fea6cf7dd78"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "b91cb844a09b8a4accd27d3d2882f37aec5cef58e7b43b315da65ee8caf9e957"
+metafile = true
+
+[[files]]
 file = "mods/more-density-functions.pw.toml"
 hash = "b6e8ae2daa9f2c75ce4e0b59caba87fba179f9a18cd456c65c3ccc31c1a688cd"
 metafile = true
@@ -7274,7 +7279,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "ebe8020be71828aea50723f882206bda0a39960855062e2575d7adfcbc9be4f5"
+hash = "45e4281b8a230daad7484b17eda0caa7fd803b94fc373fe92fcf9bf34f61ec55"
 metafile = true
 
 [[files]]
