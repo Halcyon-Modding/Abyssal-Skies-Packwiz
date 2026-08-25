@@ -14,9 +14,7 @@ ServerEvents.recipes(event => {
     'industrialhellscape:duct',
     'abyssal_decor:moonsilver_sconce_recipe',
     'abyssal_decor:moonsilver_ingot_recipe',
-    'abyssal_decor:seabrass_ingot_recipe',
-    'abyssal_decor:deepbronze_ingot_temp_recipe',
-    'abyssal_decor:deepbronze_block_smelt'
+    'abyssal_decor:seabrass_ingot_recipe'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -25,7 +23,6 @@ ServerEvents.recipes(event => {
 event.remove({output: [
 'minecraft:bundle',
 'supplementaries:sack',
-'minecraft:chain',
 'suppsquared:copper_lantern',
 'minecraft:sandstone',
 'minecraft:red_sandstone',
@@ -47,6 +44,7 @@ event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssa
 event.shaped('satchels:satchel', ['A A', 'BCB', 'ABA'], {A: '#abyssal_skies:binding', B: 'leather', C: 'gold_ingot'})
 event.shaped('shulker_box', ['ABA', 'B B', 'ABA'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
 event.custom({ "type": "architects_palette:warping", "dimension": "minecraft:the_nether", "ingredient": { "item": "caverns_and_chasms:bejeweled_apple" }, "result": { "count": 1, "id": "minecraft:chorus_fruit" } })
+event.custom({ "type": "architects_palette:warping", "dimension": "minecraft:the_nether", "ingredient": { "item": "caverns_and_chasms:silver_ingot" }, "result": { "count": 16, "id": "abyssal_decor:moonsilver_ingot" } })
 event.shaped('bountifulfares:shulker_tiffin', ['A', 'B', 'A'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
 event.shaped('magicfeather:magic_feather', ['ABC', 'B B', 'CBC'], {A: 'caverns_and_chasms:turquoise', B: 'malum:cthonic_gold', C: 'malum:cthonic_gold_fragment'})
 event.shaped('simpleradio:transceiver', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
