@@ -5281,10 +5281,6 @@ file = "config/reliable_replacer/glowstone.json"
 hash = "c97545edeeca6910af3a8837606cd4639e10a639922464e7e3d87839a1e5df1f"
 
 [[files]]
-file = "config/reliable_replacer/pmo.json"
-hash = "9dff65c79df737b6130b220cbeaa7cadf2fa27c1c902d74a68538d36dc858be5"
-
-[[files]]
 file = "config/reliable_replacer/swapper.json"
 hash = "7c8418a3996dc3907d4e922195a60a39ebb5e61fd4cda0063fb487fb4ecc1711"
 
