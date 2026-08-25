@@ -46,21 +46,21 @@ event.remove({output: [
 event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
 event.shaped('satchels:satchel', ['A A', 'BCB', 'ABA'], {A: '#abyssal_skies:binding', B: 'leather', C: 'gold_ingot'})
 event.shaped('shulker_box', ['ABA', 'B B', 'ABA'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
-event.custom({ "type": "architects_palette:warping", "ingredient": [ { "item": "caverns_and_chasms:bejeweled_apple" } ], "result": { "item": "minecraft:chorus_fruit" }, "dimension": "minecraft:the_nether" })
+//event.custom({ "type": "architects_palette:warping", "ingredient": [ { "item": "caverns_and_chasms:bejeweled_apple" } ], "result": { "item": "minecraft:chorus_fruit" }, "dimension": "minecraft:the_nether" })
 event.shaped('bountifulfares:shulker_tiffin', ['A', 'B', 'A'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
 event.shaped('magicfeather:magic_feather', ['ABC', 'B B', 'CBC'], {A: 'caverns_and_chasms:turquoise', B: 'malum:cthonic_gold', C: 'malum:cthonic_gold_fragment'})
 event.shaped('simpleradio:transceiver', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
 event.shaped('simpleradio:radio', [' A ', 'BCB'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
-event.shaped('simpleradio:radiosmither', ['AAA', 'B B'], {A: 'create:brass_sheet', A: '#minecraft:planks'})
+event.shaped('simpleradio:radiosmither', ['AAA', 'B B'], {A: 'create:brass_sheet', B: '#minecraft:planks'})
 event.shaped('simpleradio:speaker', ['ABA', 'A A', 'ACA'], {A: 'create:iron_sheet', B: 'create:transmitter', C: 'create:electron_tube'})
 event.shaped('simpleradio:microphone', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:iron_sheet'})
 event.shaped('simpleradio:transmitter', ['AAA', 'BCB', 'DDD'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet'})
-event.shaped('simpleradio:reciever', ['AAA', 'BCB', 'DED'], {A: 'simpleradio:anetenna', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet', E: 'create:sturdy_sheet'})
+event.shaped('simpleradio:receiver', ['AAA', 'BCB', 'DED'], {A: 'simpleradio:antenna', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet', E: 'create:sturdy_sheet'})
 event.shaped('simpleradio:antenna' ['AAA', ' A ', ' B '], {A: 'createaddition:iron_rod', B: 'create:iron_sheet'})
 event.shaped('8x dark_prismarine', ['AAA', 'ABA', 'AAA'], {A: 'prismarine', B: 'black_dye'})
 
 //Colors
-allColors.forEach(color => {
+vanillaColors.forEach(color => {
 event.remove({output: ['supplementaries:candle_holder_'+color+'', 'suppsquared:gold_candle_holder_'+color+'']})
 })
 
