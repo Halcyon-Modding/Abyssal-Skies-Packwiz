@@ -5815,7 +5815,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "8be79c0843b042677a2da22cfd36f63f70c7b92b3f832e5ad70070dd265c5682"
+hash = "7b3bb256bbbff5e7e522f8aa44a90227be999fa3ff6d545fb3ef826c1d507913"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5823,7 +5823,7 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "cf4c869f304013460cb9a91c07a51c8e4f99010f4dbb95279acc8e0ce8c456bf"
+hash = "1e07f4b290be161520a010241bb1fd378c7d80f10e1528f703919858439a89de"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"

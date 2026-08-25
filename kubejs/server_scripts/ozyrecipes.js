@@ -46,7 +46,7 @@ event.remove({output: [
 event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
 event.shaped('satchels:satchel', ['A A', 'BCB', 'ABA'], {A: '#abyssal_skies:binding', B: 'leather', C: 'gold_ingot'})
 event.shaped('shulker_box', ['ABA', 'B B', 'ABA'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
-//event.custom({ "type": "architects_palette:warping", "ingredient": [ { "item": "caverns_and_chasms:bejeweled_apple" } ], "result": { "item": "minecraft:chorus_fruit" }, "dimension": "minecraft:the_nether" })
+event.custom({ "type": "architects_palette:warping", "dimension": "minecraft:the_nether", "ingredient": { "item": "caverns_and_chasms:bejeweled_apple" }, "result": { "count": 1, "id": "minecraft:chorus_fruit" } })
 event.shaped('bountifulfares:shulker_tiffin', ['A', 'B', 'A'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
 event.shaped('magicfeather:magic_feather', ['ABC', 'B B', 'CBC'], {A: 'caverns_and_chasms:turquoise', B: 'malum:cthonic_gold', C: 'malum:cthonic_gold_fragment'})
 event.shaped('simpleradio:transceiver', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:brass_sheet', C: '#minecraft:planks'})
@@ -56,7 +56,7 @@ event.shaped('simpleradio:speaker', ['ABA', 'A A', 'ACA'], {A: 'create:iron_shee
 event.shaped('simpleradio:microphone', ['A', 'B', 'C'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:iron_sheet'})
 event.shaped('simpleradio:transmitter', ['AAA', 'BCB', 'DDD'], {A: 'create:transmitter', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet'})
 event.shaped('simpleradio:receiver', ['AAA', 'BCB', 'DED'], {A: 'simpleradio:antenna', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet', E: 'create:sturdy_sheet'})
-event.shaped('simpleradio:antenna' ['AAA', ' A ', ' B '], {A: 'createaddition:iron_rod', B: 'create:iron_sheet'})
+event.shaped('2x simpleradio:antenna', ['AAA', ' A ', ' B '], {A: 'createaddition:iron_rod', B: 'create:iron_sheet'})
 event.shaped('8x dark_prismarine', ['AAA', 'ABA', 'AAA'], {A: 'prismarine', B: 'black_dye'})
 
 //Colors
@@ -74,7 +74,7 @@ event.shaped('suppsquared:gold_candle_holder_'+color+'', ['ABA', ' A '], {A: 'go
 
 //Misc Recipes
 event.shaped('supplementaries:sack', ['AA', 'BB', 'BB'], {A: '#abyssal_skies:binding', B: '#abyssal_skies:cloth'})
-event.shaped('bundle', ['A', 'B'], {A: '#abyssal_skies:binding', B: '#forge:leather'})
+event.shaped('bundle', ['A', 'B'], {A: '#abyssal_skies:binding', B: '#c:leathers'})
 event.shaped('bundle', ['A', 'B'], {A: '#abyssal_skies:binding', B: '#abyssal_skies:cloth'})
 event.shaped('3x farmersdelight:canvas', ['AA', 'AA'], {A: 'supplementaries:flax'})
 event.shaped('2x suppsquared:copper_lantern', ['A', 'B', 'A'], {A: 'minecraft:copper_ingot', B: 'minecraft:torch'})

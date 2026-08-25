@@ -106,9 +106,6 @@ ServerEvents.tags('item',
     event.get('abyssal_skies:binding')
     .add(['supplementaries:rope', 'farmersdelight:rope', 'darkerdepths:rope', 'minecraft:string'])
 
-    event.remove('magicfeather:magic_feather', 'curios:charm')
-    event.add('magicfeather:magic_feather', 'curios:ring')
-
 })
 
 
