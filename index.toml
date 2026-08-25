@@ -6662,10 +6662,6 @@ hash = "bc8e5c02a5359902051cc2d5bac8d7ba7f012fdf298694fb2a85db1ff436ede7"
 metafile = true
 
 [[files]]
-file = "mods/industrialhellscape-1.1.6.jar"
-hash = "1ca4dcfa429268396ab59d6decb829580dfdd9756589b41af0038bb515959083"
-
-[[files]]
 file = "mods/inline.pw.toml"
 hash = "d07f0538a957be145586716d35f63aba0015d9320823f83000cb91d1b75dcbf1"
 metafile = true
