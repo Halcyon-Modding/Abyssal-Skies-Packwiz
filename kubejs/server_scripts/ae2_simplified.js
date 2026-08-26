@@ -14,6 +14,16 @@ ServerEvents.recipes(event => {
                         'ae2:logic_processor',
                         '2x minecraft:iron_ingot',
                         '2x minecraft:redstone'])
+    //Starter Certus
+        event.shapeless(
+            Item.of('ae2:damaged_budding_quartz', 1),[
+                        '4x minecraft:quartz_block',
+                        '1x hexcasting:dye_colorizer_light_blue'])
+    //Skystone
+        event.shapeless(
+            Item.of('ae2:sky_stone_block', 16),[
+                        '4x minecraft:obsidian',
+                        '1x ae2:charged_certus_quartz_crystal'])
         //Redstone Card
         event.remove({ output: 'ae2:redstone_card' })
         event.stonecutting('ae2:redstone_card', '#forge:ae_card')
@@ -41,6 +51,9 @@ ServerEvents.recipes(event => {
         //Energy Card
         event.remove({ output: 'ae2:energy_card' })
         event.stonecutting('ae2:energy_card', '#forge:ae_card')
+        //Magnet Card
+        event.remove({ output: 'ae2wtlib:magnet_card' })
+        event.stonecutting('ae2wtlib:magnet_card', '#forge:ae_card')
 
     //Network Blocks
         //Controller
@@ -112,8 +125,11 @@ ServerEvents.recipes(event => {
         //Charger
         event.remove({ output: 'ae2:charger' })
         event.stonecutting('ae2:charger', 'create:andesite_casing')
+        //Spatial Port
+        event.remove({ output: 'ae2:spatial_io_port' })
+        event.stonecutting('ae2:spatial_io_port', 'create:brass_casing')
         //Pylon
-        event.remove({ output: 'ae2:spatial_pylon' })
+        event.remove({ output: 'ae2:spatial_io_port' })
         event.shapeless(
             Item.of('64x ae2:spatial_pylon'),[
                         'aeronautics:levitite_blend_bucket',
@@ -185,12 +201,23 @@ ServerEvents.recipes(event => {
         //P2P
         event.remove({ output: 'ae2:me_p2p_tunnel' })
         event.stonecutting('2x ae2:me_p2p_tunnel', 'ae2:interface')
+        //Wireless Terminal
+        event.remove({ output: 'ae2wtlib:wireless_universal_terminal' })
+        event.shapeless(
+            Item.of('ae2wtlib:wireless_universal_terminal'),[
+                        'ae2:dense_energy_cell',
+                        'ae2:crafting_terminal',
+                        'aeronautics:levitite_blend_bucket'
+                    ])
         //Wireless Access
         event.remove({ output: 'ae2:wireless_access_point' })
         event.stonecutting('ae2:wireless_access_point', 'create:brass_casing')
         //Wireless Booster
         event.remove({ output: 'ae2:wireless_booster' })
         event.stonecutting('16x ae2:wireless_booster', 'botania:corporea_spark')
+        //Quantum Booster
+        event.remove({ output: 'ae2wtlib:quantum_bridge_card' })
+        event.stonecutting('ae2wtlib:quantum_bridge_card', 'ae2:singularity')
     
     //Tools
         //Entropy
