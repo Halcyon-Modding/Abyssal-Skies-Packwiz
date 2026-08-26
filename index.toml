@@ -4886,7 +4886,7 @@ hash = "67dadd3f0812bc01a0b0ca6fb204961512ce1332e97fe42dba2cb57813a496ef"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
-hash = "147a38645eda41c75721eb6825585f7af00b19bd3ae7e948779635747b8840e9"
+hash = "01f9dd5b38c3483a8383d07938d7585537e6e5535e5bce1dd88b97713a68296a"
 
 [[files]]
 file = "config/hexal-server.toml"
