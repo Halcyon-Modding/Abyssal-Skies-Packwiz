@@ -5803,7 +5803,7 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "a877ed7ce55421cd23b0ba23a3a1cb8777700780cc0e6dcb9212ab4bb406b4c8"
+hash = "64d02cf605905f391cf47fa0894201c7777eb8b940152549385ca8593beba2b1"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
