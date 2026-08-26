@@ -250,6 +250,8 @@ ServerEvents.recipes(event => {
         event.stonecutting('ae2:meteorite_compass', '#forge:ae_tools')
         
     //Network
+        //Quartz Fiber
+        event.stonecutting('ae2:quartz_fiber', '#c:gems/quartz')
         //Fluix Cable
         event.remove({ output: 'ae2:fluix_glass_cable' })
         event.shapeless(
