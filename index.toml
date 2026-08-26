@@ -5666,6 +5666,10 @@ file = "kubejs/data/abyssal_skies/advancements/copper_lantern.json"
 hash = "e810b3ed43cc39089d3d413fb986c89a4c39f89bcde72007280c893b55ece6c6"
 
 [[files]]
+file = "kubejs/data/abyssal_skies/function/othershore.mcfunction"
+hash = "d0533d5d0f67f5a4e2aaef2034a638fdff7d152b865d44064913dd465a85e24b"
+
+[[files]]
 file = "kubejs/data/abyssal_skies/function/tick.mcfunction"
 hash = "fc61aa2b77d19fca59fbf6bb8b52d47a26fb02c543638ed6d480f412af2721bd"
 
