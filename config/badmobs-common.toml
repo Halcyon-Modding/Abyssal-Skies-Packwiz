@@ -2363,7 +2363,7 @@
 	#Spawning options for nomansland:tortoise
 	[nomansland.tortoise]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -4796,7 +4796,7 @@
 	#Spawning options for adaptedmobs:festive_creeper
 	[adaptedmobs.festive_creeper]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?

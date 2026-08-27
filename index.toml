@@ -582,7 +582,7 @@ hash = "3e05221436880d09fbac95dfc9cde9d2225e8cfdb81ea0c4a41a453934acf938"
 
 [[files]]
 file = "config/badmobs-common.toml"
-hash = "18f4b9e0fe8786cdd239d94bba5a8f9dcbadd035ba06c4e3958919fa0d830888"
+hash = "6c4edeabb66b169c8a97e6e6964f9fce9a70e313d2752f23b9bbdf1abda91e90"
 
 [[files]]
 file = "config/betterclouds-v1.json"
@@ -627,10 +627,6 @@ hash = "1bb070627f60188b5924bd27f1e7fbf0b4cfe573c8a1f54bf7927c3c4d437f05"
 [[files]]
 file = "config/brewinandchewin-common.toml"
 hash = "cf7e8f3ae75a942e0c8b62f14fa68df3963b47c9c38895c2d7ba59c2bcb079ab"
-
-[[files]]
-file = "config/c2me.toml"
-hash = "785a86d3f42daa77ccf98fce427f4f1a8c72885e32a7420fd0a29d6ae8816c61"
 
 [[files]]
 file = "config/carbonconfig.cfg"
@@ -5799,11 +5795,11 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "64d02cf605905f391cf47fa0894201c7777eb8b940152549385ca8593beba2b1"
+hash = "aeadb1e3d20c540dbc3b86fd9adf57a2ab859cb5d7ee003d56576af86f62f60d"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
-hash = "9b3f4cbc6caf19495e9ad27abadd85a1f4bd3663301080f88de6224903a9a6ea"
+hash = "385f5b90db2145ea125f27545c64f4e1997bbe924c52a240610232f2d9706159"
 
 [[files]]
 file = "kubejs/server_scripts/arches.js"
@@ -6405,11 +6401,6 @@ metafile = true
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "03c4f9a926fc9bd90fc98c6dac2a39e70b28303e4f3519756a7b246444548654"
-metafile = true
-
-[[files]]
-file = "mods/e4mc.pw.toml"
-hash = "1ad7fbdbe89f53b0e29657c228e138ace1110b42f07a3957102df8ab1e8f838e"
 metafile = true
 
 [[files]]
