@@ -5250,7 +5250,7 @@ hash = "5b9399eea3ff127d808f4debfaf3eae7513817cd63b36225e550daf9f8054e88"
 
 [[files]]
 file = "config/reliable_remover/ae2_removals.json"
-hash = "74645e529d10eb6719e99700a639f6edb86c907c1cc90866b667f09ea855102a"
+hash = "99250ea085a29cea0eb9456111718a4283da1d280f3051745398952e4e7d2e3f"
 
 [[files]]
 file = "config/reliable_remover/items.json"
@@ -5795,11 +5795,11 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "aeadb1e3d20c540dbc3b86fd9adf57a2ab859cb5d7ee003d56576af86f62f60d"
+hash = "2f902d4a6efeea51f138f8025e1058f79be3381497f974f15ff90e57a4b8b6e8"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
-hash = "385f5b90db2145ea125f27545c64f4e1997bbe924c52a240610232f2d9706159"
+hash = "b9b90c8c8fd86536a5364749b04ae4e7e0d0aa6fc1ddc68722bc6271c4f7b646"
 
 [[files]]
 file = "kubejs/server_scripts/arches.js"

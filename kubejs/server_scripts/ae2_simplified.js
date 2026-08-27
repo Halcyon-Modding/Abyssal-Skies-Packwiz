@@ -51,9 +51,7 @@ ServerEvents.recipes(event => {
         //Energy Card
         event.remove({ output: 'ae2:energy_card' })
         event.stonecutting('ae2:energy_card', '#forge:ae_card')
-        //Magnet Card
-        event.remove({ output: 'ae2wtlib:magnet_card' })
-        event.stonecutting('ae2wtlib:magnet_card', '#forge:ae_card')
+
 
     //Network Blocks
         //Controller
@@ -201,23 +199,12 @@ ServerEvents.recipes(event => {
         //P2P
         event.remove({ output: 'ae2:me_p2p_tunnel' })
         event.stonecutting('2x ae2:me_p2p_tunnel', 'ae2:interface')
-        //Wireless Terminal
-        event.remove({ output: 'ae2wtlib:wireless_universal_terminal' })
-        event.shapeless(
-            Item.of('ae2wtlib:wireless_universal_terminal'),[
-                        'ae2:dense_energy_cell',
-                        'ae2:crafting_terminal',
-                        'aeronautics:levitite_blend_bucket'
-                    ])
         //Wireless Access
         event.remove({ output: 'ae2:wireless_access_point' })
         event.stonecutting('ae2:wireless_access_point', 'create:brass_casing')
         //Wireless Booster
         event.remove({ output: 'ae2:wireless_booster' })
         event.stonecutting('16x ae2:wireless_booster', 'botania:corporea_spark')
-        //Quantum Booster
-        event.remove({ output: 'ae2wtlib:quantum_bridge_card' })
-        event.stonecutting('ae2wtlib:quantum_bridge_card', 'ae2:singularity')
     
     //Tools
         //Entropy

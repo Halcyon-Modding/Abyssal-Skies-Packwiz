@@ -9,8 +9,7 @@ ServerEvents.tags('item', event => {
     'ae2:inverter_card', 
     'ae2:crafting_card', 
     'ae2:equal_distribution_card', 
-    'ae2:energy_card', 
-    'ae2wtlib:magnet_card')
+    'ae2:energy_card')
   event.add('forge:ae_cable', 
     'ae2:fluix_glass_cable',
     'ae2:fluix_covered_cable',
