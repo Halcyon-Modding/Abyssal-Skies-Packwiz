@@ -106,6 +106,9 @@ ServerEvents.tags('item',
     event.get('abyssal_skies:binding')
     .add(['supplementaries:rope', 'farmersdelight:rope', 'darkerdepths:rope', 'minecraft:string'])
 
+    event.get('c:milk')
+    .add('bountifulfares:coconut_milk_bottle')
+
 })
 
 
@@ -196,6 +199,9 @@ ServerEvents.tags('block',
         event.get('connectiblechains:chain_connectible')
         .add('supplementaries:stick')
         .add('#kubejs:bars')
+
+        event.get('minecraft:dirt')
+        .add(['minecraft:sand', 'minecraft:red_sand', 'natures_spirit:pink_sand', 'atmospheric:arid_sand', 'atmospheric:red_arid_sand'])
 
 
  })

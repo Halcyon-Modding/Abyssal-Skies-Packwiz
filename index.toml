@@ -5827,7 +5827,7 @@ hash = "5eb03005ce5421024a00adcb5a924febbfc000e93922571ee29fc0d1f6bafdaf"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "1e07f4b290be161520a010241bb1fd378c7d80f10e1528f703919858439a89de"
+hash = "19de57b33321f442ea2b8849850490a6418562b0dc91115ea69b89e10cf0dfb0"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"
@@ -5872,7 +5872,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltuttasneeds.pw.toml"
-hash = "f403ad2d0de0d3ddf8c46a0880a8c5f9e3514963d067a0e21f2d7fabe2d9a2f6"
+hash = "5564c2395ce1ba7ad93993de3cf82c07f5e9e47b174e2856b699a63bef4bd516"
 metafile = true
 
 [[files]]
@@ -6050,11 +6050,6 @@ metafile = true
 [[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "ecdf039bdca9e8db60a479631566614ed3c2de1169c5c4acc2eea175faf52033"
-metafile = true
-
-[[files]]
-file = "mods/c2me.pw.toml"
-hash = "d796a61a385f70084c5fb5586fc9cbe44ff47e8e27924dff8f541330123380b5"
 metafile = true
 
 [[files]]
@@ -6731,6 +6726,11 @@ hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
 
 [[files]]
+file = "mods/krypton-fnp.pw.toml"
+hash = "5a96006110f4cdd98460a994373153909a5f0bf6cb68c5ac3a64adbda86eb302"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-irons-spells.pw.toml"
 hash = "d8c725e2900edd71d29338b5cac413a230edc76aaa53907f547bf78c002396d3"
 metafile = true
@@ -6947,6 +6947,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "02c4f941c76c49cbaeb17e549dc0e37562ff5cbd6ca51fec9d8da3bb73538507"
+metafile = true
+
+[[files]]
+file = "mods/numflux.pw.toml"
+hash = "4836d009b1bf26f6d4956ff1c97b6299844f507f17afa15de0d57f6bc2351d76"
 metafile = true
 
 [[files]]
