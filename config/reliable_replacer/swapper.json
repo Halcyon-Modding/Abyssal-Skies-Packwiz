@@ -1,6 +1,7 @@
 {
   "swapper": {
     "createpropulsion:platinum_ore": "minecraft:stone",
-    "createpropulsion:deepslate_platinum_ore": "minecraft:deepslate"
+    "createpropulsion:deepslate_platinum_ore": "minecraft:deepslate",
+    "easyanvils:anvil": "minecraft:anvil"
   }
 }
