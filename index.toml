@@ -582,7 +582,7 @@ hash = "3e05221436880d09fbac95dfc9cde9d2225e8cfdb81ea0c4a41a453934acf938"
 
 [[files]]
 file = "config/badmobs-common.toml"
-hash = "ad0cbdd47d2ed032d2e864cadd5d4d6b873f9a0603cd1e66feec52ca56b4ae0c"
+hash = "18f4b9e0fe8786cdd239d94bba5a8f9dcbadd035ba06c4e3958919fa0d830888"
 
 [[files]]
 file = "config/betterclouds-v1.json"
