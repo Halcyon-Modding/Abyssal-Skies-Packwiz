@@ -5257,10 +5257,6 @@ file = "config/reliable_remover/ae2_removals.json"
 hash = "74645e529d10eb6719e99700a639f6edb86c907c1cc90866b667f09ea855102a"
 
 [[files]]
-file = "config/reliable_remover/blocks.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/reliable_remover/items.json"
 hash = "85f9cc0efee4dacded6da315368d014bdcc13dbcc914b9ad32eb6bc1ecd6d4a5"
 
