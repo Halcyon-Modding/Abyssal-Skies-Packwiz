@@ -6414,11 +6414,6 @@ hash = "20b1a4c590adf3bf74644d5558f446d04dd692fbcbe1ca7f6f2fadf1ad9033ae"
 metafile = true
 
 [[files]]
-file = "mods/easy-anvils.pw.toml"
-hash = "541520814421d829976fbb2162e7a195b18e9d82ed3b3c8dc9c7fbc50b2cb491"
-metafile = true
-
-[[files]]
 file = "mods/easy-building.pw.toml"
 hash = "d40f63600a6384d10fb560380ad69530108dbe822cdc754c316b90ab2da5edb7"
 metafile = true
