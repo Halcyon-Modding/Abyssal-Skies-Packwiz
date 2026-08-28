@@ -6075,16 +6075,6 @@ hash = "479dab388743fb59d3399d2d87a0a7dc0819a4184b74f734fa9cc1eecdd6f6f6"
 metafile = true
 
 [[files]]
-file = "mods/cerbons-better-beacons-fix.pw.toml"
-hash = "334be7bc36587b9d4c4e9a23a78ee9c751e4dbae42c7cbf21591022c64edb3c5"
-metafile = true
-
-[[files]]
-file = "mods/cerbons-better-beacons.pw.toml"
-hash = "5c92ca1ecca22abcb1c7dd8333042d2a5b5c5259fdcc44ebb497cd1859606460"
-metafile = true
-
-[[files]]
 file = "mods/cerulean.pw.toml"
 hash = "745023b6619198653d8d5e31bf1b5ef35e49bc3aec2afca8682e81b200436b95"
 metafile = true
