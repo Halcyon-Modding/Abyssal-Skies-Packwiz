@@ -7057,10 +7057,12 @@ metafile = true
 
 [[files]]
 file = "mods/quark-backpack-plus.pw.toml"
+hash = "9f15c512198faf9b9fae12d51175d10eb9ff292d70146ac76a98f93153662466"
 metafile = true
 
 [[files]]
 file = "mods/quark-oddities.pw.toml"
+hash = "90205f57bb28e4c990ff7aa2e98cae6ec68fb78470047ceb018b25bba5dba85a"
 metafile = true
 
 [[files]]
