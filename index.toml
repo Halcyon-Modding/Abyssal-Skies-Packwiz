@@ -5531,7 +5531,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zipline.json"
-hash = "843adffd325a9e75c8061d58e8c4f57d8b3b9a2f5577f40cd35391363b8b8d72"
+hash = "045ae16655b0a0011c74c5090d34e2ea24aed43df1bfbfd3cb383bd91dd2bd40"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -6833,6 +6833,11 @@ hash = "4cfd1812bc27fc5f94b9cd112b956e6c128c12ef83e8ba32edb25fea6cf7dd78"
 metafile = true
 
 [[files]]
+file = "mods/modulation.pw.toml"
+hash = "0af4c670969f575186df6e288100c371f9827518dd8a34d95266dab24167dd4f"
+metafile = true
+
+[[files]]
 file = "mods/more-density-functions.pw.toml"
 hash = "b6e8ae2daa9f2c75ce4e0b59caba87fba179f9a18cd456c65c3ccc31c1a688cd"
 metafile = true
@@ -7038,6 +7043,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6a07261762a29c6108ea6030ec71ff6801e03127a0004cf105490004c77eacf5"
+metafile = true
+
+[[files]]
+file = "mods/quark.pw.toml"
+hash = "726970c838cd6d724366956c2469b5a36dbe574abbd087317513359dfd1dd89e"
 metafile = true
 
 [[files]]
@@ -7378,11 +7388,6 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
-metafile = true
-
-[[files]]
-file = "mods/zfastnoise.pw.toml"
-hash = "4652700ee06b6435101176e2b633dfdddb46fc16cbdc376417e4e00ad26468f6"
 metafile = true
 
 [[files]]
