@@ -7051,21 +7051,6 @@ hash = "6a07261762a29c6108ea6030ec71ff6801e03127a0004cf105490004c77eacf5"
 metafile = true
 
 [[files]]
-file = "mods/quark-backpack-plus.pw.toml"
-hash = "9f15c512198faf9b9fae12d51175d10eb9ff292d70146ac76a98f93153662466"
-metafile = true
-
-[[files]]
-file = "mods/quark-oddities.pw.toml"
-hash = "d2625b23cc7d8d16e8108685a3d4351e574e159d37c42b4da5e25c0fa5514336"
-metafile = true
-
-[[files]]
-file = "mods/quark.pw.toml"
-hash = "726970c838cd6d724366956c2469b5a36dbe574abbd087317513359dfd1dd89e"
-metafile = true
-
-[[files]]
 file = "mods/reconnectible-chains.pw.toml"
 hash = "89bcd16b52523bcd2977ef0a635e92aac370969fe3eacf37e73381e2381ed1ff"
 metafile = true
@@ -7093,11 +7078,6 @@ metafile = true
 [[files]]
 file = "mods/reliable-remover.pw.toml"
 hash = "559e355c6a08c618f179fecc310af92e259ca1f93cf61b3ae8a02958c0b310a1"
-metafile = true
-
-[[files]]
-file = "mods/reliable-replacer.pw.toml"
-hash = "4761b5f8845fa445201e525d3813448bb438ee6c2430ac3f86d13e9318688c5e"
 metafile = true
 
 [[files]]
