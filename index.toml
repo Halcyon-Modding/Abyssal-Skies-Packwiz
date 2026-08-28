@@ -7097,7 +7097,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliable-replacer.pw.toml"
-hash = "372884bca2b235e017aefc1d631c8481dae9aa66983d619c8818c6c8d79e88eb"
+hash = "797b0e8d7c52df24a6cda19a9088db3c5f807f46b692dd0679c973317adc4a01"
 metafile = true
 
 [[files]]
@@ -7242,7 +7242,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "9f23f95929784227a92ddd95f59d88e4dd03501daaeee3dac55f8aaf75683232"
+hash = "b346c7e44f81fa583c956e3033216b75dbca87abe824a5007ab57a8a01e95766"
 metafile = true
 
 [[files]]
