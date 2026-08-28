@@ -5222,7 +5222,7 @@ hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8c8d27922d442f7afd61b0a21021ba49ce861b9b820e1563ddb764e4442070dc"
+hash = "8e545ba6df75ac1f88a7730188dd0c7f7607350a2ab2e6a6fad9fec722b7cac4"
 
 [[files]]
 file = "config/recipeessentials.json"
@@ -6072,6 +6072,16 @@ metafile = true
 [[files]]
 file = "mods/cerbons-api.pw.toml"
 hash = "479dab388743fb59d3399d2d87a0a7dc0819a4184b74f734fa9cc1eecdd6f6f6"
+metafile = true
+
+[[files]]
+file = "mods/cerbons-better-beacons-fix.pw.toml"
+hash = "334be7bc36587b9d4c4e9a23a78ee9c751e4dbae42c7cbf21591022c64edb3c5"
+metafile = true
+
+[[files]]
+file = "mods/cerbons-better-beacons.pw.toml"
+hash = "5c92ca1ecca22abcb1c7dd8333042d2a5b5c5259fdcc44ebb497cd1859606460"
 metafile = true
 
 [[files]]
@@ -7081,6 +7091,11 @@ hash = "559e355c6a08c618f179fecc310af92e259ca1f93cf61b3ae8a02958c0b310a1"
 metafile = true
 
 [[files]]
+file = "mods/reliable-replacer.pw.toml"
+hash = "797b0e8d7c52df24a6cda19a9088db3c5f807f46b692dd0679c973317adc4a01"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
@@ -7388,6 +7403,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "4a76bdbe0b84cc5f77f4ef74693205aa00cf5732af04bb6293913219c6763dcd"
 metafile = true
 
 [[files]]

@@ -770,7 +770,7 @@
 	"Cherry Grove Water Petals" = true
 	"Chorus Vegetation" = true
 	Corundum = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
 	"Monster Box" = true
