@@ -5811,7 +5811,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "a212332ec9d3242af1bbea000f1ba307758db99c54ae74276331c4e1334b1b58"
+hash = "6be3df05e8e375ec114345b2dcc7aa43bcfe8ac45d6f37390d3ff2b3549531db"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -6026,7 +6026,7 @@ hash = "b0ad6b1577a9cc991b7117dee7db6f2e5679a09a8f9cadf507bc3e039855c065"
 
 [[files]]
 file = "mods/bountiful-fares.pw.toml"
-hash = "13770089bbfddfca0e170ff7c95a718616f02bdc3fcba2332e3690361a4c0cbc"
+hash = "1729e66b017fa0a828fe370f57c9069277e2abebc17573763cdbdf3cacbbd060"
 metafile = true
 
 [[files]]
@@ -6908,7 +6908,7 @@ metafile = true
 
 [[files]]
 file = "mods/nexuslib.pw.toml"
-hash = "400a52db1e1b782a1282d6b49bae2b862f4a18027c13d379111a3ccffe0a2ae9"
+hash = "fcff173bb66e38b8784881dd48616a69919778deff0b85be17feb72cd81bb132"
 metafile = true
 
 [[files]]

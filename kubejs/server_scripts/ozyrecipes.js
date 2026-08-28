@@ -37,7 +37,9 @@ event.remove({output: [
 'magicfeather:magic_feather',
 'simpleradio:radiosmither',
 'simpleradio:antenna',
-'dark_prismarine'
+'dark_prismarine',
+'create:railway_casing',
+'create:controls'
 ]})
 
 event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
@@ -56,6 +58,15 @@ event.shaped('simpleradio:transmitter', ['AAA', 'BCB', 'DDD'], {A: 'create:trans
 event.shaped('simpleradio:receiver', ['AAA', 'BCB', 'DED'], {A: 'simpleradio:antenna', B: 'create:electron_tube', C: 'create:precision_mechanism', D: 'create:iron_sheet', E: 'create:sturdy_sheet'})
 event.shaped('2x simpleradio:antenna', ['AAA', ' A ', ' B '], {A: 'createaddition:iron_rod', B: 'create:iron_sheet'})
 event.shaped('8x dark_prismarine', ['AAA', 'ABA', 'AAA'], {A: 'prismarine', B: 'black_dye'})
+
+event.custom({ "type": "create:item_application", "ingredients": [ { "tag": "c:stripped_logs" }, { "tag": "c:plates/obsidian" } ], "results": [ { "id": "create:railway_casing" } ]})
+event.shapeless('create:controls', ['create:railway_casing', 'lever'])
+event.shaped('2x quark:soul_bead', [' A ', 'ABA', ' A '], {A: '#malum:aspected_spirits', B: 'caverns_and_chasms:silver_ingot'})
+event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:netherrack" }, "output": { "count": 2, "id": "clinker:brimstone" } })
+event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:andesite" }, "output": { "count": 2, "id": "clinker:calamine" } })
+event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:deepslate" }, "output": { "count": 2, "id": "clinker:capstone" } })
+event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "caverns_and_chasms:schist" }, "output": { "count": 2, "id": "clinker:shale" } })
+event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:tuff" }, "output": { "count": 2, "id": "clinker:calc" } })
 
 //Colors
 vanillaColors.forEach(color => {
