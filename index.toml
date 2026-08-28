@@ -7096,10 +7096,6 @@ hash = "559e355c6a08c618f179fecc310af92e259ca1f93cf61b3ae8a02958c0b310a1"
 metafile = true
 
 [[files]]
-file = "mods/reliable-replacer.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
