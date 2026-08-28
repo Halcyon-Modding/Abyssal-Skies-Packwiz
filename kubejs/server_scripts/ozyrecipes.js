@@ -62,11 +62,11 @@ event.shaped('8x dark_prismarine', ['AAA', 'ABA', 'AAA'], {A: 'prismarine', B: '
 event.custom({ "type": "create:item_application", "ingredients": [ { "tag": "c:stripped_logs" }, { "tag": "c:plates/obsidian" } ], "results": [ { "id": "create:railway_casing" } ]})
 event.shapeless('create:controls', ['create:railway_casing', 'lever'])
 event.shaped('2x quark:soul_bead', [' A ', 'ABA', ' A '], {A: '#malum:aspected_spirits', B: 'caverns_and_chasms:silver_ingot'})
-event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:netherrack" }, "output": { "count": 2, "id": "clinker:brimstone" } })
-event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:andesite" }, "output": { "count": 2, "id": "clinker:calamine" } })
-event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:deepslate" }, "output": { "count": 2, "id": "clinker:capstone" } })
-event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "caverns_and_chasms:schist" }, "output": { "count": 2, "id": "clinker:shale" } })
-event.custom({ "type": "malum:favor_of_the_void", "ingredient": { "item": "minecraft:tuff" }, "output": { "count": 2, "id": "clinker:calc" } })
+event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:netherrack" }, "result": { "count": 2, "id": "clinker:brimstone" } })
+event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:andesite" }, "result": { "count": 2, "id": "clinker:calamine" } })
+event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:deepslate" }, "result": { "count": 2, "id": "clinker:capstone" } })
+event.custom({ "type": "malum:void_favor", "input": { "item": "caverns_and_chasms:schist" }, "result": { "count": 2, "id": "clinker:shale" } })
+event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:tuff" }, "result": { "count": 2, "id": "clinker:calc" } })
 
 //Colors
 vanillaColors.forEach(color => {
