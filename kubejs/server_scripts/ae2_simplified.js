@@ -290,4 +290,76 @@ ServerEvents.recipes(event => {
             Item.of('ae2:spatial_cell_component_128'),[
                         '2x ae2:cell_component_64k',
                         'aeronautics:levitite_blend_bucket'])
+
+        //An Attempt to make storage cells appear as recipes on the server
+        event.remove({ output: 'ae2:item_cell_housing' })
+        event.shapeless(
+            Item.of('ae2:item_cell_housing'),[
+                        '2x ae2:quartz_glass',
+                        '2x minecraft:iron_ingot'])
+        event.remove({ output: 'ae2:fluid_cell_housing' })
+        event.shapeless(
+            Item.of('ae2:fluid_cell_housing'),[
+                        '2x ae2:quartz_glass',
+                        '2x minecraft:copper_ingot'])
+
+        event.remove({ output: 'ae2:item_storage_cell_1k' })
+        event.shapeless(
+            Item.of('ae2:item_storage_cell_1k'),[
+                        'ae2:cell_component_1k',
+                        'ae2:item_cell_housing'])
+
+        event.remove({ output: 'ae2:fluid_storage_cell_1k' })
+        event.shapeless(
+            Item.of('ae2:fluid_storage_cell_1k'),[
+                        'ae2:cell_component_1k',
+                        'ae2:fluid_cell_housing'])
+
+        event.remove({ output: 'ae2:item_storage_cell_4k' })
+        event.shapeless(
+            Item.of('ae2:item_storage_cell_4k'),[
+                        'ae2:cell_component_4k',
+                        'ae2:item_cell_housing'])
+
+        event.remove({ output: 'ae2:fluid_storage_cell_4k' })
+        event.shapeless(
+            Item.of('ae2:fluid_storage_cell_4k'),[
+                        'ae2:cell_component_4k',
+                        'ae2:fluid_cell_housing'])
+
+        event.remove({ output: 'ae2:item_storage_cell_16k' })
+        event.shapeless(
+            Item.of('ae2:item_storage_cell_16k'),[
+                        'ae2:cell_component_16k',
+                        'ae2:item_cell_housing'])
+
+        event.remove({ output: 'ae2:fluid_storage_cell_16k' })
+        event.shapeless(
+            Item.of('ae2:fluid_storage_cell_16k'),[
+                        'ae2:cell_component_16k',
+                        'ae2:fluid_cell_housing'])
+
+        event.remove({ output: 'ae2:item_storage_cell_64k' })
+        event.shapeless(
+            Item.of('ae2:item_storage_cell_64k'),[
+                        'ae2:cell_component_64k',
+                        'ae2:item_cell_housing'])
+
+        event.remove({ output: 'ae2:fluid_storage_cell_64k' })
+        event.shapeless(
+            Item.of('ae2:fluid_storage_cell_64k'),[
+                        'ae2:cell_component_64k',
+                        'ae2:fluid_cell_housing'])
+
+        event.remove({ output: 'ae2:item_storage_cell_256k' })
+        event.shapeless(
+            Item.of('ae2:item_storage_cell_256k'),[
+                        'ae2:cell_component_256k',
+                        'ae2:item_cell_housing'])
+
+        event.remove({ output: 'ae2:fluid_storage_cell_256k' })
+        event.shapeless(
+            Item.of('ae2:fluid_storage_cell_256k'),[
+                        'ae2:cell_component_256k',
+                        'ae2:fluid_cell_housing'])
 })
