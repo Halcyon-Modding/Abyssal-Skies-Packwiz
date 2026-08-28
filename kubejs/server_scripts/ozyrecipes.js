@@ -42,6 +42,7 @@ event.remove({output: [
 'create:controls'
 ]})
 
+
 event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
 event.shaped('satchels:satchel', ['A A', 'BCB', 'ABA'], {A: '#abyssal_skies:binding', B: 'leather', C: 'gold_ingot'})
 event.shaped('shulker_box', ['ABA', 'B B', 'ABA'], {A: 'architects_palette:oracle_block', B: 'caverns_and_chasms:tin_ingot'})
