@@ -5042,7 +5042,7 @@ hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "72187c78d0569172c8c41b02bc862eac6c264b7d12aaa9979d018cbcf5993ba7"
+hash = "6d74df33fb029cb42cdee868c15be63d8fddeccb1fa069b5788d2d35c48624e7"
 
 [[files]]
 file = "config/molten_vents-common.toml"
@@ -6045,6 +6045,11 @@ hash = "ecdf039bdca9e8db60a479631566614ed3c2de1169c5c4acc2eea175faf52033"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "8eeaf5023a8c5978f68ecd71d09ac46516167111ab2f46ab2c3909b8f9283f92"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
@@ -6927,6 +6932,11 @@ hash = "b24699e5aa7fe877792507055aea1a03b284d41703edca7c640aa149b99848ef"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
+metafile = true
+
+[[files]]
 file = "mods/noisiumforked.pw.toml"
 hash = "038ae430de2ea2571488c5370a3f2fafce4ba84eba8aa8fadbb6ad820a52fa12"
 metafile = true
@@ -7417,7 +7427,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "4a76bdbe0b84cc5f77f4ef74693205aa00cf5732af04bb6293913219c6763dcd"
+hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
