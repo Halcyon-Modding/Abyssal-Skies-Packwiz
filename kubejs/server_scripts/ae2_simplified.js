@@ -362,4 +362,10 @@ ServerEvents.recipes(event => {
             Item.of('ae2:fluid_storage_cell_256k'),[
                         'ae2:cell_component_256k',
                         'ae2:fluid_cell_housing'])
+
+        event.remove({ output: 'ae2:quartz_fiber' })
+        event.shapeless(
+            Item.of('4x ae2:quartz_fiber'),[
+                        'minecraft:glass',
+                        'ae2:certus_quartz_dust'])
 })
