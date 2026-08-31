@@ -206,8 +206,14 @@ ServerEvents.tags('block',
         event.get('minecraft:dirt')
         .add(['minecraft:sand', 'minecraft:red_sand', 'natures_spirit:pink_sand', 'atmospheric:arid_sand', 'atmospheric:red_arid_sand', '#minecraft:terracotta'])
 
-        event.get('aeronautics:airtight')
+        event.get('abyssal_skies:burlap')
         .add(['nirvana:hemp_burlap', 'nirvana:white_hemp_burlap', 'nirvana:light_gray_hemp_burlap', 'nirvana:gray_hemp_burlap', 'nirvana:black_hemp_burlap', 'nirvana:brown_hemp_burlap', 'nirvana:red_hemp_burlap', 'nirvana:orange_hemp_burlap', 'nirvana:yellow_hemp_burlap', 'nirvana:lime_hemp_burlap', 'nirvana:green_hemp_burlap', 'nirvana:cyan_hemp_burlap', 'nirvana:light_blue_hemp_burlap', 'nirvana:blue_hemp_burlap', 'nirvana:purple_hemp_burlap', 'nirvana:magenta_hemp_burlap', 'nirvana:pink_hemp_burlap', 'nirvana:woven_burlap', 'nirvana:white_woven_burlap', 'nirvana:light_gray_woven_burlap', 'nirvana:gray_woven_burlap', 'nirvana:black_woven_burlap', 'nirvana:brown_woven_burlap', 'nirvana:red_woven_burlap', 'nirvana:orange_woven_burlap', 'nirvana:yellow_woven_burlap', 'nirvana:lime_woven_burlap', 'nirvana:green_woven_burlap', 'nirvana:cyan_woven_burlap', 'nirvana:light_blue_woven_burlap', 'nirvana:blue_woven_burlap', 'nirvana:purple_woven_burlap', 'nirvana:magenta_woven_burlap', 'nirvana:pink_woven_burlap'])
+
+        event.get('aeronautics:airtight')
+        .add(['abyssal_skies:burlap'])
+
+        event.get('sable:super_light')
+        .add(['abyssal_skies:burlap'])
  })
 
  ServerEvents.tags('function',
