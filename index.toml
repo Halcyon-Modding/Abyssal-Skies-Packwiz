@@ -5819,7 +5819,7 @@ hash = "d6e7f9eb73d277c7b8e4e42fd5e511e05165b9e935157b6d47113f69910cc059"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "a85fc1d92729b24f68329456673f86f732210d36d63544d0f1211bed5525493b"
+hash = "92986f055d4e7f661e52a8f10f47623527298ce7ba71080a7c467324c322d5f1"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"
