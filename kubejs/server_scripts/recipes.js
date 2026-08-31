@@ -42,8 +42,8 @@ ServerEvents.recipes(event => {
     event.remove({type: "create:washing", input: 'minecraft:soul_sand'})
 	
 	//Malum + Nether quartz pairing
-	event.replaceInput({input: 'minecraft:nether_quartz'},
-	'minecraft:nether_quartz',
+	event.replaceInput({input: 'minecraft:quartz'},
+	'minecraft:quartz',
 	Ingredient.of('#c:gems/quartz')
 	)
 	
