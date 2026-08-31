@@ -78,7 +78,7 @@ event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:tuff" }
 
 event.shaped('16x industrialhellscape:duct', [' A ', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: 'industrialhellscape:inhell_haven_device'})
 event.shaped('16x industrialhellscape:truss', ['A A', ' B ', 'A A'], {A: '#industrialhellscape:ih_recipe_ingots', B: 'industrialhellscape:inhell_haven_device'})
-event.shapeless('4x industrialhellscape:duct', ['#industrialhellscape:ih_recipe_ingots', 'industrialhellscape:inhell_haven_device'])
+event.shapeless('4x industrialhellscape:riveted_vesselplate', ['#industrialhellscape:ih_recipe_ingots', 'industrialhellscape:inhell_haven_device'])
 
 event.shaped('3x supplementaries:wicker_fence', ['ABA', 'ABA'], {A: 'stick', B: '#abyssal_skies:binding'})
 event.shapeless('artifacts:aqua_dashers', ['artifacts:flippers'])
