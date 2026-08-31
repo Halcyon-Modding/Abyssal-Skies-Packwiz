@@ -582,7 +582,7 @@ hash = "3e05221436880d09fbac95dfc9cde9d2225e8cfdb81ea0c4a41a453934acf938"
 
 [[files]]
 file = "config/badmobs-common.toml"
-hash = "6c4edeabb66b169c8a97e6e6964f9fce9a70e313d2752f23b9bbdf1abda91e90"
+hash = "233058bce764a64d84b6125d807341cac65b038bb6cefe3af1834b868979ca59"
 
 [[files]]
 file = "config/betterclouds-v1.json"
@@ -5815,7 +5815,7 @@ hash = "6b5fba29dc01d7d969db9dbdde5bd8b29fd78497ca1efef3b71decdc11d92da9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "d6e7f9eb73d277c7b8e4e42fd5e511e05165b9e935157b6d47113f69910cc059"
+hash = "f8ff65b9b6dcd7478d29605140682222e3dcffe74556a41ff8a21ae76f8a0e17"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -6046,7 +6046,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "639407ed86c31b4a1d9ef1f451f0a14b18eae4abe9dfdbc6c2b20a7eb814b448"
+hash = "8eeaf5023a8c5978f68ecd71d09ac46516167111ab2f46ab2c3909b8f9283f92"
 metafile = true
 
 [[files]]

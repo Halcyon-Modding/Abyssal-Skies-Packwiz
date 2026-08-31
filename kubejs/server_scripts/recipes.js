@@ -47,6 +47,9 @@ ServerEvents.recipes(event => {
 	Ingredient.of('#c:gems/quartz')
 	)
 	
+	//Removing ring of mana weaving due to known crash
+	event.remove({output: ['malum:ring_of_manaweaving']})
+	
 	//Ammonite Recipes
 	event.shaped('8x abyssal_decor:ammonite', ['AAA','ABA','AAA'], {A: 'minecraft:stone', B: 'abyssal_decor:clam_empty_closed'})
     event.shaped('8x abyssal_decor:ammonite', ['AAA','ABA','AAA'], {A: 'minecraft:stone', B: 'abyssal_decor:starfish'})

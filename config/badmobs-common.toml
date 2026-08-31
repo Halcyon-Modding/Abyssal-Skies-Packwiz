@@ -807,7 +807,7 @@
 	#Spawning options for minecraft:witch
 	[minecraft.witch]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -3092,7 +3092,7 @@
 	#Spawning options for caverns_and_chasms:cavefish
 	[caverns_and_chasms.cavefish]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -4330,7 +4330,7 @@
 	#Spawning options for creaturefeature:friend
 	[creaturefeature.friend]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
