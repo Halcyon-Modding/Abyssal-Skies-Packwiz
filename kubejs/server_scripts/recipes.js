@@ -41,10 +41,16 @@ ServerEvents.recipes(event => {
     event.remove({type: "create:washing", input: 'minecraft:red_sand'})
     event.remove({type: "create:washing", input: 'minecraft:soul_sand'})
 	
-	//Malum quartz fix for HAVEN tool
-	event.remove({output: ['industrialhellscape:inhell_haven_device']})
-    event.shaped('industrialhellscape:inhell_haven_device', ['ABC', 'DDD', 'ABC'], {A: 'minecraft:iron_ingot', B: 'minecraft:copper_ingot', C: 'minecraft:gold_ingot', D: '#c:gems/quartz'})
-
+	//Malum + Nether quartz pairing
+	event.replaceInput({input: 'minecraft:nether_quartz'},
+	'minecraft:nether_quartz',
+	Ingredient.of('#c:gems/quartz')
+	)
+	
+	//Ammonite Recipes
+	event.shaped('8x abyssal_decor:ammonite', ['AAA','ABA','AAA'], {A: 'minecraft:stone', B: 'abyssal_decor:clam_empty_closed'})
+    event.shaped('8x abyssal_decor:ammonite', ['AAA','ABA','AAA'], {A: 'minecraft:stone', B: 'abyssal_decor:starfish'})
+	
 	// Brass Changes
 	event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:brass_ingot" } ], "results": [ { "count": 8, "id": "abyssal_decor:seabrass_ingot" } ] })
 
