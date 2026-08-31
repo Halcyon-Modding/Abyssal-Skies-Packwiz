@@ -17,7 +17,11 @@ ServerEvents.recipes(event => {
     'abyssal_decor:seabrass_ingot_recipe',
     'supplementaries:wicker_fence',
     'minecraft:hopper',
-    'quark:tweaks/crafting/utility/misc/easy_hopper'
+    'quark:tweaks/crafting/utility/misc/easy_hopper',
+    'minecraft:white_wool_from_string',
+    'nirvana:hemp_cloth',
+    'botania:mana_infusion/alchemy/wool_deconstruct',
+    'create:crushing/wool'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -82,6 +86,17 @@ event.shapeless('artifacts:flippers', ['artifacts:aqua_dashers'])
 
 event.shaped('hopper', ['A A', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: '#c:chests/wooden'})
 event.shaped('hopper', ['ABA', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: '#minecraft:logs'})
+
+event.shaped('3x nirvana:hemp_cloth', ['AA', 'AA'], {A: 'nirvana:hemp'})
+event.shaped('4x white_wool', ['AA', 'AA'], {A: 'string'})
+event.shaped('16x white_wool', ['AAA', 'A A', 'AAA'], {A: 'nirvana:hemp_cloth'})
+
+event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients": [ { "item": "botania:manasteel_ingot" } ], "result": { "count": 1, "id": "abyssal_decor:strange_metal_rod" } })
+event.custom({ "type": "farmersdelight:cooking", "container": { "count": 1, "id": "quark:clear_shard" }, "experience": 1.0, "ingredients": [ { "item": "nomansland:awkward_residue" }, { "item": "nomansland:resin" }, { "item": "minecraft:sugar" } ], "result": { "count": 1, "id": "industrialhellscape:gas_station_pill" } })
+
+event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 2, "id": "minecraft:ghast_tear" }, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:infernal", "count": 2 } ], "time": 2700 })
+event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "minecraft:phantom_membrane"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 } ], "time": 2700 })
+event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "malum:astral_weave"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 }, { "type": "malum:wicked", "count": 2 } ], "time": 2700 })
 
 //Colors
 vanillaColors.forEach(color => {
