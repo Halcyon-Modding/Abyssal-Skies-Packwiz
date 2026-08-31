@@ -87,6 +87,12 @@ ServerEvents.recipes(event => {
         //Crafting Unit
         event.remove({ output: 'ae2:crafting_unit' })
         event.stonecutting('ae2:crafting_unit', 'create:brass_casing')
+        //Crafting Storage
+        event.shapeless('ae2:1k_crafting_storage', ['ae2:crafting_unit', 'ae2:cell_component_1k'])
+        event.shapeless('ae2:4k_crafting_storage', ['ae2:crafting_unit', 'ae2:cell_component_4k'])
+        event.shapeless('ae2:16k_crafting_storage', ['ae2:crafting_unit', 'ae2:cell_component_16k'])
+        event.shapeless('ae2:64k_crafting_storage', ['ae2:crafting_unit', 'ae2:cell_component_64k'])
+        event.shapeless('ae2:256k_crafting_storage', ['ae2:crafting_unit', 'ae2:cell_component_256k'])
         //Crafting Accelerator
         event.remove({ output: 'ae2:crafting_accelerator' })
         event.shapeless(
@@ -292,6 +298,11 @@ ServerEvents.recipes(event => {
                         'aeronautics:levitite_blend_bucket'])
 
         //An Attempt to make storage cells appear as recipes on the server
+        event.remove({ output: 'ae2:blank_pattern' })
+        event.shapeless(
+            Item.of('ae2:blank_pattern'),[
+                        '2x ae2:quartz_glass',
+                        '2x minecraft:copper_ingot'])
         event.remove({ output: 'ae2:item_cell_housing' })
         event.shapeless(
             Item.of('ae2:item_cell_housing'),[

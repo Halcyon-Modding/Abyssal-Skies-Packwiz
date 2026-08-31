@@ -21,7 +21,12 @@ ServerEvents.recipes(event => {
     'minecraft:white_wool_from_string',
     'nirvana:hemp_cloth',
     'botania:mana_infusion/alchemy/wool_deconstruct',
-    'create:crushing/wool'
+    'create:crushing/wool',
+    'create:splashing/gravel',
+    'create:splashing/soul_sand',
+    'create:crushing/tuff',
+    'industrialhellscape:iron_ingot_from_smelting_vesselplate',
+    'industrialhellscape:iron_ingot_from_blasting_vesselplate'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -90,6 +95,8 @@ event.shaped('hopper', ['ABA', 'ABA', ' A '], {A: '#industrialhellscape:ih_recip
 event.shaped('3x nirvana:hemp_cloth', ['AA', 'AA'], {A: 'nirvana:hemp'})
 event.shaped('4x white_wool', ['AA', 'AA'], {A: 'string'})
 event.shaped('16x white_wool', ['AAA', 'A A', 'AAA'], {A: 'nirvana:hemp_cloth'})
+
+event.custom({ "type": "create:splashing", "ingredients": [ { "item": "minecraft:soul_sand" } ], "results": [ { "chance": 0.125, "count": 4, "id": "minecraft:quartz" } ] })
 
 event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients": [ { "item": "botania:manasteel_ingot" } ], "result": { "count": 1, "id": "abyssal_decor:strange_metal_rod" } })
 event.custom({ "type": "farmersdelight:cooking", "container": { "count": 1, "id": "quark:clear_shard" }, "experience": 1.0, "ingredients": [ { "item": "nomansland:awkward_residue" }, { "item": "nomansland:resin" }, { "item": "minecraft:sugar" } ], "result": { "count": 1, "id": "industrialhellscape:gas_station_pill" } })

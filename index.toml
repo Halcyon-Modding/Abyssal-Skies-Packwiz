@@ -4882,7 +4882,7 @@ hash = "67dadd3f0812bc01a0b0ca6fb204961512ce1332e97fe42dba2cb57813a496ef"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
-hash = "01f9dd5b38c3483a8383d07938d7585537e6e5535e5bce1dd88b97713a68296a"
+hash = "9be65f6e9e41f6cd89be1159df256273a8bb4b31b91b70445e4e1c76b0679bae"
 
 [[files]]
 file = "config/hexal-server.toml"
@@ -5795,7 +5795,7 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "6708ae7858254fbb65c6950c80410277fffad7a3be38ced9ae2b183d8e776d98"
+hash = "d859a52ba83ae949ce17c4be747b4507e29acda1efe970fa6fa7294da80ffdba"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
@@ -5811,7 +5811,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "08b371caf3d218a520d4b8830391c8d643320105d1cfc5f7ca00772fe8657a81"
+hash = "6b5fba29dc01d7d969db9dbdde5bd8b29fd78497ca1efef3b71decdc11d92da9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
