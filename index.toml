@@ -5795,11 +5795,11 @@ hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_simplified.js"
-hash = "d859a52ba83ae949ce17c4be747b4507e29acda1efe970fa6fa7294da80ffdba"
+hash = "ddecd4e4372bcd5a745b0acfe82796a2179ee66672e08198a328ca6cd8a3de80"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_tags.js"
-hash = "b9b90c8c8fd86536a5364749b04ae4e7e0d0aa6fc1ddc68722bc6271c4f7b646"
+hash = "c12a8eee802f0dbf336b1db6eda54677ad3ecb71f2d7ffa4ad05f176ad0f3be4"
 
 [[files]]
 file = "kubejs/server_scripts/arches.js"

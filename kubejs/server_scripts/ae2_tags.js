@@ -14,7 +14,8 @@ ServerEvents.tags('item', event => {
     'ae2:fluix_glass_cable',
     'ae2:fluix_covered_cable',
     'ae2:toggle_bus',
-    'ae2:inverted_toggle_bus')
+    'ae2:inverted_toggle_bus',
+    'ae2:fluix_smart_cable')
   event.add('forge:ae_panels', 
     'ae2:semi_dark_monitor',
     'ae2:monitor',

@@ -258,6 +258,9 @@ ServerEvents.recipes(event => {
         //Inverse Toggle Bus
         event.remove({ output: 'ae2:inverted_toggle_bus' })
         event.stonecutting('ae2:inverted_toggle_bus', '#forge:ae_cable')
+        //Smart Cable
+        event.remove({ output: 'ae2:fluix_smart_cable' })
+        event.stonecutting('ae2:fluix_smart_cable', '#forge:ae_cable')
 
     //Storage Items
         //1k component
@@ -300,9 +303,9 @@ ServerEvents.recipes(event => {
         //An Attempt to make storage cells appear as recipes on the server
         event.remove({ output: 'ae2:blank_pattern' })
         event.shapeless(
-            Item.of('ae2:blank_pattern'),[
+            '4x ae2:blank_pattern' ,[
                         '2x ae2:quartz_glass',
-                        '2x minecraft:copper_ingot'])
+                        '2x create:zinc_ingot'])
         event.remove({ output: 'ae2:item_cell_housing' })
         event.shapeless(
             Item.of('ae2:item_cell_housing'),[
