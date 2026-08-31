@@ -368,4 +368,9 @@ ServerEvents.recipes(event => {
             Item.of('4x ae2:quartz_fiber'),[
                         'minecraft:glass',
                         'ae2:certus_quartz_dust'])
+
+        event.shapeless(
+            Item.of('16x ae2:cable_anchor'),[
+                        '#ae2:knife',
+                        '#c:ingots'])
 })
