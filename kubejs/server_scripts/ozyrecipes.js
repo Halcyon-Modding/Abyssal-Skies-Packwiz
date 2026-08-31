@@ -77,7 +77,7 @@ event.shaped('16x industrialhellscape:truss', ['A A', ' B ', 'A A'], {A: '#indus
 event.shapeless('4x industrialhellscape:duct', ['#industrialhellscape:ih_recipe_ingots', 'industrialhellscape:inhell_haven_device'])
 
 event.shaped('3x supplementaries:wicker_fence', ['ABA', 'ABA'], {A: 'stick', B: '#abyssal_skies:binding'})
-event.shapeless('artifacts:aqua_dashers' ['artifacts:flippers'])
+event.shapeless('artifacts:aqua_dashers', ['artifacts:flippers'])
 event.shapeless('artifacts:flippers', ['artifacts:aqua_dashers'])
 
 event.shaped('hopper', ['A A', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: '#c:chests/wooden'})
