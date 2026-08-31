@@ -8,13 +8,16 @@ ServerEvents.recipes(event => {
     'minecraft:vesselplate_blast_recycle',
     'minecraft:strut_blast_recycle',
     'minecraft:hvac_blast_recycle',
-    'industrialhellscape:strut',
+    'industrialhellscape:truss',
     'industrialhellscape:vesselplate_from_iron_block',
     'industrialhellscape:vesselplate_from_iron_ingot',
-    'industrialhellscape:duct',
+    'industrialhellscape:grate_from_crafting',
     'abyssal_decor:moonsilver_sconce_recipe',
     'abyssal_decor:moonsilver_ingot_recipe',
-    'abyssal_decor:seabrass_ingot_recipe'
+    'abyssal_decor:seabrass_ingot_recipe',
+    'supplementaries:wicker_fence',
+    'minecraft:hopper',
+    'quark:tweaks/crafting/utility/misc/easy_hopper'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -68,6 +71,17 @@ event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:andesit
 event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:deepslate" }, "result": { "count": 2, "id": "clinker:capstone" } })
 event.custom({ "type": "malum:void_favor", "input": { "item": "caverns_and_chasms:schist" }, "result": { "count": 2, "id": "clinker:shale" } })
 event.custom({ "type": "malum:void_favor", "input": { "item": "minecraft:tuff" }, "result": { "count": 2, "id": "clinker:calc" } })
+
+event.shaped('16x industrialhellscape:duct', [' A ', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: 'industrialhellscape:inhell_haven_device'})
+event.shaped('16x industrialhellscape:truss', ['A A', ' B ', 'A A'], {A: '#industrialhellscape:ih_recipe_ingots', B: 'industrialhellscape:inhell_haven_device'})
+event.shapeless('4x industrialhellscape:duct', ['#industrialhellscape:ih_recipe_ingots', 'industrialhellscape:inhell_haven_device'])
+
+event.shaped('3x supplementaries:wicker_fence', ['ABA', 'ABA'], {A: 'stick', B: '#abyssal_skies:binding'})
+event.shapeless('artifacts:aqua_dashers' ['artifacts:flippers'])
+event.shapeless('artifacts:flippers', ['artifacts:aqua_dashers'])
+
+event.shaped('hopper', ['A A', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: '#c:chests/wooden'})
+event.shaped('hopper', ['ABA', 'ABA', ' A '], {A: '#industrialhellscape:ih_recipe_ingots', B: '#minecraft:logs'})
 
 //Colors
 vanillaColors.forEach(color => {

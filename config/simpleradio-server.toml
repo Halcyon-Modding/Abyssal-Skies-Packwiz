@@ -155,7 +155,7 @@
 #These are the general configurations for frequencies.
 [frequency]
 	#Whether or not the radios work across dimensions. Defaults to false.
-	crossDimensional = false
+	crossDimensional = true
 	#This is how many decimal places (digits after the period) can exist in a frequency. Defaults to 2.
 	decimalPlaces = 2
 	#This is the default frequency to be provided to frequency-holding items. When set to auto-generate, will generate a pattern of zeros equal to the wholePlaces and decimalPlaces configurations, i.e. '000.00' by default. Defaults to auto-generate.

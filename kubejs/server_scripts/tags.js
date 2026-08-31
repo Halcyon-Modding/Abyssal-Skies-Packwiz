@@ -109,6 +109,9 @@ ServerEvents.tags('item',
     event.get('c:milk')
     .add('bountifulfares:coconut_milk_bottle')
 
+    event.get('industrialhellscape:ih_recipe_ingots')
+    .add(['copper_ingot', 'create:zinc_ingot'])
+
 })
 
 
@@ -201,7 +204,7 @@ ServerEvents.tags('block',
         .add('#kubejs:bars')
 
         event.get('minecraft:dirt')
-        .add(['minecraft:sand', 'minecraft:red_sand', 'natures_spirit:pink_sand', 'atmospheric:arid_sand', 'atmospheric:red_arid_sand'])
+        .add(['minecraft:sand', 'minecraft:red_sand', 'natures_spirit:pink_sand', 'atmospheric:arid_sand', 'atmospheric:red_arid_sand', '#minecraft:terracotta'])
 
 
  })
