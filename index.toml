@@ -5222,7 +5222,7 @@ hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8e545ba6df75ac1f88a7730188dd0c7f7607350a2ab2e6a6fad9fec722b7cac4"
+hash = "3e69d5667c157bcf3b9a71a7d5c13818b8e264bf4bc7cdf33c04ef06a289a322"
 
 [[files]]
 file = "config/recipeessentials.json"
@@ -5334,7 +5334,7 @@ hash = "7ca1111a438a6ffd506e5774095ca70661deb6cf14207ca9a32ff23fbe12e978"
 
 [[files]]
 file = "config/simpleradio-server.toml"
-hash = "09b067b33e8d070db3abebae0f815a14b3ead44c4fc85a70a374864e886793d7"
+hash = "b395a031f9ef61c70b3e8bd26e450daeea792b5e5dcb70464f907ab3c9c89f01"
 
 [[files]]
 file = "config/simulated-client.toml"
@@ -5811,7 +5811,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "08c44560fd26cc3678f49d8539dc7028afbfecf6649f9e717d3c05cd13c0e57d"
+hash = "ca361bcce1db2123090f8d8b79016633e82dbceb8daf24f1db1ff76d19486488"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5819,7 +5819,7 @@ hash = "d6e7f9eb73d277c7b8e4e42fd5e511e05165b9e935157b6d47113f69910cc059"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "19de57b33321f442ea2b8849850490a6418562b0dc91115ea69b89e10cf0dfb0"
+hash = "a85fc1d92729b24f68329456673f86f732210d36d63544d0f1211bed5525493b"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"
