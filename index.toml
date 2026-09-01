@@ -6214,6 +6214,11 @@ hash = "65320f764a209d01bcda47982746526a291f5823f5773c4855c33e346c4acdbb"
 metafile = true
 
 [[files]]
+file = "mods/crafting-mats.pw.toml"
+hash = "55d986d8d35b1ff5a42f0c3a0ff2b2c86f34a298442d2a7702cfb72187200ee5"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "b607b4c0f30caa94f29f1624a5f58eb8673040bd50845145e5f0533fd9e9b6b8"
 metafile = true
