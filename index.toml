@@ -6669,17 +6669,17 @@ metafile = true
 
 [[files]]
 file = "mods/jade-addons.pw.toml"
-hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
+hash = "49e1313f8a664f6f53c6045a1b9499787aaf4d9d014e4decc376c7c6fe0b3a68"
 metafile = true
 
 [[files]]
 file = "mods/jade-sable-compat.pw.toml"
-hash = "ae86b446abb40c5dfdada0632927895bf82147aafef9829dff9ed6ca098f7a92"
+hash = "69616ce18d77306e80870eb85df05c1706f083a6d486ce063c8fa9813c70140f"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
+hash = "221244d69134b0270a848ae4bc2eb99b73ee997d0beb491d1397d894f60bc3ac"
 metafile = true
 
 [[files]]
