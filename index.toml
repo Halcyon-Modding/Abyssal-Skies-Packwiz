@@ -6638,6 +6638,11 @@ hash = "37c3d507be086258aec8a0814224578a1c665749adbb0332d33c32a684086d94"
 metafile = true
 
 [[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "2d493d3343bb82fb448f107a7846e0cc14b06c8195cf8b6b42c445f2e1a6759b"
+metafile = true
+
+[[files]]
 file = "mods/immersive-overlays.pw.toml"
 hash = "69977c74e67da84c138fa9042138b5466cd6f84d408af607515828ee64488d91"
 metafile = true
@@ -7328,6 +7333,11 @@ metafile = true
 [[files]]
 file = "mods/treeliable.pw.toml"
 hash = "d6729eaa7107d40bd3d4f8f8906dd7ea49e985fa0e1a59dcbee86fcc8d2fe8c8"
+metafile = true
+
+[[files]]
+file = "mods/tt20.pw.toml"
+hash = "04a66f5ca2cc25338b031a52cfcf4a431892534a1d6df0e5e9c964d769141b08"
 metafile = true
 
 [[files]]
