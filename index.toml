@@ -6619,13 +6619,13 @@ hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
-file = "mods/hexal.pw.toml"
-hash = "8e5b18c5870e8d1c0941e0bad966a4cae13fc8e87de668516e1504c107ef318d"
-metafile = true
+file = "mods/hexal-0.3.1-NEOFORGE-DEVEL-pre-11.jar"
+hash = "53fd377567f0c6eb3f2d3193da6f32f68de34b76f6ecef475371cbf0848ad723"
 
 [[files]]
-file = "mods/hexcasting-neoforge-1.21.1-0.12.0-devel-pre-48.jar"
-hash = "f920a59f0bad17bef19012cd889069e856ef62a54fa42b1d33f3570e290dc957"
+file = "mods/hexcasting.pw.toml"
+hash = "d29e155e1175746f4f78a5fe09ca228c090f8eaacdae7cad5f3f040d21ac0f0f"
+metafile = true
 
 [[files]]
 file = "mods/ichunutil.pw.toml"
@@ -6665,6 +6665,11 @@ metafile = true
 [[files]]
 file = "mods/inline.pw.toml"
 hash = "d07f0538a957be145586716d35f63aba0015d9320823f83000cb91d1b75dcbf1"
+metafile = true
+
+[[files]]
+file = "mods/ioticblocks.pw.toml"
+hash = "4928baa74da5759e8bc2f30c2c94cdf2597676bfffb1cbd69b2a48f851b11e4e"
 metafile = true
 
 [[files]]
@@ -6873,8 +6878,9 @@ hash = "096a419c3be0fb56ea9ae7b9d0da0aabf62fbdebb91d62eafb9c7500f2cc7e6b"
 metafile = true
 
 [[files]]
-file = "mods/moreiotas-0.1.1-1.21.1-devel-pre-1.jar"
-hash = "796dfa5b655cffeef397c2a086d472e1b4f6af06c399cd3661cf543b195cd393"
+file = "mods/moreiotas.pw.toml"
+hash = "99c473acdcfa7630bec36142d89389af26ba45ac41be763f2b4ac526f3bfd090"
+metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
@@ -7401,8 +7407,8 @@ hash = "920dbb560760f271eb2873917808a2070d37e2caf773453b6b7633314ec77ffc"
 metafile = true
 
 [[files]]
-file = "mods/world-casting.pw.toml"
-hash = "ccde931f94c7e1a344755bda4e7214f0ab3540924f497adc90a208ce35e734e6"
+file = "mods/worldcasting.pw.toml"
+hash = "4ee9929a7b55c18723c267ee15d337e0dce3b0801c8b9d17a710ccbd74a65acf"
 metafile = true
 
 [[files]]
