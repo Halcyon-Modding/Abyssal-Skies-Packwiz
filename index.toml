@@ -6429,11 +6429,6 @@ hash = "d40f63600a6384d10fb560380ad69530108dbe822cdc754c316b90ab2da5edb7"
 metafile = true
 
 [[files]]
-file = "mods/easy-mob-spawn-control.pw.toml"
-hash = "62ecb33a9792c34e04ce12515e760f377f57d107bd41422420e51ae49d751ee4"
-metafile = true
-
-[[files]]
 file = "mods/easy-shulker-boxes.pw.toml"
 hash = "89eab7f9d24b2d49f191847fc35f347e71eb4d9006a2a0e1a8fb3ee3ba7bbf58"
 metafile = true
