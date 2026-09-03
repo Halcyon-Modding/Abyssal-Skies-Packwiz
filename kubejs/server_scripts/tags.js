@@ -214,6 +214,12 @@ ServerEvents.tags('block',
 
         event.get('sable:super_light')
         .add(['#abyssal_skies:burlap'])
+
+        event.get('simulated:non_movable')
+        .add(['/molten_vents:.*/'])
+
+        event.get('minecraft:mineable/pickaxe')
+        .add(['/bits_n_bobs:.*_tiles/', '/bits_n_bobs:.*_tile_slab/', '/bits_n_bobs:.*_tile_stairs/'])
  })
 
  ServerEvents.tags('function',

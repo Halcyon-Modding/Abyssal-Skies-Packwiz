@@ -26,7 +26,16 @@ ServerEvents.recipes(event => {
     'create:splashing/soul_sand',
     'create:crushing/tuff',
     'industrialhellscape:iron_ingot_from_smelting_vesselplate',
-    'industrialhellscape:iron_ingot_from_blasting_vesselplate'
+    'industrialhellscape:iron_ingot_from_blasting_vesselplate',
+
+    'create:crushing/ochrum',
+    'create:crushing/ochrum_recycling',
+    'create:crushing/crimsite',
+    'create:crushing/crimsite_recycling',
+    'create:crushing/asurine',
+    'create:crushing/asurine_recycling',
+    'create:crushing/veridium',
+    'create:crushing/veridium_recycling'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -53,6 +62,37 @@ event.remove({output: [
 'create:railway_casing',
 'create:controls'
 ]})
+
+
+//Create Ores
+event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:ochrum" } ], "processing_time": 250, "results": [ { "chance": 0.5, "id": "create:crushed_raw_gold" } ] })
+event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:crimsite" } ], "processing_time": 250, "results": [ { "chance": 0.8, "id": "create:crushed_raw_iron" }, { "chance": 0.8, "id": "create:crushed_raw_iron" } ] })
+event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:asurine" } ], "processing_time": 250, "results": [ { "chance": 0.8, "id": "create:crushed_raw_zinc" }, { "chance": 0.02, "id": "create:crushed_raw_silver" } ] })
+event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:veridium" } ], "processing_time": 250, "results": [ { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" } ] })
+
+event.custom({ "type": "create:haunting", "ingredients": [ { "item": "minecraft:netherrack" } ], "results": [ { "id": "incision:weatherrack" } ] })
+event.shaped('64x incision:carrion', [' A ', 'ABA', ' A '], {A: 'architects_palette:entrails', B: 'malum:living_flesh'})
+event.custom({ "type": "architects_palette:warping", "dimension": "minecraft:the_nether", "ingredient": { "item": "minecraft:spider_eye" }, "result": { "count": 1, "id": "incision:congealed_acid" } })
+event.shapeless('incision:squintbulb', ['incision:carrion', 'incision:congealed_acid'])
+event.shaped('4x incision:hamstring', ['AAA'], {A: 'incision:smear'})
+event.shaped('4x incision:blood_stalk', ['A', 'A', 'A'], {A: 'incision:smear'})
+event.shaped('4x incision:lashvines', ['AAA'], {A: 'incision:congealed_acid'})
+event.shaped('4x incision:conductor_nerve', ['A', 'A', 'A'], {A: 'incision:congealed_acid'})
+event.shaped('4x incision:nerve', ['A', 'A'], {A: 'incision:congealed_acid'})
+event.shaped('4x incision:incisor_growth', ['A', 'B'], {A: '#c:bones', B: 'incision:smear'})
+event.shaped('4x incision:blinking_hamstring', ['B B', 'AAA'], {A: 'incision:smear', B: 'incision:congealed_acid'})
+event.shaped('4x incision:carrion_eye', ['ABA', 'ACA', 'ABA'], {A: 'incision:carrion', B: 'malum:living_flesh', C: 'incision:congealed_acid'})
+event.shaped('4x incision:molar_carrion', ['ABA', 'ACA', 'ABA'], {A: 'incision:carrion', B: 'malum:living_flesh', C: '#c:bones'})
+event.shaped('incision:mooch', [' A ', 'BCB', ' A '], {A: 'malum:living_flesh', B: 'incision:congealed_acid', C: 'malum:sacred_spirit'})
+
+event.custom({ "type": "farmersdelight:cutting", "ingredients": [ { "item": "architects_palette:entrails" } ], "result": [ { "item": { "count": 4, "id": "incision:intestine" } } ], "tool": [ { "type": "farmersdelight:item_ability", "action": "knife_dig" }, { "tag": "c:tools/knife" } ] })
+
+event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients": [ { "item": "incision:intestine" } ], "result": { "count": 1, "id": "incision:boiling_tongue" } })
+
+event.smelting('caverns_and_chasms:silver_ingot', 'create:crushed_raw_silver')
+event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_copper" } ], "results": [ { "count": 9, "id": "caverns_and_chasms:silver_nugget" }, { "chance": 0.5, "id": "hexcasting:amethyst_dust" } ] })
+
+
 
 
 event.shaped('quark:backpack', ['AAA', 'BCB', 'AAA'], {A: 'leather', B: '#abyssal_skies:binding', C: 'iron_ingot'})
@@ -104,6 +144,16 @@ event.custom({ "type": "farmersdelight:cooking", "container": { "count": 1, "id"
 event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 2, "id": "minecraft:ghast_tear" }, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:infernal", "count": 2 } ], "time": 2700 })
 event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "minecraft:phantom_membrane"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 } ], "time": 2700 })
 event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "malum:astral_weave"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 }, { "type": "malum:wicked", "count": 2 } ], "time": 2700 })
+
+event.stonecutting('clinker:shale_pillar', 'clinker:shale')
+event.stonecutting('clinker:smooth_shale', 'clinker:shale')
+event.stonecutting('clinker:polished_shale', 'clinker:shale')
+event.stonecutting('clinker:shale_bricks', 'clinker:shale')
+event.stonecutting('clinker:small_shale_bricks', 'clinker:shale')
+event.stonecutting('clinker:small_shale_bricks_fence', 'clinker:shale')
+
+event.shapeless('botania:glimmering_livingwood_log', ['botania:livingwood_log', 'glowstone_dust'])
+
 
 //Colors
 vanillaColors.forEach(color => {

@@ -5811,7 +5811,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "6b5fba29dc01d7d969db9dbdde5bd8b29fd78497ca1efef3b71decdc11d92da9"
+hash = "513ace3de48508c0d166008b688216c3b9043a1489c997b40b43e3852de4ab44"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5819,7 +5819,7 @@ hash = "f8ff65b9b6dcd7478d29605140682222e3dcffe74556a41ff8a21ae76f8a0e17"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "87569bbb5246888c0c0521d75c222f82ec13b41b86c5f6cd3cc518c04c3776e5"
+hash = "1990545f1ebcb2b0a97424e07797b46539dae1b561eaf64ad07002b0cb549a91"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"
@@ -5947,7 +5947,7 @@ metafile = true
 
 [[files]]
 file = "mods/azimuth-api.pw.toml"
-hash = "d1c9f25faf345f0a8349b07a97c9f13856c18d753256c6dde9818fdd85e19323"
+hash = "382d7eb9e95beb4224fdb16e6781604c0f12d49ba3b900b323b1cb0ffabec13a"
 metafile = true
 
 [[files]]
@@ -6255,7 +6255,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "84f6c106884a14db42757a319563892a8b352cc535edcc427ea82b63162db8e2"
+hash = "c09447bd8598423945d8d58907a5ec9d6e4b1d4abd55d40dcc63826db9af9381"
 metafile = true
 
 [[files]]
@@ -6753,6 +6753,11 @@ hash = "20ac722fe5e336e36a5f47bacf353138e76ae0f923642009aef72bd87d0022c4"
 metafile = true
 
 [[files]]
+file = "mods/lampblack.pw.toml"
+hash = "9094c740df9ffa84b4972a2c09834c8b824471a390a629caead77b94ae4f2604"
+metafile = true
+
+[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "76806236c79f5437953100c618c15aaba2c4e349e29d83113286bb808c687683"
 metafile = true
@@ -6864,7 +6869,7 @@ metafile = true
 
 [[files]]
 file = "mods/modulation.pw.toml"
-hash = "0af4c670969f575186df6e288100c371f9827518dd8a34d95266dab24167dd4f"
+hash = "04d286370ac21e304e880a2bfe7bbdce18217b4197a6f285f70403644436be69"
 metafile = true
 
 [[files]]
@@ -7044,6 +7049,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
+metafile = true
+
+[[files]]
+file = "mods/playername-styler.pw.toml"
+hash = "b99e68f87623e750f8f7959af588786910257364c1d9fcc3c2d0cf9efa40e7bf"
 metafile = true
 
 [[files]]
@@ -7247,8 +7257,8 @@ hash = "3d615c32683131c6a98a7da16c28263c5ca5cf50e4f33029e8c72c3558bb362c"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
+file = "mods/sound-physics-aeronautics.pw.toml"
+hash = "652683ccd1f2c05c2eb4dfeeaa6e6d624025575782982256020c5965a1b59f92"
 metafile = true
 
 [[files]]
@@ -7259,6 +7269,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
+metafile = true
+
+[[files]]
+file = "mods/ssrd.pw.toml"
+hash = "67eabcc7dbc9c93130dc3f6d689808ee97d4a92fb4ee27c7675c12cc87a2131e"
 metafile = true
 
 [[files]]
@@ -7278,7 +7293,7 @@ metafile = true
 
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
-hash = "b2ad9ec58043af2d5355695be228c032530ec63116ebfc3d3ebadae9ddbf4307"
+hash = "13415590b9e3f8aa1ca0cf33be26d697fa4b00de9c29e999815cadd37cf17175"
 metafile = true
 
 [[files]]
