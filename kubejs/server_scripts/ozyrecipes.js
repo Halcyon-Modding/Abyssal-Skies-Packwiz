@@ -35,7 +35,10 @@ ServerEvents.recipes(event => {
     'create:crushing/asurine',
     'create:crushing/asurine_recycling',
     'create:crushing/veridium',
-    'create:crushing/veridium_recycling'
+    'create:crushing/veridium_recycling',
+
+    'oxide:plate_iron',
+    'oxide:stonecutter/plate_iron'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -104,6 +107,8 @@ event.stonecutting('clinker:calamine_bricks', 'clinker:polished_calamine')
 event.stonecutting('clinker:polished_capstone', 'clinker:capstone')
 event.stonecutting('clinker:capstone_bricks', 'clinker:capstone')
 event.stonecutting('clinker:capstone_bricks', 'clinker:polished_capstone')
+
+event.stonecutting('4x oxide:plate_iron', 'iron_ingot')
 
 
 
