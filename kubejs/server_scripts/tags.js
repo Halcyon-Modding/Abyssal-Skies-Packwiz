@@ -100,6 +100,9 @@ ServerEvents.tags('item',
         
     ])
 
+    event.get('c:chains')
+    .add(['oxide:heavy_iron_chain', 'oxide:weathered_heavy_iron_chain', 'oxide:rusted_heavy_iron_chain'])
+
     event.get('abyssal_skies:cloth')
     .add(['farmersdelight:canvas', 'nirvana:hemp_cloth'])
 
