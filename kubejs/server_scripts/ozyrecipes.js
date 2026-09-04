@@ -94,6 +94,17 @@ event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:cr
 
 event.shapeless('8x darkerdepths:mossy_grimestone', ['8x darkerdepths:grimestone', 'minecraft:moss_block'])
 
+event.shaped('4x clinker:polished_calamine', ['AA', 'AA'], {A: 'clinker:calamine'})
+event.shaped('4x clinker:calamine_bricks', ['AA', 'AA'], {A: 'clinker:polished_calamine'})
+event.shaped('4x clinker:polished_capstone', ['AA', 'AA'], {A: 'clinker:capstone'})
+event.shaped('4x clinker:capstone_bricks', ['AA', 'AA'], {A: 'clinker:polished_capstone'})
+event.stonecutting('clinker:polished_calamine', 'clinker:calamine')
+event.stonecutting('clinker:calamine_bricks', 'clinker:calamine')
+event.stonecutting('clinker:calamine_bricks', 'clinker:polished_calamine')
+event.stonecutting('clinker:polished_capstone', 'clinker:capstone')
+event.stonecutting('clinker:capstone_bricks', 'clinker:capstone')
+event.stonecutting('clinker:capstone_bricks', 'clinker:polished_capstone')
+
 
 
 
