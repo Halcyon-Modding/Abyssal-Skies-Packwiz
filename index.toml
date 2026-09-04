@@ -6040,6 +6040,11 @@ hash = "816ae53b09d3b3c2e3b4e74470bf2332fcde8a5ae322e1a39bd11656ef1fa8e6"
 metafile = true
 
 [[files]]
+file = "mods/brushstrokes.pw.toml"
+hash = "f1af50691e935c15d83ef12c0f1d30960f04eacbea5fc0faca66f92506c14e9a"
+metafile = true
+
+[[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "ecdf039bdca9e8db60a479631566614ed3c2de1169c5c4acc2eea175faf52033"
 metafile = true
@@ -7463,7 +7468,7 @@ metafile = true
 
 [[files]]
 file = "mods/ziplines-rezipped.pw.toml"
-hash = "bbeb45b0e8755fe74421c8e02d0461b3ba4afbcaf411c6356bc2a0177d2d1627"
+hash = "caa2c7383b40895268883c86f806fd2ac85fc87e944da1b81809c31f9a917b49"
 metafile = true
 
 [[files]]
