@@ -90,7 +90,9 @@ event.custom({ "type": "farmersdelight:cutting", "ingredients": [ { "item": "arc
 event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients": [ { "item": "incision:intestine" } ], "result": { "count": 1, "id": "incision:boiling_tongue" } })
 
 event.smelting('caverns_and_chasms:silver_ingot', 'create:crushed_raw_silver')
-event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_copper" } ], "results": [ { "count": 9, "id": "caverns_and_chasms:silver_nugget" }, { "chance": 0.5, "id": "hexcasting:amethyst_dust" } ] })
+event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_silver" } ], "results": [ { "count": 9, "id": "caverns_and_chasms:silver_nugget" }, { "chance": 0.5, "id": "hexcasting:amethyst_dust" } ] })
+
+event.shapeless('8x darkerdepths:mossy_grimestone', ['8x darkerdepths:grimestone', 'minecraft:moss_block'])
 
 
 

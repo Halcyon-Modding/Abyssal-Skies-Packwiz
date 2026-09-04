@@ -5811,7 +5811,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "513ace3de48508c0d166008b688216c3b9043a1489c997b40b43e3852de4ab44"
+hash = "1c0ef061802a3b6868d247e9f51d8043e1e6e2ae19bb01f5736de1cf1c7f875a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -6983,6 +6983,11 @@ hash = "459aed9d8d741453ff709b87ef7fcb6898e87bc9c0189c5520066928133a72ac"
 metafile = true
 
 [[files]]
+file = "mods/oxide.pw.toml"
+hash = "5132524166877845f1966538b7db38264e892cdeecdcd08dae99cd056803c7df"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
@@ -7247,8 +7252,8 @@ hash = "3d615c32683131c6a98a7da16c28263c5ca5cf50e4f33029e8c72c3558bb362c"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-aeronautics.pw.toml"
-hash = "652683ccd1f2c05c2eb4dfeeaa6e6d624025575782982256020c5965a1b59f92"
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "258a77de0a6db4c9ab045cbb240bcf4eac0dbbca3f6bc981fb461e55c247f23f"
 metafile = true
 
 [[files]]
