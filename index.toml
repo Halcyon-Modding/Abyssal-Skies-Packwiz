@@ -6139,7 +6139,7 @@ metafile = true
 
 [[files]]
 file = "mods/clinker-1.21.1-0.0.1.7.jar"
-hash = "54acec68e9b65855e5b93189a9ce75072e1144a3eada0ed850d69c8f4469eb71"
+hash = "a3f64d89c137c85baf4c866dab49a81cabf8f58b0b7e38ae867cd322d2ebb892"
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
