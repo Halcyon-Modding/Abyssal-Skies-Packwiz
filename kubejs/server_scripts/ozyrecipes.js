@@ -123,11 +123,11 @@ event.shapeless('8x abyssal_skies:cthonic_gold_bit', 'malum:cthonic_gold_fragmen
 
 event.shapeless('create:gearbox', ['create:cogwheel', 'create:andesite_casing'])
 
-event.shaped('2x xkdeco:fan_blade', ['ABA'], {A: 'redstone_dust', B: 'create:propeller'})
-event.shaped('2x xkdeco:factory_vent_fan', ['ABA', ' C '], {A: 'redstone_dust', B: 'create:propeller', C: 'quark:iron_plate'})
-event.shaped('2x xkdeco:factory_vent_fan_big', ['CAC', 'ABA', 'CAC'], {A: 'redstone_dust', B: 'create:propeller', C: 'quark:iron_plate'})
+event.shaped('2x xkdeco:fan_blade', ['ABA'], {A: 'redstone', B: 'create:propeller'})
+event.shaped('2x xkdeco:factory_vent_fan', ['ABA', ' C '], {A: 'redstone', B: 'create:propeller', C: 'quark:iron_plate'})
+event.shaped('2x xkdeco:factory_vent_fan_big', ['CAC', 'ABA', 'CAC'], {A: 'redstone', B: 'create:propeller', C: 'quark:iron_plate'})
 
-event.shaped ('nametag', [' A', 'B '], {A: 'iron_nugget', B: 'paper'})
+event.shaped ('name_tag', [' A', 'B '], {A: 'iron_nugget', B: 'paper'})
 event.shaped ('saddle', ['AAA', 'B B'], {A: 'leather', B: 'iron_nugget'})
 
 
