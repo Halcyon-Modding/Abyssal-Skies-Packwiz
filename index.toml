@@ -6946,11 +6946,6 @@ hash = "fcff173bb66e38b8784881dd48616a69919778deff0b85be17feb72cd81bb132"
 metafile = true
 
 [[files]]
-file = "mods/nicknames-everywhere.pw.toml"
-hash = "cd2f7e307fb7b18b34a594842ef07671bba4ef0b17c459fc1a15942fb3ed9755"
-metafile = true
-
-[[files]]
 file = "mods/nirvana.pw.toml"
 hash = "600cb587148cd482a82ab297b14e90313483c617587c9cbbd04b435a2c28e858"
 metafile = true
