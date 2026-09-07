@@ -15,3 +15,7 @@ StartupEvents.modifyCreativeTab('ae2:facades', event => {
 console.info('Abyssal Skies KubeJS Script - AE2 Creative Tab Entries Removal Activated')
 })
 
+StartupEvents.registry("item", (event) => {
+    event.create('abyssal_skies:cthonic_gold_bit')
+})
+

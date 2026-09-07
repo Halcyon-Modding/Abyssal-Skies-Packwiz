@@ -5178,7 +5178,7 @@ hash = "9197465180e4dc89584b5774fc31046c7add39dd0ad93891cda506d0646d42be"
 
 [[files]]
 file = "config/nomansland-common.toml"
-hash = "7da4d59c0ceda0b07ebe6b09b45795db526ce60716925e9351fb421cb5403e9a"
+hash = "c04ec182cab2074b741119ff752c413f019e8c754a564d8f6167edd355ecf020"
 
 [[files]]
 file = "config/nomansland-startup.toml"
@@ -5538,6 +5538,10 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/abyssal_skies/textures/item/cthonic_gold_bit.png"
+hash = "f3372d25204791b22877b901301cde7cb8c07d88a109ddd41fbd3f2a29d21c1e"
+
+[[files]]
 file = "kubejs/assets/abyssalskies/textures/fangbodypillow/body_pillow.png"
 hash = "6068801ac84679990083b5c5fe342c5b7739b2a5253d4f6419ef32b1a6466b30"
 
@@ -5659,11 +5663,11 @@ hash = "e810b3ed43cc39089d3d413fb986c89a4c39f89bcde72007280c893b55ece6c6"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/function/othershore.mcfunction"
-hash = "d0533d5d0f67f5a4e2aaef2034a638fdff7d152b865d44064913dd465a85e24b"
+hash = "462c7448198d42de56584985da858a8d3418e16f87d21652defbf380266a0b54"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/function/tick.mcfunction"
-hash = "fc61aa2b77d19fca59fbf6bb8b52d47a26fb02c543638ed6d480f412af2721bd"
+hash = "42d1f71e8308939787aaa086607677adf4b087a7111796b91a155f03089ba729"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/loot_table/boss_drops/mithril_scrap.json"
@@ -5790,6 +5794,10 @@ file = "kubejs/data/malum/recipe/spirit_infusion/netherite_scrap.json"
 hash = "256bc936f5091f4eae93e561cb31572b1c3841e21c2934ad6a70f3b072cde2a3"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/function/tick.json"
+hash = "390588c7f79b34327d5cb7f0587ce4dc397617de020bc57c412d968bdbe1a0f8"
+
+[[files]]
 file = "kubejs/data/playermagicnerf/attributesetter/entity/player_magic_nerfs.json"
 hash = "70d8411a5a3752ecac486f0146c1cdc73e4c5c0f0e7403bb0c49c92a8f6ffdc2"
 
@@ -5811,7 +5819,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "124cdc684ccf35512111598ab458bb5e22e626bfd0b03a38e55dbc26341b240b"
+hash = "a44fc5c996f4a6fa5ff4dde3e2ac46ea2a2e4c71164d378ed488582c8d508652"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5831,7 +5839,7 @@ hash = "d6fc58efb230fbb8ea3c61e07f84ea5ea5219dd329c4907519da2e652ef89f2f"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "73deabb2fbd703c4bd4d07e3e497e84fb767769254b0d7f94170668eeb312e82"
+hash = "1409ed75fba93ffd2ec7e9cf8024320ffad7869a15a65551ee94f40708e9265a"
 
 [[files]]
 file = "mods/abyssal_decor_1.21.1_0.11.0_Neoforge.jar"
@@ -6753,11 +6761,6 @@ hash = "20ac722fe5e336e36a5f47bacf353138e76ae0f923642009aef72bd87d0022c4"
 metafile = true
 
 [[files]]
-file = "mods/lampblack.pw.toml"
-hash = "9094c740df9ffa84b4972a2c09834c8b824471a390a629caead77b94ae4f2604"
-metafile = true
-
-[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "76806236c79f5437953100c618c15aaba2c4e349e29d83113286bb808c687683"
 metafile = true
@@ -6940,6 +6943,11 @@ metafile = true
 [[files]]
 file = "mods/nexuslib.pw.toml"
 hash = "fcff173bb66e38b8784881dd48616a69919778deff0b85be17feb72cd81bb132"
+metafile = true
+
+[[files]]
+file = "mods/nicknames-everywhere.pw.toml"
+hash = "cd2f7e307fb7b18b34a594842ef07671bba4ef0b17c459fc1a15942fb3ed9755"
 metafile = true
 
 [[files]]
@@ -7189,6 +7197,11 @@ metafile = true
 [[files]]
 file = "mods/scavenge.pw.toml"
 hash = "173f191c3758ff948d42976f946274ab45dbafb202912c8f6037fc9f6dc58d37"
+metafile = true
+
+[[files]]
+file = "mods/scholar.pw.toml"
+hash = "0494bf33dd41c156edd51c50b443926a1c311548fdf74cd73ac1577b02555025"
 metafile = true
 
 [[files]]

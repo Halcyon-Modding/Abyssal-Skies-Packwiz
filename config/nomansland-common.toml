@@ -149,11 +149,11 @@
 	#The warding range, in blocks, of a single Warding Effigy. Stacking additional effigies in the same block increases the range beyond this base value.
 	# Default: 24
 	# Range: > 0
-	wardingEffigyBaseRange = 24
+	wardingEffigyBaseRange = 40
 	#How many extra blocks of warding range each additional Warding Effigy stacked in the same block adds. Diminishing returns still apply as more are stacked.
 	# Default: 20
 	# Range: > 0
-	wardingEffigyRangePerEffigy = 20
+	wardingEffigyRangePerEffigy = 30
 
 [meeting_point]
 	#The minimum distance, from the center of the world, the Meeting Point should spawn at.

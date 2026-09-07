@@ -1,0 +1,13 @@
+name = "Nicknames Everywhere"
+filename = "nicknameseverywhere-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BsKpMjEd/versions/NDj08hxt/nicknameseverywhere-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "a23d9fc7174ae71d6e4c485ee01c75bb10ea62f5b28ffb4a21e94d852cc5d44dc260c3c606659bf9cb7e351be33b059e21d41ecc46d2c3a6d9c319266d1b040e"
+
+[update]
+[update.modrinth]
+mod-id = "BsKpMjEd"
+version = "NDj08hxt"

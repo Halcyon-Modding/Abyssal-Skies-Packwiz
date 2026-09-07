@@ -1,1 +1,1 @@
-execute as @a if items entity @s armor.head nomansland:ancient_bronze_mask run execute as @s if block ~ ~2 ~ malum:primordial_soup run execute in clinker:othershore run tp @p 0 200 0
+execute as @a run execute at @s if items entity @s armor.head nomansland:ancient_bronze_mask if block ~ ~2 ~ malum:primordial_soup run function abyssal_skies:othershore

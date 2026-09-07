@@ -38,7 +38,13 @@ ServerEvents.recipes(event => {
     'create:crushing/veridium_recycling',
 
     'oxide:plate_iron',
-    'oxide:stonecutter/plate_iron'
+    'oxide:stonecutter/plate_iron',
+
+    'create:crafting/kinetics/gearbox',
+
+    'xkdeco:fan_blade',
+    'xkdeco:factory_vent_fan',
+    'xkdeco:factory_vent_fan_big'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -110,6 +116,19 @@ event.stonecutting('clinker:capstone_bricks', 'clinker:polished_capstone')
 
 event.stonecutting('4x oxide:plate_iron', 'iron_ingot')
 
+event.shapeless('malum:cthonic_gold_fragment', '8x abyssal_skies:cthonic_gold_bit')
+
+event.shapeless('8x abyssal_skies:cthonic_gold_bit', 'malum:cthonic_gold_fragment')
+
+event.shapeless('create:gearbox', ['create:cogwheel', 'create:andesite_casing'])
+
+event.shaped('2x xkdeco:fan_blade', ['ABA'], {A: 'redstone_dust', B: 'create:propeller'})
+event.shaped('2x xkdeco:factory_vent_fan', ['ABA', ' C '], {A: 'redstone_dust', B: 'create:propeller', C: 'quark:iron_plate'})
+event.shaped('2x xkdeco:factory_vent_fan_big', ['CAC', 'ABA', 'CAC'], {A: 'redstone_dust', B: 'create:propeller', C: 'quark:iron_plate'})
+
+event.shaped ('nametag', [' A', 'B '], {A: 'iron_nugget', B: 'paper'})
+event.shaped ('saddle', ['AAA', 'B B'], {A: 'leather', B: 'iron_nugget'})
+
 
 
 
@@ -160,7 +179,7 @@ event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients
 event.custom({ "type": "farmersdelight:cooking", "container": { "count": 1, "id": "quark:clear_shard" }, "experience": 1.0, "ingredients": [ { "item": "nomansland:awkward_residue" }, { "item": "nomansland:resin" }, { "item": "minecraft:sugar" } ], "result": { "count": 1, "id": "industrialhellscape:gas_station_pill" } })
 
 event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 2, "id": "minecraft:ghast_tear" }, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:infernal", "count": 2 } ], "time": 2700 })
-event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "minecraft:phantom_membrane"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 } ], "time": 2700 })
+event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 4, "id": "minecraft:phantom_membrane"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 } ], "time": 2700 })
 event.custom({ "type": "malum:spirit_focusing", "durabilityCost": 1, "input": { "item": "malum:zephyr_impetus" }, "result": { "count": 1, "id": "malum:astral_weave"}, "spirits": [ { "type": "malum:aerial", "count": 2 }, { "type": "malum:arcane", "count": 2 }, { "type": "malum:aqueous", "count": 2 }, { "type": "malum:wicked", "count": 2 } ], "time": 2700 })
 
 event.stonecutting('clinker:shale_pillar', 'clinker:shale')
