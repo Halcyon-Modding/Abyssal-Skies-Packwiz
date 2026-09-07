@@ -5819,7 +5819,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "a44fc5c996f4a6fa5ff4dde3e2ac46ea2a2e4c71164d378ed488582c8d508652"
+hash = "7ef5cd3e70d2490548c1e637dd814621b0b5dbeb4f492141fcc70910da5f04c0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"

@@ -114,6 +114,7 @@ event.stonecutting('clinker:polished_capstone', 'clinker:capstone')
 event.stonecutting('clinker:capstone_bricks', 'clinker:capstone')
 event.stonecutting('clinker:capstone_bricks', 'clinker:polished_capstone')
 
+
 event.stonecutting('4x oxide:plate_iron', 'iron_ingot')
 
 event.shapeless('malum:cthonic_gold_fragment', '8x abyssal_skies:cthonic_gold_bit')
