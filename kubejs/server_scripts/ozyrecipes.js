@@ -44,7 +44,8 @@ ServerEvents.recipes(event => {
 
     'xkdeco:fan_blade',
     'xkdeco:factory_vent_fan',
-    'xkdeco:factory_vent_fan_big'
+    'xkdeco:factory_vent_fan_big',
+    'minecraft:candle'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -191,6 +192,9 @@ event.stonecutting('clinker:small_shale_bricks', 'clinker:shale')
 event.stonecutting('clinker:small_shale_bricks_fence', 'clinker:shale')
 
 event.shapeless('botania:glimmering_livingwood_log', ['botania:livingwood_log', 'glowstone_dust'])
+
+event.shaped('8x candle', ['A', 'B'], {A: '#abyssal_skies:binding', B: 'honeycomb'})
+event.shaped('4x candle', ['A', 'B'], {A: '#abyssal_skies:binding', B: 'incision:tallow'})
 
 
 //Colors
