@@ -260,4 +260,15 @@ function twoByTwo(inputItem, resultItem, resultAmount) {
     twoByTwo('atmospheric:red_arid_sand', 'atmospheric:red_arid_sandstone', 4)
 	twoByTwo('soul_sand', 'quark:soul_sandstone', 4)
     twoByTwo('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone', 4)
+
+
+
+
+    //worldloader
+    event.remove({ output: 'worldloader:soul_glass' })
+    event.shaped(Item.of('worldloader:soul_glass', 18),['AAA','ABA','AAA'],{A: 'minecraft:glass',B: 'minecraft:soul_sand'})
+    event.recipes.create.crushing(['2x worldloader:ancient_bone_alloy_chunk', CreateItem.of('2x worldloader:ancient_bone_alloy_chunk', 0.50), CreateItem.of('worldloader:ancient_bone_alloy_chunk', 0.50)], 'worldloader:dominic_bricks')
+    event.recipes.create.haunting(['malum:umbral_spirit', 'worldloader:dominic_orb'], 'malum:umbral_spirit')
 })
+
+
