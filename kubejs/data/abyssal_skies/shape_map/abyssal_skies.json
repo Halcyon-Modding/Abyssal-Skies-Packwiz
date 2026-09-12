@@ -148,7 +148,8 @@
     "arch_mc:deepslate_cut_bricks_arch_1": ["arch_mc:deepslate_cut_bricks_bricks_arch_2"],
     "chest": ["trapped_chest"],
     "abyssal_decor:small_clean_iron_bars": ["abyssal_decor:small_clean_bars_corner"],
-    "abyssal_decor:small_dull_iron_bars": ["abyssal_decor:small_dull_bars_corner"]
+    "abyssal_decor:small_dull_iron_bars": ["abyssal_decor:small_dull_bars_corner"],
+    "ae2:interface": ["ae2:cable_interface"]
     
   }
 }

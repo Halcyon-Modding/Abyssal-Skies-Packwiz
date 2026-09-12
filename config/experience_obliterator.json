@@ -1,0 +1,16 @@
+{
+  "disable_orb_spawn": false,
+  "disable_orb_rendering": false,
+  "immediate_experience_pickup": false,
+  "hide_experience_bar": false,
+  "disable_anvil": false,
+  "remove_anvil_limit": true,
+  "no_anvil_enchant_cost": false,
+  "no_anvil_repair_cost": true,
+  "no_anvil_rename_cost": true,
+  "disable_enchant_table": false,
+  "disable_xp_pickup_sound": false,
+  "disable_xp_level_sound": false,
+  "disable_emi_experience_display": false,
+  "disable_echo_chest_experience_display": false
+}

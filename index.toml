@@ -721,6 +721,10 @@ file = "config/create-server.toml"
 hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
 
 [[files]]
+file = "config/create_connected-common.toml"
+hash = "a75da31ace1717e2455988f0d2fe8e9beeff39e8571d18bc9fe6eb98dd07f539"
+
+[[files]]
 file = "config/create_lnl-server.toml"
 hash = "6d15b795f7c43f61b70248987e4fce05235e453e6907731f63083cfef8fb4803"
 
@@ -879,6 +883,10 @@ hash = "f4afa4485a6c9bd4ead198059f57f5047da7a1c9e73ca8b72d62c4de076b1274"
 [[files]]
 file = "config/everycomp-hazardous.toml"
 hash = "4df8e58c69dc5a761a8368f4e695fb78443fbc63107dedda180629caca31a3a0"
+
+[[files]]
+file = "config/experience_obliterator.json"
+hash = "da24c7cee7df1fb09c94414abe63d206ef3dbc6f61c8f0a47b1be792bb9937df"
 
 [[files]]
 file = "config/explorerscompass-client.toml"
@@ -4873,6 +4881,10 @@ file = "config/fog/config.json"
 hash = "4efd4e12a2e11d564458eb2b4bd4fbb81b2f451e87487577041353b7fa34ca9a"
 
 [[files]]
+file = "config/ftbbackups3-server.snbt"
+hash = "e50b496d7a682a18661d516380950e85a61a2594573f21e32c24948e988c2f25"
+
+[[files]]
 file = "config/ftblibrary-client.snbt"
 hash = "5e6ea47ca65332c4f445fe9d4230486631b3dcf4fd68525fbafeefe11e770932"
 
@@ -5043,6 +5055,10 @@ hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "6d74df33fb029cb42cdee868c15be63d8fddeccb1fa069b5788d2d35c48624e7"
+
+[[files]]
+file = "config/modulation.json"
+hash = "68f6264b02fd9916992395be7ee5f0367ada1a9f1e304b65be003a43cde56c22"
 
 [[files]]
 file = "config/molten_vents-common.toml"
@@ -5427,7 +5443,7 @@ hash = "226fb14087cc70501cfd23ed1cc0a7aa88a001aa778792c427ece1c899548faa"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "c6a7fadd4fa714c61128d38125741261ffb6f852eb58634f3fc9d2280b51ab4c"
+hash = "6c8d5833dc63bc83cc28883c34f057ac16b7fc0adf83001aa3db529918c823b0"
 
 [[files]]
 file = "config/suppsquared-common.toml"
@@ -5508,6 +5524,10 @@ hash = "47698a2eefbfabfe376cafe0cb5303831ee71e9ed9afb56afeeb9072517f1327"
 [[files]]
 file = "config/world_casting-common.toml"
 hash = "b2823eccee6fe8475722ae29d26f7aa1b5c876ecf48536c52d1aedd93b707988"
+
+[[files]]
+file = "config/worldloader-common.toml"
+hash = "f9f4e940178190d15856d27a87efc1d98568aa660178d941e46bc3c41404c6f5"
 
 [[files]]
 file = "config/xaerohud.txt"
@@ -5687,7 +5707,7 @@ hash = "6fb30a7ccb018b6b834e60fdd53557b7d0f19fd36fcc4cebf16626a591bec90e"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
-hash = "6d90eabb73d402b335a6fb4027110ba18f583510d3e0710e833f41b60437a6af"
+hash = "dfbbaa7124c89804d6811d7d02ea6f20491253ff6e2a1d3cc1b24659e1a50de1"
 
 [[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"
@@ -5819,7 +5839,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "6d007638992cdf5ebae2672dff532c09fad8c24d4a4ee46765960e9c9d95c0a7"
+hash = "7f76a73a7d560b558ee84bac474ac0b275280fa4dea949eaa4ab3fb4b346ac27"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5853,6 +5873,11 @@ metafile = true
 [[files]]
 file = "mods/adapted-mobs.pw.toml"
 hash = "db5615f66d4cb40b47c665cd4a4012b5d2ada34713eaf53a3791291febef3b3a"
+metafile = true
+
+[[files]]
+file = "mods/additionalentityattributes.pw.toml"
+hash = "e81f3ed594d5da889d347e7809111dc8ffacced785ff33c3bf58804e13473d18"
 metafile = true
 
 [[files]]
@@ -6247,6 +6272,11 @@ hash = "889d2c573f46e94318761c1e26d84e3c0520425cf12187f4b97ad3d51fd26363"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-lift-patch.pw.toml"
+hash = "434d92388783bd89bfad57891f43b7bab9b9c3b16800fd1d8de5f76049a2f304"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "aabc3d94ea527039798baa69d7c381cb679afa63f2d842c5357bb8d186792e5b"
 metafile = true
@@ -6274,6 +6304,11 @@ metafile = true
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
 hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
 metafile = true
 
 [[files]]
@@ -6492,6 +6527,11 @@ hash = "b9363f3ba7f2ac384cca83c42054485d1b6473d114064cf3aec7933924932bc2"
 metafile = true
 
 [[files]]
+file = "mods/experience-obliterator.pw.toml"
+hash = "9a55f62153b9ddac6b33365b82fdb5b097f089a668cb7c13e46ea288e62be078"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "e206e53e79c196615bebfc9f5dfa943c11c1361e1c7dc4f8f952c86b95e0f0ca"
 metafile = true
@@ -6579,6 +6619,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a0b3083a1577130adb77867a6f8b6cf0c5bdd3c0c8b2995fa8b5fca323ed09a0"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-3.pw.toml"
+hash = "893f9b4dbe36a0bcae29d87cd68ab84fed83c984c3f5649c155c0522c509a77d"
 metafile = true
 
 [[files]]
@@ -6862,7 +6907,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+hash = "c84140c66f233909b392bd7253ca33c59903ffda51beff558d9a2a4a8c6bc269"
 metafile = true
 
 [[files]]
@@ -7433,6 +7478,10 @@ metafile = true
 file = "mods/worldcasting.pw.toml"
 hash = "4ee9929a7b55c18723c267ee15d337e0dce3b0801c8b9d17a710ccbd74a65acf"
 metafile = true
+
+[[files]]
+file = "mods/worldloader-core-1.21.1-0.7.1.jar"
+hash = "84db4559683d57bc38ff7a3147eb7ad3f9b11faf8738e52ee975929b60ba3c42"
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"

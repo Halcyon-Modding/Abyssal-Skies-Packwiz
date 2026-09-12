@@ -101,6 +101,12 @@ event.custom({ "type": "farmersdelight:cooking", "experience": 1.0, "ingredients
 
 event.smelting('caverns_and_chasms:silver_ingot', 'create:crushed_raw_silver')
 event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_silver" } ], "results": [ { "count": 9, "id": "caverns_and_chasms:silver_nugget" }, { "chance": 0.5, "id": "hexcasting:amethyst_dust" } ] })
+event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_gold" } ], "results": [ { "count": 9, "id": "minecraft:gold_nugget" }, { "chance": 0.5, "id": "minecraft:glowstone_dust" } ] })
+
+event.smelting('caverns_and_chasms:tin_ingot', 'create:crushed_raw_tin')
+event.custom({ "type": "create:splashing", "ingredients": [ { "item": "create:crushed_raw_tin" } ], "results": [ { "count": 9, "id": "caverns_and_chasms:tin_nugget" }, { "chance": 0.5, "id": "supplementaries:ash" } ] })
+
+event.custom({ "type": "create:splashing", "ingredients": [ { "tag": 'minecraft:logs' } ], "results": [ { "count": 1, "id": "upgrade_aquatic:driftwood_log" }] })
 
 event.shapeless('8x darkerdepths:mossy_grimestone', ['8x darkerdepths:grimestone', 'minecraft:moss_block'])
 
