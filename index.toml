@@ -5839,7 +5839,7 @@ hash = "efaa78e949bc639d96e0dcc0d99620841c8982954d9894603d1cb32ca4d0b28f"
 
 [[files]]
 file = "kubejs/server_scripts/ozyrecipes.js"
-hash = "ac304bae4607fb48947763a5ac5929dbb367f8bc87a00090d08a8a7a5cf5b5ef"
+hash = "acd10642db9017a7c49a069ff5f169019f90f6a1eb59cd4d97d1126e484ec687"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -5860,6 +5860,10 @@ hash = "d6fc58efb230fbb8ea3c61e07f84ea5ea5219dd329c4907519da2e652ef89f2f"
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "1409ed75fba93ffd2ec7e9cf8024320ffad7869a15a65551ee94f40708e9265a"
+
+[[files]]
+file = "mods/BrewinAndChewin-neoforge-5.0.0+1.21.1.jar"
+hash = "27840ce6b2817715277acd408432c04eecd90c4c16ebc07bfd4ec676bda33ff7"
 
 [[files]]
 file = "mods/abyssal_decor_1.21.1_0.11.0_Neoforge.jar"
@@ -6065,11 +6069,6 @@ metafile = true
 [[files]]
 file = "mods/bountiful-pears.pw.toml"
 hash = "9283ebebe75298a5e7ce03e53de243952c388fceb7fa3937ee768df0ee960547"
-metafile = true
-
-[[files]]
-file = "mods/brewin-and-chewin.pw.toml"
-hash = "816ae53b09d3b3c2e3b4e74470bf2332fcde8a5ae322e1a39bd11656ef1fa8e6"
 metafile = true
 
 [[files]]
@@ -6327,6 +6326,11 @@ hash = "b4ab61193a8a453d3d49f9c221a3d519691e0f06b7f044ea884e66935465654d"
 metafile = true
 
 [[files]]
+file = "mods/create-estrogen.pw.toml"
+hash = "2e6b4b91ba3df20af4e4ff370a1ee2cd97211b066cd09c2c9f801ec96d592b63"
+metafile = true
+
+[[files]]
 file = "mods/create-idlx.pw.toml"
 hash = "92ce64f9fcb96a121d0bec1a666e055b9f839b236abb5f1d456b0aab0bd405a4"
 metafile = true
@@ -6393,12 +6397,17 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "27788d3b80ad864f96044fe2f86608e1d4204ba1c55f32c6953df7d1cc050f81"
+metafile = true
+
+[[files]]
+file = "mods/cynosure.pw.toml"
+hash = "50bb1e11d03ffd1492fcda9bd6be84707119a3eed3a9760d99c739b97224015a"
 metafile = true
 
 [[files]]
@@ -6509,6 +6518,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "1b4d712a11834e3269bf035474e4411e4f66a05ec6c88300a0a8dda751e607eb"
 metafile = true
 
 [[files]]
@@ -6711,9 +6725,8 @@ hash = "1a1216ef24fb7ce70eb198dd9979624f7e066309f0e25e1be82a12867cd76985"
 metafile = true
 
 [[files]]
-file = "mods/industrial-hellscape.pw.toml"
-hash = "923ea3b80c883d84459faf43b41250fe70aedc5fad28fabe128971c71a4238d6"
-metafile = true
+file = "mods/industrialhellscape-1.2.0-ASV.jar"
+hash = "af295ef8fcae2278caf271d059613238cfde066fb2aff26c2cd27dc7665b77a9"
 
 [[files]]
 file = "mods/inline.pw.toml"
@@ -7130,6 +7143,11 @@ hash = "4dd1328a634cc0ec838924668d1482a1ca03615140f999c1f8e1202fc7f856e8"
 metafile = true
 
 [[files]]
+file = "mods/pretty-in-pink.pw.toml"
+hash = "47563beaf6073dabfb48c0acb465afd119b663b39fc4ad7e148079f4bfe1082a"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
 metafile = true
@@ -7307,6 +7325,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "3d615c32683131c6a98a7da16c28263c5ca5cf50e4f33029e8c72c3558bb362c"
+metafile = true
+
+[[files]]
+file = "mods/sooty-chimneys.pw.toml"
+hash = "924b292f54a9a8c7196773b03e1f503a0eb70af4c0aa06a02bfb6c8f4617c660"
 metafile = true
 
 [[files]]

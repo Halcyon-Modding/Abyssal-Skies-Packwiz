@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
     'create:crushing/asurine_recycling',
     'create:crushing/veridium',
     'create:crushing/veridium_recycling',
+    'create:crushing/tuff_recycling',
 
     'oxide:plate_iron',
     'oxide:stonecutter/plate_iron',
