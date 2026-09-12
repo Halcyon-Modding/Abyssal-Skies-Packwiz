@@ -267,8 +267,6 @@ function twoByTwo(inputItem, resultItem, resultAmount) {
     //worldloader
     event.remove({ output: 'worldloader:soul_glass' })
     event.shaped(Item.of('worldloader:soul_glass', 18),['AAA','ABA','AAA'],{A: 'minecraft:glass',B: 'minecraft:soul_sand'})
-    event.recipes.create.crushing(['2x worldloader:ancient_bone_alloy_chunk', CreateItem.of('2x worldloader:ancient_bone_alloy_chunk', 0.50), CreateItem.of('worldloader:ancient_bone_alloy_chunk', 0.50)], 'worldloader:dominic_bricks')
-    event.recipes.create.haunting(['malum:umbral_spirit', 'worldloader:dominic_orb'], 'malum:umbral_spirit')
 })
 
 
