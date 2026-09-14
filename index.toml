@@ -6058,8 +6058,8 @@ hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
-file = "mods/botania-neoforge-1.21.1-455-SNAPSHOT.jar"
-hash = "b0ad6b1577a9cc991b7117dee7db6f2e5679a09a8f9cadf507bc3e039855c065"
+file = "mods/botania-neoforge-1.21.1-456-SNAPSHOT.jar"
+hash = "ee7dd5bbf8f29277a7503cbbc23cd9849e16d248e9809f29dd8a2a138f0bba7b"
 
 [[files]]
 file = "mods/bountiful-fares.pw.toml"
@@ -6725,8 +6725,8 @@ hash = "1a1216ef24fb7ce70eb198dd9979624f7e066309f0e25e1be82a12867cd76985"
 metafile = true
 
 [[files]]
-file = "mods/industrialhellscape-1.2.0-ASV.jar"
-hash = "af295ef8fcae2278caf271d059613238cfde066fb2aff26c2cd27dc7665b77a9"
+file = "mods/industrialhellscape-1.2.3-ASV.jar"
+hash = "c2c05f4b4ca3e220b4c1ed1c0cf3cc0d123783318f9d37928712a8a3e5785ec6"
 
 [[files]]
 file = "mods/inline.pw.toml"
