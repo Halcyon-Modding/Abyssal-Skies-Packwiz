@@ -5281,6 +5281,10 @@ file = "config/reliable_replacer.json"
 hash = "edc895152a7d7023fbfde32e4e6f3cc6f224a15228a3c37e649bdbac6130e9dc"
 
 [[files]]
+file = "config/reliable_replacer/bnc.json"
+hash = "4a5cdbf79a6365fc0310d440f81663199a3d5330e05c3b760e19ea3b00b4968a"
+
+[[files]]
 file = "config/reliable_replacer/example_rules.json.disabled"
 hash = "a2e5cbc82a366653def86423e294fb20cf79e5c556d8740f76507c070fd5a464"
 

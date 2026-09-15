@@ -1,0 +1,31 @@
+[
+    {
+    "inputs": ["bountifulfares:wild_maize"],
+        "state_properties": {
+        "half": "lower"
+        },
+    "output": "brewinandchewin:wild_corn",
+    "output_state_properties": {
+        "half": "lower"
+    },
+    "probability": 0.25,
+    "player_blocks": false,
+    "additional_blocks": [
+        {
+        "output": "brewinandchewin:wild_corn",
+        "x_offset": 0,
+        "y_offset": 1,
+        "z_offset": 0,
+        "output_state_properties": {
+            "half": "upper"
+                }
+            }
+        ]
+    },
+    {  
+        "inputs": ["bountifulfares:wild_passion_fruit_vine"],
+        "output": "brewinandchewin:wild_grapes",
+        "probability": 0.25,
+        "player_blocks": false
+    }
+]
