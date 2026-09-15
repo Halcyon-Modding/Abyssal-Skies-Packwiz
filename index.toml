@@ -5714,6 +5714,14 @@ file = "kubejs/data/abyssal_skies/shape_map/abyssal_skies.json"
 hash = "dfbbaa7124c89804d6811d7d02ea6f20491253ff6e2a1d3cc1b24659e1a50de1"
 
 [[files]]
+file = "kubejs/data/bountifulfares/loot_table/blocks/wild_maize.json"
+hash = "7217998918396cc9d437946420f4e6a2bd11c4cde95c1959627403977ad6869e"
+
+[[files]]
+file = "kubejs/data/bountifulfares/loot_table/blocks/wild_passion_fruit_vine.json"
+hash = "a0f81c3f4c468ae8c0f697b862b5b2621858e5176b584c0fa4bf5ef46f2742ea"
+
+[[files]]
 file = "kubejs/data/easyshulkerboxes/desktop.ini"
 hash = "8db9c97bedd57711b02611bf7f54459dc4bb7dc6345f6a911c2bf0d52059622c"
 
