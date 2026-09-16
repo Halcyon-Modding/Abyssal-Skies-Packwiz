@@ -162,13 +162,13 @@
 			powdery = false
 
 		[types.wood_type.quark]
-			azalea = false
-			ancient = false
-			blossom = false
+			azalea = true
+			ancient = true
+			blossom = true
 
 		[types.wood_type.bountifulfares]
-			hoary = false
-			walnut = false
+			hoary = true
+			walnut = true
 
 		[types.wood_type.architects_palette]
 			twisted = true
@@ -178,9 +178,9 @@
 			sugi = true
 			wisteria = true
 			fir = true
-			willow = false
+			willow = true
 			aspen = true
-			maple = false
+			maple = true
 			cypress = true
 			olive = true
 			joshua = true
@@ -224,7 +224,7 @@
 			pine = true
 			maple = true
 			walnut = true
-			willow = false
+			willow = true
 
 		[types.wood_type.caverns_and_chasms]
 			azalea = true

@@ -878,7 +878,7 @@ hash = "70ef71e8697b2a640ec737230d5bb63745f049e87959f846a4e489ce0fe93319"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "f4afa4485a6c9bd4ead198059f57f5047da7a1c9e73ca8b72d62c4de076b1274"
+hash = "598f7d847a1368f88f1446e3faf3a805a44f869c133daba9de11b8136029cafa"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -5694,12 +5694,20 @@ file = "kubejs/data/abyssal_skies/function/tick.mcfunction"
 hash = "42d1f71e8308939787aaa086607677adf4b087a7111796b91a155f03089ba729"
 
 [[files]]
+file = "kubejs/data/abyssal_skies/loot_modifiers/amethyst_cluster.json"
+hash = "5d68a80f3dd0c30b0a8e3d22cfd4af3405ee28da6f9d14c0a8fd67e0401d3e91"
+
+[[files]]
 file = "kubejs/data/abyssal_skies/loot_table/boss_drops/mithril_scrap.json"
 hash = "0921ad82f20ff16f4a43ea9ec0703c8a6b49da23eb19175ff0306e8c87f49450"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/loot_table/boss_drops/netherite_scrap.json"
 hash = "39988620ca22ca0cfe1260730e6e7a71c9546e9cd6d8c725ffabc2076291901c"
+
+[[files]]
+file = "kubejs/data/abyssal_skies/loot_table/inject/amethyst_cluster.json"
+hash = "bb7b24559680e31b26e83d01ed8a799854dd2cea644df6390e62e28f4e6e2e2a"
 
 [[files]]
 file = "kubejs/data/abyssal_skies/recipe/charge_quartz.json"
