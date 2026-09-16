@@ -5835,7 +5835,7 @@ hash = "256bc936f5091f4eae93e561cb31572b1c3841e21c2934ad6a70f3b072cde2a3"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/blocks/amethyst_cluster.json"
-hash = "f20f17675610f501ae5cb786189e95ea8fe1d9c96082647c27fcb8bd41a8f026"
+hash = "a5f3d054acb0abc3de4119dc9f443bb1b132d8d7e3c09079278cddb0d4d2b32a"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/function/tick.json"
