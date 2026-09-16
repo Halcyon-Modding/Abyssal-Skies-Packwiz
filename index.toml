@@ -5834,6 +5834,10 @@ file = "kubejs/data/malum/recipe/spirit_infusion/netherite_scrap.json"
 hash = "256bc936f5091f4eae93e561cb31572b1c3841e21c2934ad6a70f3b072cde2a3"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/amethyst_cluster.json"
+hash = "f20f17675610f501ae5cb786189e95ea8fe1d9c96082647c27fcb8bd41a8f026"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/function/tick.json"
 hash = "390588c7f79b34327d5cb7f0587ce4dc397617de020bc57c412d968bdbe1a0f8"
 
