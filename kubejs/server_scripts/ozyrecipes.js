@@ -213,7 +213,7 @@ event.shaped('4x farmersdelight:rope', ['A', 'A'], {A: 'farmersdelight:straw'})
 event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'nirvana:hemp'})
 event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'supplementaries:flax'})
 event.shaped('8x supplementaries:rope', ['A', 'A'], {A: 'farmersdelight:canvas'})
-event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'nirvana:hemp_cloth'})
+event.shaped('8x supplementaries:rope', ['A', 'A'], {A: 'nirvana:hemp_cloth'})
 event.shaped('4x farmersdelight:safety_net', ['AA', 'AA'], {A: 'farmersdelight:rope'})
 
 event.custom( { "type": "create:sequenced_assembly", "ingredient": { "tag": "c:stones" }, "results": [ { "count": 16, "id": "create:track" } ], "sequence": [ { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:pressing", "ingredients": [ { "item": "create:incomplete_track" } ], "results": [ { "id": "create:incomplete_track" } ] } ], "transitional_item": { "id": "create:incomplete_track" } } )
