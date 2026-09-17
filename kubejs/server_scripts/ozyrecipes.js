@@ -52,7 +52,8 @@ ServerEvents.recipes(event => {
     'nirvana:supplementaries_rope_from_hemp',
     'farmersdelight:rope',
     'farmersdelight:safety_net',
-    'create:sequenced_assembly/track'
+    'create:sequenced_assembly/track',
+    'farmersdelight:rope_from_safety_net'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
