@@ -115,6 +115,9 @@ ServerEvents.tags('item',
     event.get('industrialhellscape:ih_recipe_ingots')
     .add(['copper_ingot', 'create:zinc_ingot'])
 
+    event.get('c:crops')
+    .add('nirvana:hemp')
+
 })
 
 

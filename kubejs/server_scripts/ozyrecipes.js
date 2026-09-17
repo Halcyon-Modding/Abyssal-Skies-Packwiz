@@ -46,7 +46,13 @@ ServerEvents.recipes(event => {
     'xkdeco:fan_blade',
     'xkdeco:factory_vent_fan',
     'xkdeco:factory_vent_fan_big',
-    'minecraft:candle'
+    'minecraft:candle',
+
+    'supplementaries:rope',
+    'nirvana:supplementaries_rope_from_hemp',
+    'farmersdelight:rope',
+    'farmersdelight:safety_net',
+    'create:sequenced_assembly/track'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -202,6 +208,15 @@ event.shapeless('botania:glimmering_livingwood_log', ['botania:livingwood_log', 
 
 event.shaped('8x candle', ['A', 'B'], {A: '#abyssal_skies:binding', B: 'honeycomb'})
 event.shaped('4x candle', ['A', 'B'], {A: '#abyssal_skies:binding', B: 'incision:tallow'})
+
+event.shaped('4x farmersdelight:rope', ['A', 'A'], {A: 'farmersdelight:straw'})
+event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'nirvana:hemp'})
+event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'supplementaries:flax'})
+event.shaped('8x supplementaries:rope', ['A', 'A'], {A: 'farmersdelight:canvas'})
+event.shaped('8x farmersdelight:rope', ['A', 'A'], {A: 'nirvana:hemp_cloth'})
+event.shaped('4x farmersdelight:safety_net', ['AA', 'AA'], {A: 'farmersdelight:rope'})
+
+event.custom( { "type": "create:sequenced_assembly", "ingredient": { "tag": "c:stones" }, "results": [ { "count": 16, "id": "create:track" } ], "sequence": [ { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:pressing", "ingredients": [ { "item": "create:incomplete_track" } ], "results": [ { "id": "create:incomplete_track" } ] } ], "transitional_item": { "id": "create:incomplete_track" } } )
 
 
 //Colors
