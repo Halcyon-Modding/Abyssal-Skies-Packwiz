@@ -1,0 +1,13 @@
+name = "There Were A Number Of Signs"
+filename = "signsmod-1.3.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oBILVZUw/versions/wy9jRb33/signsmod-1.3.2.jar"
+hash-format = "sha512"
+hash = "56c19422f774a0fe8c58a8830cb2f689fc7054a66f7be26cac71083c4d165da369e707ad551bd0d75be4e031c81b8c5a226ad39e4c1327e52af0dd7d8f2c7e0f"
+
+[update]
+[update.modrinth]
+mod-id = "oBILVZUw"
+version = "wy9jRb33"

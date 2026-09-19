@@ -284,6 +284,8 @@ function twoByTwo(inputItem, resultItem, resultAmount) {
     //worldloader
     event.remove({ output: 'worldloader:soul_glass' })
     event.shaped(Item.of('worldloader:soul_glass', 18),['AAA','ABA','AAA'],{A: 'minecraft:glass',B: 'minecraft:soul_sand'})
+
+    event.shaped('worldloader:eye_of_the_apex', [ 'AB ', 'CDC', ' BA' ], { A: 'minecraft:chiseled_deepslate', B: 'minecraft:polished_deepslate_slab', C: 'worldloader:soul_orb', D: 'minecraft:ender_eye', } )
 })
 
 
