@@ -5,6 +5,14 @@ file = ".analogaudio/internal/analogplayer-1.0.2.jar"
 hash = "5b53779dca71a5d9f9e15cf9137a6b44d4ca3bb578c9027b30c30578819cebd7"
 
 [[files]]
+file = ".analoglib/bin/ffmpeg.exe"
+hash = "72a489eccd008c2ec2c0a5856c5c75bc3d8bbfa90166c4566865c246445e6aa3"
+
+[[files]]
+file = ".analoglib/bin/yt-dlp.exe"
+hash = "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
+
+[[files]]
 file = ".qmenu_opened.marker"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
