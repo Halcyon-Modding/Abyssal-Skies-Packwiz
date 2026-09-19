@@ -5478,6 +5478,10 @@ file = "config/transmog.json"
 hash = "67d1027e2398f84b22794425893a57512d6497b9268c591cbc80dca1f5a24e16"
 
 [[files]]
+file = "config/trashslot-common.toml"
+hash = "561ca5450162a07377bf6a00ac5bb41e063702796a1feace38080655c545f5db"
+
+[[files]]
 file = "config/treeliable.json"
 hash = "8792edc5c6365bfc9d0280762095a15082088754b84c5366b7f06a1fc1b857ca"
 
@@ -6181,11 +6185,6 @@ metafile = true
 [[files]]
 file = "mods/chunk-activity-tracker.pw.toml"
 hash = "2dcb5146acc15bf66e94401795b8cf1c71376a0b6a8018dae67bb18468e3a289"
-metafile = true
-
-[[files]]
-file = "mods/chunk-loaders.pw.toml"
-hash = "55bca8c3d631e8c7801081d6d2b00c23cb59a3c17bc7c6b03032aef421ab2c6c"
 metafile = true
 
 [[files]]
@@ -7422,16 +7421,6 @@ metafile = true
 [[files]]
 file = "mods/subtle-skybox.pw.toml"
 hash = "05e156c269d0edca7b59ace1516ff5f02a37064f6d085a87e54df352dcf0e695"
-metafile = true
-
-[[files]]
-file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
-metafile = true
-
-[[files]]
-file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "51c911d05e42b074fea01a74cb05050fa15164eed8a5d137cf0f64ecc16ed861"
 metafile = true
 
 [[files]]
