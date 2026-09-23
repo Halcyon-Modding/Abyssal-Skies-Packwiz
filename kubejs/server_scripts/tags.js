@@ -113,7 +113,9 @@ ServerEvents.tags('item',
     .add('bountifulfares:coconut_milk_bottle')
 
     event.get('industrialhellscape:ih_recipe_ingots')
-    .add(['copper_ingot', 'create:zinc_ingot'])
+        .add(['copper_ingot', 'create:zinc_ingot'])
+    event.get('industrialhellscape:ih_recipe_stones')
+        .add(['nomansland:siltstone', 'caverns_and_chasms:fragile_stone', 'caverns_and_chasms:fragile_deepslate'])
 
     event.get('c:crops')
     .add('nirvana:hemp')
