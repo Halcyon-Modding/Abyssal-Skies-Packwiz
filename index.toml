@@ -6780,6 +6780,11 @@ hash = "4928baa74da5759e8bc2f30c2c94cdf2597676bfffb1cbd69b2a48f851b11e4e"
 metafile = true
 
 [[files]]
+file = "mods/irons-artifice.pw.toml"
+hash = "35376cd9a10d6dbbef531943ac3fca793abb278bf33565ab577bcdf7a6e5f4e8"
+metafile = true
+
+[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "1b23f5a7defc103d67d16db0053ff2f6240436bb0d682f760865b590e3416a65"
 metafile = true
@@ -7215,7 +7220,7 @@ metafile = true
 
 [[files]]
 file = "mods/reconnectible-chains.pw.toml"
-hash = "89bcd16b52523bcd2977ef0a635e92aac370969fe3eacf37e73381e2381ed1ff"
+hash = "3c79108609d499384820ed45be28f48bb2a68eaf52ac4460bf23edc4f0343bd4"
 metafile = true
 
 [[files]]
@@ -7614,7 +7619,7 @@ metafile = true
 
 [[files]]
 file = "mods/ziplines-rezipped.pw.toml"
-hash = "caa2c7383b40895268883c86f806fd2ac85fc87e944da1b81809c31f9a917b49"
+hash = "db9e9e349ca310a1a6d4e39573c9d5ac3c390b92ef90b15f21df630019cf889a"
 metafile = true
 
 [[files]]
