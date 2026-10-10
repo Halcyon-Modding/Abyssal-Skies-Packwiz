@@ -1,16 +1,16 @@
 name = "Abyssal Skies"
 author = "Halcyon Development"
-version = "0.0.1a"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2be8631e83ce612cc582bb54369ad17dfc57aca8fab90d9345e4de18eebd73c0"
+hash = "e3d9bd271bc5e7a75068a41a2479424a90b9305cd5cbd0496e56ca6d2c8935e8"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.235"
+neoforge = "21.1.256"
 
 [options]
 no-internal-hashes = true

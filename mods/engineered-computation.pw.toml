@@ -1,0 +1,13 @@
+name = "Engineered Computation"
+filename = "engineered_computation-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d1747133fca2922e49317de5675e9ba96d9524ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9113474
+project-id = 1733770

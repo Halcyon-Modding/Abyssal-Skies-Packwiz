@@ -1,13 +1,13 @@
-name = "Featurify - Feature Control"
-filename = "featurify-neoforge-1.0.4+mc1.21.1.jar"
+name = "Featurify - WorldGen Control"
+filename = "featurify-neoforge-2.0.16+mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c51ceb77dd4836ab5e98dfdc408b91438a67d134"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/BXeGCdww/versions/ofWaHk4F/featurify-neoforge-2.0.16%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "23dfdd6717157bdbe0083f55975fc50687ee767993a73a80008f951becea283a56191f698b0cff4fadc482ec5dd557277cda8573a629b8e465c90ebfd77e35ca"
 
 [update]
-[update.curseforge]
-file-id = 8345064
-project-id = 1569688
+[update.modrinth]
+mod-id = "BXeGCdww"
+version = "ofWaHk4F"

@@ -53,7 +53,8 @@ ServerEvents.recipes(event => {
     'farmersdelight:rope',
     'farmersdelight:safety_net',
     'create:sequenced_assembly/track',
-    'farmersdelight:rope_from_safety_net'
+    'farmersdelight:rope_from_safety_net',
+    'createaddition:mechanical_crafting/electric_pump'
     ]
     removedIds.forEach(removedId => {
         event.remove({id: removedId})
@@ -86,7 +87,7 @@ event.remove({output: [
 event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:ochrum" } ], "processing_time": 250, "results": [ { "chance": 0.5, "id": "create:crushed_raw_gold" } ] })
 event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:crimsite" } ], "processing_time": 250, "results": [ { "chance": 0.8, "id": "create:crushed_raw_iron" }, { "chance": 0.8, "id": "create:crushed_raw_iron" } ] })
 event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:asurine" } ], "processing_time": 250, "results": [ { "chance": 0.8, "id": "create:crushed_raw_zinc" }, { "chance": 0.02, "id": "create:crushed_raw_silver" } ] })
-event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:veridium" } ], "processing_time": 250, "results": [ { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" } ] })
+event.custom({ "type": "create:crushing", "ingredients": [ { "item": "create:veridium" } ], "processing_time": 250, "results": [ { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" }, { "chance": 0.9, "id": "create:crushed_raw_copper" }, {"id": "abyssal_skies:copper_oxide" } ] })
 
 event.custom({ "type": "create:haunting", "ingredients": [ { "item": "minecraft:netherrack" } ], "results": [ { "id": "incision:weatherrack" } ] })
 event.shaped('64x incision:carrion', [' A ', 'ABA', ' A '], {A: 'architects_palette:entrails', B: 'malum:living_flesh'})
@@ -102,6 +103,12 @@ event.shaped('4x incision:blinking_hamstring', ['B B', 'AAA'], {A: 'incision:sme
 event.shaped('4x incision:carrion_eye', ['ABA', 'ACA', 'ABA'], {A: 'incision:carrion', B: 'malum:living_flesh', C: 'incision:congealed_acid'})
 event.shaped('4x incision:molar_carrion', ['ABA', 'ACA', 'ABA'], {A: 'incision:carrion', B: 'malum:living_flesh', C: '#c:bones'})
 event.shaped('incision:mooch', [' A ', 'BCB', ' A '], {A: 'malum:living_flesh', B: 'incision:congealed_acid', C: 'malum:sacred_spirit'})
+event.shaped('3x incision:vericose_stalk', ['A', 'A', 'A'], {A: 'incision:carrion'})
+event.shaped('6x incision:thin_vericose_stalk', ['AAA', 'AAA'], {A: 'incision:thin_vericose_stalk'})
+event.smelting('incision:smearglass', 'incision:smearblock')
+event.shaped('16x incision:freshsmearglasspane', ['AAA', 'AAA'], {A: 'incision:smearglass'})
+event.shaped('4x incision:clottage_bricks', ['AA', 'AA'], {A: 'incision:clottage'})
+event.shaped('16x incision:intestineladder', ['A A', 'AAA', 'A A'], {A: 'incision:clottage'})
 
 event.custom({ "type": "farmersdelight:cutting", "ingredients": [ { "item": "architects_palette:entrails" } ], "result": [ { "item": { "count": 4, "id": "incision:intestine" } } ], "tool": [ { "type": "farmersdelight:item_ability", "action": "knife_dig" }, { "tag": "c:tools/knife" } ] })
 
@@ -219,6 +226,7 @@ event.shaped('4x farmersdelight:safety_net', ['AA', 'AA'], {A: 'farmersdelight:r
 
 event.custom( { "type": "create:sequenced_assembly", "ingredient": { "tag": "c:stones" }, "results": [ { "count": 16, "id": "create:track" } ], "sequence": [ { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:deploying", "ingredients": [ { "item": "create:incomplete_track" }, [ { "tag": "c:nuggets/iron" }, { "tag": "c:nuggets/zinc" } ] ], "results": [ { "id": "create:incomplete_track" } ] }, { "type": "create:pressing", "ingredients": [ { "item": "create:incomplete_track" } ], "results": [ { "id": "create:incomplete_track" } ] } ], "transitional_item": { "id": "create:incomplete_track" } } )
 
+event.shaped('nirvana:old_pipe', ['  A', 'ABA', ' A '], {A: 'nomansland:walnut_planks', B: 'supplementaries:antique_ink'})
 
 //Colors
 vanillaColors.forEach(color => {

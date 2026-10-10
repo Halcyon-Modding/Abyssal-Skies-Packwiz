@@ -115,7 +115,7 @@ ServerEvents.tags('item',
     event.get('industrialhellscape:ih_recipe_ingots')
         .add(['copper_ingot', 'create:zinc_ingot'])
     event.get('industrialhellscape:ih_recipe_stones')
-        .add(['nomansland:siltstone', 'caverns_and_chasms:fragile_stone', 'caverns_and_chasms:fragile_deepslate'])
+        .add(['nomansland:siltstone', 'caverns_and_chasms:fragile_stone', 'caverns_and_chasms:fragile_deepslate', 'netherrack'])
 
     event.get('c:crops')
     .add('nirvana:hemp')
