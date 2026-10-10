@@ -665,6 +665,10 @@ file = "config/com.yuushya/client_config.json"
 hash = "a5068b44183cf05a773c6119c13cd8bda95d05ef566f83eaab508f4fe156ec65"
 
 [[files]]
+file = "config/connectiblechains.json"
+hash = "5e4c0f1d1ca8a0b61991219a2947cd8da0119cba2abdcf70bcebe8c55babdde5"
+
+[[files]]
 file = "config/connectiblechains.toml"
 hash = "802b6d4b952df3a0defac23fdae74b5086a94e1e830f2c653e7867c20034ebee"
 
