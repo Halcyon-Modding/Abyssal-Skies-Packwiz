@@ -6657,9 +6657,8 @@ hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
 
 [[files]]
-file = "mods/engineered-computation.pw.toml"
-hash = "49da4e484b82e9fe88b707d530bc70fa531f2ed6a904257557bc3ff6cdb639bf"
-metafile = true
+file = "mods/engineered_computation-1.1.1.jar"
+hash = "f1e0bd920ead31b6f5539025dac43cd8cb2acea8b301d38ee3d9bf404979a707"
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
