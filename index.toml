@@ -650,7 +650,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "e2a3fb4fe38eb37fb529fb610a1eabf8795550a2c36297a9dcbdbc176c83a509"
+hash = "968675c212af7a2e51e971df60b69cf22543e94bde75aa32c84c63cf54a7bb25"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -6869,9 +6869,8 @@ file = "mods/hexal-0.3.1-NEOFORGE-DEVEL-pre-11.jar"
 hash = "53fd377567f0c6eb3f2d3193da6f32f68de34b76f6ecef475371cbf0848ad723"
 
 [[files]]
-file = "mods/hexcasting.pw.toml"
-hash = "c08ba81e4ecb9a21b6eee58dff67fc8041ecce95c4fabc357b6cd9e5c1b88a24"
-metafile = true
+file = "mods/hexcasting-neoforge-1.21.1-0.12.0-devel-pre-51.jar"
+hash = "65915bac69ac74108f4c952daad660b47199d0b8d8cd9d53de5fa9b857fd2aa0"
 
 [[files]]
 file = "mods/ichunutil.pw.toml"
@@ -7804,11 +7803,6 @@ metafile = true
 file = "mods/ziplines-rezipped.pw.toml"
 hash = "6445b98e4e5bcffcef836353b164ed6c34062daafa6d04c59965067000851d1b"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "51769cccc281f7fc2f03393284cb6ebb39d8d7fd8b41a4c431199282b75b8cf6"
-preserve = true
 
 [[files]]
 file = "servers.dat"
