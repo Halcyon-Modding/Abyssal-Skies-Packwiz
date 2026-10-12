@@ -21,6 +21,10 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/Underlay/underlay.json"
+hash = "3a7fbf1367dc2c6715c8cb882ed9755d7d393eb153d1aa78fd238fc428f80c04"
+
+[[files]]
 file = "config/ae2-client.toml"
 hash = "b16a6dc5c3625fee113d1c5887acfc68964ef883601a7357f8185914d3b08ba0"
 
@@ -5967,7 +5971,7 @@ hash = "f8ff65b9b6dcd7478d29605140682222e3dcffe74556a41ff8a21ae76f8a0e17"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "3d03ef1efee54ed1654f72470512b7ff12013792cf3ddc0ee56a47bfba5a5014"
+hash = "2330152a79456c97bdf4df5e18edb4a86373c4fcfcd34225c24c93953ac1da7f"
 
 [[files]]
 file = "kubejs/startup_scripts/arches.js"

@@ -228,6 +228,9 @@ ServerEvents.tags('block',
 
         event.get('minecraft:mineable/pickaxe')
         .add(['/bits_n_bobs:.*_tiles/', '/bits_n_bobs:.*_tile_slab/', '/bits_n_bobs:.*_tile_stairs/'])
+
+        event.get('abyssal_skies:arch')
+        event.add('/abyssal_skies:.*_arch/')
  })
 
  ServerEvents.tags('function',
