@@ -230,7 +230,7 @@ ServerEvents.tags('block',
         .add(['/bits_n_bobs:.*_tiles/', '/bits_n_bobs:.*_tile_slab/', '/bits_n_bobs:.*_tile_stairs/'])
 
         event.get('abyssal_skies:arch')
-        event.add('/abyssal_skies:.*_arch/')
+        .add('/abyssal_skies:.*_arch/')
  })
 
  ServerEvents.tags('function',
