@@ -1,0 +1,13 @@
+name = "Spellslinger"
+filename = "spellslinger-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "915f9a0a57f8a0b58900ea66904789a094fda909"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9094646
+project-id = 1732733
