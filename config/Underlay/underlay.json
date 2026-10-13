@@ -1,6 +1,6 @@
 {
   "overlay_blocks": [
-    "abyssal_skies:arch"
+    "#abyssal_skies:arch"
   ],
   "exclude_blocks": [],
   "target_exclude_blocks": [],

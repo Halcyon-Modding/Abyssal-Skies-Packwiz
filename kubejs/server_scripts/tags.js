@@ -120,6 +120,9 @@ ServerEvents.tags('item',
     event.get('c:crops')
     .add('nirvana:hemp')
 
+    event.get('abyssal_skies:arch')
+    .add('/abyssal_skies:.*_arch/')
+
 })
 
 
@@ -230,7 +233,10 @@ ServerEvents.tags('block',
         .add(['/bits_n_bobs:.*_tiles/', '/bits_n_bobs:.*_tile_slab/', '/bits_n_bobs:.*_tile_stairs/'])
 
         event.get('abyssal_skies:arch')
-        .add('/abyssal_skies:.*_arch/')
+        .add([
+            '/abyssal_skies:.*_arch/',
+            '/arch_mc:.*arch.*'
+        ])
  })
 
  ServerEvents.tags('function',
