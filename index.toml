@@ -6183,7 +6183,7 @@ metafile = true
 
 [[files]]
 file = "mods/biolith.pw.toml"
-hash = "f53d98dc09fb5abb52798e5dfd25297d85a290e1e4874d8208b981654799121e"
+hash = "17a19b546170937c6c676c026b1cd80909ac7ac4fe70b1830ce37b9c72585085"
 metafile = true
 
 [[files]]
@@ -7212,7 +7212,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-mans-land.pw.toml"
-hash = "b24699e5aa7fe877792507055aea1a03b284d41703edca7c640aa149b99848ef"
+hash = "57d213b77745690107aebe56df55e867e4658d7463deb50b00fb2588710e896b"
 metafile = true
 
 [[files]]
@@ -7567,11 +7567,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
-metafile = true
-
-[[files]]
-file = "mods/spellslinger.pw.toml"
-hash = "ec1da98d94c5f1ec9458216e86ed16dee792bf06ed1861bdabe2fc6280737a91"
 metafile = true
 
 [[files]]
