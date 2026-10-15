@@ -6665,8 +6665,8 @@ hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
 
 [[files]]
-file = "mods/engineered_computation-1.3.1.jar"
-hash = "04c0b84636686ce33d9c78a544e99a79825ff93a15ea65476fd6aecffcf60f64"
+file = "mods/engineered_computation-1.4.jar"
+hash = "3ee054ef9e5e964f184b4327d5ad39a993ec64dd4f444fb9192f8646f4d0980f"
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
@@ -7193,6 +7193,11 @@ metafile = true
 [[files]]
 file = "mods/neo-bee-fix.pw.toml"
 hash = "234536c570397d357236249923f4874744b43aaefd8b497e3eb56c8a48ddeb91"
+metafile = true
+
+[[files]]
+file = "mods/neoauth.pw.toml"
+hash = "8a36f6a5dcd8149c36ac7ad1c4dce76a997b814075033d406cbbacfe197de54f"
 metafile = true
 
 [[files]]
