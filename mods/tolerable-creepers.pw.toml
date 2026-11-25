@@ -1,13 +1,13 @@
 name = "Tolerable Creepers"
-filename = "tolerable_creepers-neoforge-1.21.1-2.2.4.jar"
+filename = "tolerable_creepers-neoforge-1.21.1-2.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "407a4acd9f67980d1f5b9db0c5312515cccf0bd7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/k9OKXOrZ/versions/3Y8Ax6sX/tolerable_creepers-neoforge-1.21.1-2.3.0.jar"
+hash-format = "sha512"
+hash = "7a6755ffaa30f27aadd0570707259b1d8651de5789e0c56e67afb4d2fcc74c8cf2ce4ff89fa520ea9a202adddef9c33d33cd806788574989bdce6a14e1655e65"
 
 [update]
-[update.curseforge]
-file-id = 8429355
-project-id = 542678
+[update.modrinth]
+mod-id = "k9OKXOrZ"
+version = "3Y8Ax6sX"

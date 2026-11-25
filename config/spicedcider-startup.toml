@@ -1,0 +1,22 @@
+#Registers Every Compat wood-type variants (seats, palisades) for The Block Box. Requires The Block Box, Every Compat, and Moonlight Lib. Requires a restart to take effect.
+blockBoxWoodVariants = true
+#Skeletons and strays get 10 max health. Requires a restart to take effect.
+skeletonHealthNerf = false
+#Horse armor works like wolf armor: it tanks the hit, loses durability, and is repaired by right-clicking the pet with the armor's material. Applies to horses and, with wolvesWearAnyArmor, to wolves. Requires a restart to take effect.
+unifiedPetArmor = false
+#Leaves from every mod never suffocate or block vision, like vanilla leaves. Requires a restart to take effect.
+leavesNotSuffocating = true
+#Torchflowers and potted torchflowers give off light. Requires a restart to take effect.
+torchflowerLight = true
+#Plum and hoary ciders, wines and meads make you Intoxicated, and Cultural Delights apple cider no longer does. Requires Cultural Delights. Requires a restart to take effect.
+drinkIntoxication = false
+#Foods that still give Farmer's Delight's retired Comfort effect give Spiced Cider's Comfort instead, for the same time. Requires Farmer's Delight. Requires a restart to take effect.
+replaceFarmersDelightComfort = false
+#Gives Tide's fish spawn eggs classic two-tone spawn egg icons colored after each fish. Requires Tide. Requires a restart to take effect.
+tideSpawnEggs = false
+#Sulfur Caves are lined with sulfur and edged with tuff instead of bands of cinnabar and stone. Requires Vanilla Backport. Only affects newly generated terrain. Requires a restart to take effect.
+sulfurCavesRework = false
+#Lit cage lanterns give off full light. Requires Architect's Palette. Requires a restart to take effect.
+brightCageLanterns = true
+#Uses the pack's own window and taskbar icon on Windows, including during loading. Requires a restart to take effect.
+customWindowIcon = false

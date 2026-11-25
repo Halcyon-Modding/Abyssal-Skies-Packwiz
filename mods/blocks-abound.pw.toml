@@ -1,13 +1,13 @@
 name = "Blocks Abound"
-filename = "blocksabound-0.4.0.jar"
+filename = "blocksabound-0.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iIQCWW5p/versions/g6VGqj7y/blocksabound-0.4.0.jar"
+url = "https://cdn.modrinth.com/data/iIQCWW5p/versions/vPeam9WP/blocksabound-0.5.0.jar"
 hash-format = "sha512"
-hash = "eeac6d6f94e4c318d36ac4e4f5d7cf16bd4e1038b74bc8b99d50929e0105080da26f65c58019bf44ca1e23094418c5989ac7a963890fa79e71573e234565e5be"
+hash = "2ccfbaff46059442fb4afb6ceca474264c8f0e672023d0b46bbced4ff9dac70c171d03054ada4a2d5bb512ddffee8e10b7bde418514c16704a9ba36c6c53783d"
 
 [update]
 [update.modrinth]
 mod-id = "iIQCWW5p"
-version = "g6VGqj7y"
+version = "vPeam9WP"

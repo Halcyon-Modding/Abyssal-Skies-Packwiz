@@ -1,0 +1,351 @@
+[compat]
+	#Use Environmental's old 1.19 wisteria tree leaf generation instead of the current sparse/patchy one. Requires Environmental (obviously).
+	oldWisteriaTrees = false
+	#Disables Slime Time's feature where clicking slimeballs together in inventory merges them. Requires Slime Time.
+	slimeTimeDisableItemMerging = false
+	#Anvil repairs and renames cost no experience. Requires Easy Anvils.
+	easyAnvilsFreeRepairs = false
+	#Fully repairing a tool in an anvil takes as much material as crafting its head: one for shovels, two for swords and hoes, three for pickaxes and axes. Requires Easy Anvils.
+	toolRepairMaterialCounts = false
+	#Fire rings no longer take potions to spread their effects. Requires Piglin Proliferation.
+	fireRingNoPotions = false
+	#Cleaning out an empty Pot of Witch Stew leaves a Create Basin instead of a Cauldron. Requires No Man's Land and Create.
+	witchStewBasin = false
+	#Stops copper golems from being built out of blocks. Requires Caverns & Chasms.
+	copperGolemBuildingDisabled = false
+	#Bonemeal no longer turns grass into overgrown grass. Requires Where Winds Blow.
+	whereWindsBlowNoBonemealGrass = false
+	#A worn backpack adds its 27 slots to the player inventory screen, and a backpack with items in it can't be taken off or placed from your back. Client and server must match. Requires Reliable Backpacks.
+	backpackInventoryRows = false
+	#Removes the backpack item filter, so backpacks can hold any item. Requires Reliable Backpacks.
+	backpackAcceptAnything = false
+	#Incremental Mining uses the normal block breaking time instead of its own. Requires Incremental Mining.
+	incrementalMiningVanillaSpeed = false
+	#Half of the mineshaft side-room dungeon spawners spawn dust bunnies. Requires YUNG's Better Mineshafts and Spelunkery. Only affects newly generated terrain.
+	dustBunnySpawners = false
+	#A change in redstone power opens or closes a tap. Requires No Man's Land.
+	tapRedstone = true
+	#Taps drain and fill everything a Supplementaries faucet can, such as jars, beehives and basins, and show a stream of liquid while pouring. Requires No Man's Land and Supplementaries.
+	tapFaucetFluids = false
+	#Trees with pinecone-growing logs generate with pinecones. Requires Environmental. Only affects newly generated terrain.
+	pineconesOnTrees = false
+	#Building a copper golem doesn't leave a copper chest behind. Requires Vanilla Backport.
+	copperGolemNoChest = false
+	#Jack-o'-Straws can be placed facing any of 16 directions, like heads. Requires Bountiful Fares.
+	jackOStrawRotation = true
+	#Each Treeliable chop costs half a bolt of Modest Meals stamina. Without stamina, logs break normally without counting as a chop. Requires Treeliable and Modest Meals.
+	treeChoppingStamina = false
+	#Get Over It only pulls you up ledges taller than a jump (about two blocks) that you are looking at and walking into, climbs faster, and lands you on top. Requires Get Over It.
+	ledgeClimbRework = true
+	#Pulling yourself up a ledge costs a bolt of Modest Meals stamina, and you can't climb while exhausted. Requires Get Over It and Modest Meals.
+	ledgeClimbStamina = false
+	#Stamina recovers twice as fast while sitting on a seat, chair or cushion, or with Personality's sit key. Requires Modest Meals.
+	sittingStaminaRegen = false
+	#Eating never restores Modest Meals stamina directly, and food tooltips and the HUD preview stop showing it. Food can still give stamina effects. Requires Modest Meals.
+	noFoodStamina = false
+	#An ingredient never adds less health to a Modest Meals meal than it heals when eaten on its own. Requires Modest Meals.
+	mealIngredientsKeepHealth = false
+	#Percentage of Farmer's Delight Nourishment duration kept when Modest Meals turns it into stamina nourishment, in tooltips too. Requires Modest Meals and Farmer's Delight.
+	# Default: 100
+	# Range: 1 ~ 100
+	nourishmentDurationPercent = 100
+	#Animals and mobs can sit on Quark stools like on Create seats: walk or lead them onto one, or right-click it while holding a lead. Seated mobs work with Stock Tickers and other seat features. Requires Quark and Create.
+	quarkStoolSeats = true
+	#Campfires, Fire, Magma Blocks and other cooking heat sources under a Basin count as heated for mixing and brewing, so heated recipes don't need a Blaze Burner. Superheated recipes still do. Requires Create.
+	basinCampfireHeat = false
+	#Animals that flee after seeing one of their herd hurt run at a normal panic speed instead of sprinting away, and calm down 10 seconds later. Requires Big Brain.
+	calmerHerdPanic = false
+	#Rabbits don't run from players who are sneaking.
+	sneakUpOnRabbits = true
+	#Leapers deal a third less explosion damage. Requires Adapted Mobs.
+	weakerLeapers = true
+	#Learning a new chalk symbol shows its message above the hotbar instead of in chat. Requires Chalk.
+	chalkSymbolsAboveHotbar = false
+	#Awake creaking hearts and resin clumps give off light, creaking eyes always glow, and eyeblossoms open in dim light at any time of day. Requires Vanilla Backport.
+	vanillaBackportLightTweaks = false
+	#The creaking moves a little faster and hits twice as hard. Requires Vanilla Backport.
+	creakingBuff = false
+	#Baby animals that are still growing follow players holding a golden dandelion. Requires Tiny Takeover Backport.
+	goldenDandelionTempting = false
+	#Ocean ruins generate prismarine chests instead of regular chests. Requires Quark. Only affects newly generated terrain.
+	oceanRuinPrismarineChests = true
+
+[features]
+	#Combine a named name tag with an item in the crafting grid to rename it. Takes effect after /reload.
+	renameRecipe = true
+	#Repeaters, comparators and other diodes can be placed in water.
+	waterloggableRedstone = true
+	#Overworld skies cycle between clear, mostly clear, partly cloudy and cloudy, and cloud over before rain. Adds the extra /weather states. Requires a restart to add or remove the commands.
+	cloudCover = true
+	#Newly generated ocean monuments hold chests of loot.
+	monumentChests = true
+	#Pages of the End Poem turn up in dungeon chests and archaeology loot. Takes effect after /reload.
+	ruinedPages = true
+	#Balloons can be crafted and dyed. Takes effect after /reload.
+	balloons = true
+	#The Pocket Jukebox can be crafted and dyed. Takes effect after /reload.
+	pocketJukebox = true
+	#Grappling Hooks can be crafted. Requires Tide. Takes effect after /reload.
+	grapplingHooks = true
+	#Straw Golems can be built from a hay bale and a carved pumpkin.
+	strawGolems = true
+	#Sputters can be built from a barrel and a carved pumpkin.
+	sputters = true
+	#Sporals spawn in lush caves, swamps and jungles, where they follow other monsters and give them speed and strength.
+	sporals = false
+	#Breaking leaves sometimes drops a stick. Takes effect after /reload.
+	leafSticks = true
+	#Sneak and use a stick on the ground to lay it down. Sticks also lie scattered on forest floors in newly generated terrain.
+	placedSticks = false
+	#Mining an ore also drops the stone it sits in, such as deepslate or netherrack. Takes effect after /reload.
+	oreStoneDrops = false
+	#Netherite pickaxes, shovels, axes, hoes and hammers drop the smelted form of what they mine, except ores, raw metals, logs and crops. Silk Touch turns it off. Takes effect after /reload.
+	autoSmelting = false
+	#Two flint craft a single-use Fire Striker. Takes effect after /reload.
+	fireStriker = false
+	#Deposit ores generate underground, and geodes turn up in dungeon and Nether chests. Worldgen changes need a world restart and only affect new chunks.
+	deposits = false
+	#Wormy dirt generates underground. Needs a world restart and only affects new chunks.
+	wormyDirt = false
+	#Rich gravel, which drops several flint, generates in gravel patches. Needs a world restart and only affects new chunks.
+	richGravel = false
+	#Small, shallow pools of spring water form on mountainsides. Requires Spelunkery. Needs a world restart and only affects new chunks.
+	springPools = false
+	#With Upgrade Aquatic, a few bare dead trees with jutting branches stand in deserts. Needs a world restart and only affects new chunks.
+	deadTrees = false
+	#Gravestones can be crafted. Carry one and your items and experience go into a grave where you die. Takes effect after /reload.
+	gravestones = false
+	#Cacao trees generate in jungles. Needs a world restart and only affects new chunks.
+	cacaoTrees = false
+	#Pear trees generate in autumnal forests. Needs a world restart and only affects new chunks.
+	pearTrees = false
+	#Algae, chromarine and achromarine reefs and brambles, and hydrothermal vents generate in oceans. Needs a world restart and only affects new chunks.
+	oceanDepths = false
+	#Recipes for the extra stairs, slabs, walls and other building blocks. Takes effect after /reload.
+	buildingBlocks = true
+	#Pale pumpkins, pale roses and pale bushes grow in pale gardens. Requires Vanilla Backport. Only affects newly generated terrain.
+	paleGardenPlants = false
+	#Sniffers can dig up golden dandelions. Requires Tiny Takeover Backport. Takes effect after /reload.
+	snifferGoldenDandelions = false
+	#Arrows stuck in players and mobs can be pulled back out: your own by clicking them on your player model in the inventory, and a tamed animal's by looking at one and right-clicking. Pulls from the head are riskiest; a failed pull breaks the arrow and deals a little damage. Arrows that can be picked up stay in until pulled and drop when the mob dies. Mobs show stuck arrows with Entity Pin Cushions.
+	stuckArrows = true
+	#Potions and water bottles used in a crafting or mixing recipe leave their empty Glass Bottle behind.
+	bottleCraftingRemainder = false
+	#Cats that spawn naturally stay in the world like other animals instead of despawning when nobody is near.
+	persistentWildCats = false
+
+	[features.gameplay]
+		#Beds don't explode outside the Overworld; instead they show a message and wake sleeping villagers.
+		bedExplosionPrevention = true
+		#Respawn anchors don't explode outside dimensions where they work; instead they show a message.
+		respawnAnchorExplosionPrevention = true
+		#End crystals can be placed on any block, not just obsidian/bedrock.
+		endCrystalPlaceAnywhere = false
+		#End crystals with no beam target heal nearby damaged entities and render a beam to their heal target.
+		endCrystalHealing = false
+		#Tools, armor, and elytra become "Broken" instead of being destroyed when they run out of durability.
+		keepBrokenItems = true
+		#Broken tools can still be used to cut ingredients on cutting boards.
+		brokenToolsOnCuttingBoards = false
+		#Tamed wolves can be equipped with horse/animal armor as body armor.
+		wolvesWearAnyArmor = false
+		#Spiders switch to shooting cobweb projectiles at range when their target is trapped.
+		spiderRangedWebAttacks = true
+		#Removes quasi-connectivity from pistons, dispensers, and droppers.
+		removeQuasiConnectivity = false
+		#Ghast fireballs no longer destroy blocks.
+		harmlessGhastFireballs = false
+		#Blocks tagged spicedcider:needs_axe_to_harvest (logs) only drop when broken with an axe.
+		logsNeedAxe = false
+		#Players run up full blocks without jumping while sprinting.
+		stepUp = false
+		#Hammers (c:tools/hammer) break blocks at hand speed and don't count as the right tool for drops.
+		hammersCannotMine = false
+		#Stripping a log with an axe drops Tree Bark, which can be used on a stripped log to restore it.
+		treeBark = true
+		#Blocks tagged spicedcider:needs_hoe_to_harvest (moss) only drop when broken with a hoe.
+		mossNeedsHoe = false
+		#Use a dye on a placed colored block to recolor it.
+		blockDyeing = false
+		#Emptying a composter sometimes pops out worms.
+		composterWorms = true
+		#Azaleas can no longer be bonemealed into trees.
+		azaleaTreePrevention = false
+		#Players and the world spawn are never placed on top of leaves.
+		noLeafSpawns = true
+		#Zombies sometimes spawn holding a torch.
+		zombieTorches = true
+		#Brown mushrooms and mushroom colonies no longer give off a faint light. Already placed mushrooms update when their chunk relights.
+		darkMushrooms = true
+		#Piglins spawn with Piglin Broadswords and Battleaxes instead of golden swords and axes.
+		piglinWeaponSwap = true
+		#Soul campfires haunt items using Create's haunting recipes. Requires Create.
+		soulCampfireHaunting = true
+		#Splash potions have a 10 second cooldown and lingering potions a 5 second cooldown.
+		throwablePotionCooldown = true
+		#Advancement chat messages are only shown to the player who earned them.
+		privateAdvancementMessages = false
+		#Sign hitboxes follow the sign's model and rotation.
+		accurateSignHitboxes = false
+		#How many items a bundle holds. 64 is the vanilla amount.
+		# Default: 64
+		# Range: 1 ~ 1024
+		bundleCapacity = 64
+		#Every fall deals this much less damage to players, in half hearts. 0 is the vanilla amount.
+		# Default: 0
+		# Range: 0 ~ 20
+		fallDamageReduction = 0
+		#Bundles can't be put inside other bundles.
+		noNestedBundles = false
+		#Bow-wielding skeletons stand still while they shoot instead of strafing, shoot faster the closer you are, and switch to a flint knife when you get within 3 blocks.
+		rangedSkeletons = true
+		#Blazes shoot one aimed fireball every 3.5 seconds instead of a spread of three.
+		singleBlazeFireball = false
+		#Lightning no longer spawns skeleton horse traps during thunderstorms.
+		noSkeletonTrapHorses = false
+		#Combat Test bow fatigue: arrows fly almost straight when loosed within 3 seconds, then lose accuracy and stop critting the longer the bow stays drawn, up to 10 seconds, while the bow wobbles more and more.
+		bowFatigue = false
+		#Skeletons spawn holding a Crude Bow instead of a Bow.
+		crudeBowSkeletons = false
+		#Skeleton horses catch fire in sunlight unless they wear horse armor. Horse armor with durability wears down in the sun instead.
+		skeletonHorsesBurn = false
+		#At night, Evokers come for players on the surface of Dark Forests every few minutes, outside the normal monster cap.
+		darkForestEvokers = false
+		#Igloos generate without their basement.
+		iglooBasementRemoval = false
+		#Cocoa pods can't be placed and break off logs. Cacao trees grow their own pods.
+		noVanillaCocoaPods = false
+		#Pale oak saplings grow into thin gloomwood trees, and don't grow as 2x2 trees.
+		paleOakGrowsGloomwood = false
+
+	[features.voidWater]
+		#Fluids at the bottom of the world spill into the void as fading trails you can swim in. Takes effect when a world is next loaded.
+		voidWater = true
+		#How many blocks fluid trails extend below the bottom of the world.
+		# Default: 16
+		# Range: 0 ~ 255
+		voidWaterTrailLength = 32
+		#How quickly void fluid trails fade out. Higher values fade faster.
+		# Default: 2.0
+		# Range: 0.05 ~ 16.0
+		voidWaterTrailDecay = 4.0
+		#Dimension ids where fluids never spill into the void. The End is excluded by default because its floor is a sea of Dimensional Tears.
+		voidWaterExcludedDimensions = ["minecraft:the_end"]
+
+	[features.caveMaps]
+		#Maps in the Nether and other dimensions with a ceiling show the terrain at a usable height instead of the bedrock roof.
+		caveMaps = true
+		#In dimensions with a ceiling, maps show the terrain at the height where they were created. When off, the fixed height is used.
+		caveMapsUseCreationHeight = true
+		#Height maps show in dimensions with a ceiling when Use Map Creation Height is off.
+		# Default: 100
+		# Range: -64 ~ 320
+		caveMapsFixedHeight = 100
+		#Entries like minecraft:the_nether=40. Maps in these dimensions always show this height, overriding the other settings.
+		caveMapsFixedHeights = ["minecraft:the_nether=40"]
+		#Dimension ids where maps always show the height they were created at, even without a ceiling.
+		caveMapsCreationHeightDimensions = []
+
+	[features.graves]
+		#Graves wear down as time passes in the world and eventually break open, spilling their contents. Spilled items never despawn.
+		gravestoneDecayWithTime = false
+		#Each later death of a grave's owner wears down their older graves.
+		gravestoneDecayWithDeaths = false
+		#Hours of world time between each stage of a grave crumbling. Only counts while the world is running.
+		# Default: 8
+		# Range: 1 ~ 168
+		gravestoneDecayHours = 8
+		#How many times a grave can wear down before it breaks open.
+		# Default: 3
+		# Range: 1 ~ 20
+		gravestoneDamageToBreak = 3
+		#Graves hold the experience you would have dropped on death.
+		gravestoneStoreExperience = false
+		#Graves hold all of your experience instead of only what you would have dropped.
+		gravestoneKeepAllExperience = false
+		#A worn grave gives back less experience: half at the second stage, a third at the last.
+		gravestoneExperienceDecay = false
+
+	[features.comfort]
+		#Ticks between each health point Comfort restores. 80 ticks (4 seconds) matches the old Farmer's Delight Comfort.
+		# Default: 80
+		# Range: 1 ~ 1200
+		comfortHealInterval = 80
+		#Ticks between each health point Comfort restores while sitting, on a seat or lying in bed.
+		# Default: 40
+		# Range: 1 ~ 1200
+		comfortRestingHealInterval = 40
+		#Seconds of Comfort granted per nutrition point when eating a soup or stew (the spicedcider:comfort_foods tag). 0 disables it.
+		# Default: 0
+		# Range: 0 ~ 600
+		comfortSoupSecondsPerNutrition = 0
+		#The most seconds of Comfort a single soup or stew can grant.
+		# Default: 180
+		# Range: 0 ~ 3600
+		comfortSoupMaxSeconds = 180
+		#Seconds of Comfort granted when waking up after sleeping through the night. Players lying in bed also have Comfort. 0 disables both.
+		# Default: 0
+		# Range: 0 ~ 3600
+		comfortSleepSeconds = 0
+
+	[features.horses]
+		#Every horse, donkey and mule gets the same speed and jump strength for its kind instead of random ones. Applies to entities in the spicedcider:static_horse_stats tag.
+		staticHorseStats = false
+		#Movement speed given to every horse when Fixed Horse Stats is on. 0.3375 is the fastest a vanilla horse can be.
+		# Default: 0.3375
+		# Range: 0.05 ~ 1.0
+		staticHorseSpeed = 0.3375
+		#Jump strength given to every horse when Fixed Horse Stats is on. 1.0 is the highest a vanilla horse can jump, about 5 blocks.
+		# Default: 1.0
+		# Range: 0.1 ~ 2.0
+		staticHorseJump = 1.0
+		#Movement speed given to every donkey when Fixed Horse Stats is on. 0.175 is what a vanilla donkey gets.
+		# Default: 0.175
+		# Range: 0.05 ~ 1.0
+		staticDonkeySpeed = 0.175
+		#Jump strength given to every donkey when Fixed Horse Stats is on. 0.5 is what a vanilla donkey gets.
+		# Default: 0.5
+		# Range: 0.1 ~ 2.0
+		staticDonkeyJump = 0.5
+		#Movement speed given to every mule when Fixed Horse Stats is on. 0.175 is what a vanilla mule gets.
+		# Default: 0.175
+		# Range: 0.05 ~ 1.0
+		staticMuleSpeed = 0.175
+		#Jump strength given to every mule when Fixed Horse Stats is on. 0.5 is what a vanilla mule gets.
+		# Default: 0.5
+		# Range: 0.1 ~ 2.0
+		staticMuleJump = 0.5
+
+	[features.wind]
+		#Adds wind that changes direction and strength through the day, picks up in rain and storms, and comes in gusts. It is shared by every player and moves particles, clouds and hanging blocks. Adds the /wind command. Requires a restart to add or remove the command.
+		wind = true
+		#Windmill bearings turn slower in calm air and faster in strong wind. Requires Create and the Wind option.
+		windCreateWindmills = true
+		#Wind vanes give a redstone signal that follows wind strength, and give none under shelter. Requires Supplementaries and the Wind option.
+		windVaneSignal = true
+		#Wind carries you while gliding: tailwinds speed you up, headwinds slow you down. Requires Reliable Gliders and the Wind option.
+		windGliders = true
+
+	[features.performance]
+		#Disables recipe book unlock tracking/saving/syncing entirely and skips loading recipe unlock advancements. Saves memory and disk I/O.
+		disableRecipeBookTracking = true
+		#Runs /locate biome searches, structure locating and map biome previews across several threads.
+		parallelLocate = true
+		#Monsters that stop you from sleeping glow briefly so you can find them.
+		revealThreateningMonsters = true
+
+	[features.lod]
+		#Generates terrain beyond your render distance in the background so it can be drawn in the distance, out to your Distant Terrain Range. The chunks are never saved, so the world folder doesn't grow.
+		lodGeneration = true
+		#Server-side cap, in chunks, on how far LoD terrain is generated around each player. Each player's own Voxy LoD render distance is used up to this limit.
+		# Default: 128
+		# Range: 8 ~ 512
+		lodGenerationMaxRadius = 128
+		#Worker threads used to generate distant terrain. 0 picks automatically: an eighth of your CPU threads, between 1 and 4. More is faster but costs frame rate while terrain is generating. Requires rejoining the world.
+		# Default: 0
+		# Range: 0 ~ 16
+		lodGenerationThreads = 0
+		#Chunks per second sent to each player on a server. Singleplayer hands chunks to Voxy directly and ignores this.
+		# Default: 100
+		# Range: 10 ~ 2000
+		lodGenerationSendRate = 100

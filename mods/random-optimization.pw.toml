@@ -1,0 +1,13 @@
+name = "Random Optimization"
+filename = "randomoptimization-1.7.7-all-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Mjoo9rPv/versions/5n7HtT4g/randomoptimization-1.7.7-all-1.21.1.jar"
+hash-format = "sha512"
+hash = "869f0088ad9007ff029c4272e4c07243fcb10b15aaa27bc9ba7a526227a442cc9b27a11759cc081b8312c5b2327abb3cfc66add38ee6cb29e8747865c7596ce4"
+
+[update]
+[update.modrinth]
+mod-id = "Mjoo9rPv"
+version = "5n7HtT4g"

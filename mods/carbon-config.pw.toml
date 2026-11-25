@@ -1,13 +1,13 @@
 name = "Carbon Config"
-filename = "CarbonConfig-Neoforge-1.21.1-2.0.2.1.jar"
+filename = "CarbonConfig-Neoforge-1.21.1-2.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c582eb81822d33f1ca49ab4df4c8696fb6564072"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/1jDdpgcc/versions/v0OYRX00/CarbonConfig-Neoforge-1.21.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "4aab1ed5e2f8857559e821239f6f2d04f607c2748137b81b2f99b2fa03888ab3e3fb02de49cd4d27f2da69cbabb7e36959f724f341a72c09e28cb8a1fef3978a"
 
 [update]
-[update.curseforge]
-file-id = 8119979
-project-id = 898104
+[update.modrinth]
+mod-id = "1jDdpgcc"
+version = "v0OYRX00"

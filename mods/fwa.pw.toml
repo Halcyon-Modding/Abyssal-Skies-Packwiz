@@ -1,13 +1,13 @@
-name = "Fancy World Animations"
-filename = "fwa+1.21.1-neoforge-1.2.31.jar"
+name = "Fancy World Animations [FWA]"
+filename = "fwa+1.21.1-neoforge-1.3.10.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "a896f8442b9ffa62345b1fcfb868dd86a894d3e1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/IAzUFvS6/versions/hLXAMrG5/fwa%2B1.21.1-neoforge-1.3.10.jar"
+hash-format = "sha512"
+hash = "a4d4cbb6fead5586f536ab54a4ae2c8a7d8c55d9144dbf2fd19224b9abb010af1fe93e1150ceb45c8a9f34e58743a6b46650bae12d7cd917f51203c7283f3260"
 
 [update]
-[update.curseforge]
-file-id = 8221257
-project-id = 1452982
+[update.modrinth]
+mod-id = "IAzUFvS6"
+version = "hLXAMrG5"

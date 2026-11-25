@@ -1,0 +1,13 @@
+name = "Peaceless"
+filename = "peaceless-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/64LYq6Wj/versions/DliuSIK0/peaceless-1.0.jar"
+hash-format = "sha512"
+hash = "6d797a5cd6266405adf1a90b66bb732f6ab6368888aee96f4abb3b16b53577786a71483490b84aefc7b410953946f43e9ae41862ff7b41324020054eacbe1933"
+
+[update]
+[update.modrinth]
+mod-id = "64LYq6Wj"
+version = "DliuSIK0"

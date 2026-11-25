@@ -1,0 +1,167 @@
+[compat]
+	#Hides the voice chat HUD while playing in a world that isn't open to LAN. Requires Simple Voice Chat.
+	voiceChatHideSingleplayerHud = false
+	#Adds an EMI category for tapping trees with a tap. Requires EMI and No Man's Land. Reload EMI or rejoin the world to apply.
+	emiTappingCategory = true
+	#Adds an EMI category for what sluices filter out of each fluid. Requires EMI and Spelunkery. Reload EMI or rejoin the world to apply.
+	emiSluicingCategory = false
+	#Adds an EMI category for what piglins give in exchange for gold. Requires EMI. Reload EMI or rejoin the world to apply.
+	emiBarteringCategory = false
+	#Adds an EMI category for what sniffers dig up. Requires EMI. Reload EMI or rejoin the world to apply.
+	emiSniffingCategory = false
+	#Adds an EMI category for what brushing suspicious blocks can uncover. Requires EMI. Reload EMI or rejoin the world to apply.
+	emiArchaeologyCategory = false
+	#Adds an EMI category for the loot found in each structure's chests. Requires EMI. Reload EMI or rejoin the world to apply.
+	emiStructureLootCategory = false
+	#Adds an EMI category for what cave urns can hold when broken. Requires EMI and Supplementaries. Reload EMI or rejoin the world to apply.
+	emiUrnLootCategory = false
+	#Replaces Clutter No More's scrolling shape switcher with a radial wheel, and makes the controller shape button hold-to-open. Requires Clutter No More.
+	clutterNoMoreShapeWheel = false
+	#When the creative tab panel is on the right side of the item list, its tabs are drawn on the right edge too. Requires REMI.
+	remiRightSideTabs = false
+	#EMI shows Spelunkery's rough diamonds and emeralds being polished on a regular grindstone instead of the Diamond Grindstone. Pair with grindstone_polishing loot tables for them.
+	roughGemsOnGrindstone = false
+	#Removes the smithing table category from EMI. Requires EMI.
+	emiHideSmithingCategory = false
+	#EMI shows haunting under a soul campfire instead of an encased fan, and hides the fan washing, smoking and blasting categories. Requires EMI and Create.
+	emiCreateFanRework = false
+	#Hides the hold-shift item descriptions Create adds to item tooltips. Requires Create.
+	createHideItemDescriptions = false
+	#Hides the item information pages Quark adds to the recipe viewer. Requires Quark.
+	quarkHideHints = false
+	#Your graves show on the locator bar as tombstone icons, even in singleplayer. Requires Vanilla Backport.
+	graveLocatorBar = false
+	#Golden dandelions give off drifting golden specks. Requires Tiny Takeover Backport.
+	goldenDandelionParticles = true
+	#Replaces No Man's Land's carving menu with a radial wheel. Requires No Man's Land.
+	carvingWheel = false
+	#Jade tooltips only show while looking through a spyglass or wearing or looking through a Caverns & Chasms monocle. Requires Jade.
+	jadeNeedsSpyglassOrMonocle = false
+	#Run up full blocks without jumping while sprinting.
+	stepUpEnabled = true
+	#The camera glides when you step up onto or down off a block or slab instead of snapping, in first and third person and while riding.
+	smoothStepUp = false
+
+[naming]
+	#Auto-generates a random world name on the world creation screen, with a reroll button if Modern World Creation is present.
+	randomWorldNaming = true
+
+[misc]
+	#Spawns sparks, plays hit sounds, and displays a warning message when attempting to mine a block that requires a stronger tool.
+	unmineableBlockSparks = true
+	#Plays C418 - Death when you die.
+	customDeathSound = true
+	#Customize the OS window title bar text.
+	customWindowTitle = false
+	#Format string for the OS window title. %v will be replaced with the current Minecraft version.
+	windowTitleFormat = "Minecraft - Spiced Cider %v"
+	#Restore classic style loading/progress screen when loading worlds, saving worlds, or changing dimensions.
+	oldProgressScreen = false
+	#Replace the vanilla Options screen with Spiced Cider's single settings screen (sidebar pages, curated options). Keybinds the screen hides are unbound.
+	customOptionsScreen = false
+	#Removes the rename text field from the anvil screen.
+	anvilHideNameField = false
+	#While sleeping, the chat box is replaced by gameplay tips.
+	bedScreenTips = false
+	#Moves the recipe book button in the inventory screen to the right, beside the crafting grid.
+	moveRecipeBookButton = false
+	#Click and drag your player model in the inventory to turn it around.
+	inventoryModelRotation = false
+	#Hides your own potion effect particles in first person.
+	hideOwnEffectParticles = true
+	#Removes the armor bar from the HUD.
+	hideArmorBar = false
+	#Held and dropped light-giving blocks glow the same colour as when they're placed. Requires Polytone.
+	matchHeldLightColors = false
+	#Lanterns and other lights hung from chains and ropes glow the same colour as when they're placed. Requires Polytone.
+	matchChainLightColors = true
+	#Blindness fog reaches farther and the Darkness pulse is weaker, so both stay playable at night and underground.
+	softerBlindnessAndDarkness = false
+	#Removes the "Applies to" and "Ingredients" lines from smithing template tooltips.
+	hideSmithingTemplateTooltips = false
+	#Sack tooltips no longer list their contents as text. The contents preview still shows.
+	hideSackContentsTooltip = false
+	#While Picture Mode is open, everything past the loaded chunks fades into the distance fog colour instead of showing see-through distant terrain. Requires Picture Mode.
+	pictureModeClouds = true
+
+[vista]
+	#Applies performance fixes to Vista's mirror/TV reflection rendering (better culling, better shared-states, re-render throttling). Requires Vista (obviously).
+	vistaMirrorPerfFixes = true
+	#Max distance in blocks that terrain and entities render to inside a mirror reflection. Only lowers Vista's own television.render_distance (which affects TVs and mirrors). Does not affect TV live feeds.
+	# Default: 64
+	# Range: 16 ~ 2048
+	vistaMirrorReflectionDistance = 64
+	#Draws thick fog inside mirror reflections and TV feeds, scaled to the mirror reflection distance, so the shortened view fades out instead of ending abruptly. Requires Mirror Performance Fixes.
+	vistaMirrorFog = true
+	#Distance where mirror fog begins, as a percentage of the mirror reflection distance.
+	# Default: 20
+	# Range: 0 ~ 100
+	vistaMirrorFogStart = 20
+	#Distance where mirror fog becomes fully opaque, as a percentage of the mirror reflection distance.
+	# Default: 90
+	# Range: 10 ~ 100
+	vistaMirrorFogEnd = 90
+
+[weather]
+	#How many seconds clouds take to fade between cloud cover states when the weather changes naturally.
+	# Default: 40
+	# Range: 1 ~ 300
+	cloudCoverFadeSeconds = 40
+	#How many seconds clouds take to fade when the weather is changed with /weather. 0 switches instantly.
+	# Default: 5
+	# Range: 0 ~ 60
+	cloudCoverCommandFadeSeconds = 5
+	#Show the rare halos of light that sometimes form on either side of the sun.
+	sunDogs = true
+	#Leaves slowly turn white while snow falls on them and green again once it stops. Takes effect after rejoining the world.
+	snowfallLeafWhitening = true
+	#How far around you, in chunks, leaves frost over. Larger values cost more performance.
+	# Default: 8
+	# Range: 2 ~ 32
+	snowfallLeafWhiteningRadius = 8
+	#Smoke, leaves, snow and other particles drift with the wind when outdoors.
+	windParticles = true
+	#How strongly particles are pushed by the wind, as a percentage.
+	# Default: 100
+	# Range: 0 ~ 300
+	windParticleStrength = 100
+	#Tiny specks of grass, dust, sand and snow blow off exposed ground when it is windy.
+	windMotes = true
+	#Fruit hanging from tree leaves swings in the wind. Requires the Wind option.
+	hangingFruitSway = true
+	#Lanterns, banners and buntings hung from chains and ropes sway in the wind. Requires the Wind option.
+	chainDecorationSway = true
+
+[voxy]
+	#Replaces the terrain fog with configurable start and end distances that cover Voxy's LoD terrain, plus weather and cave fog. Disable to use Roxy's own fog.
+	voxyFogOverride = true
+	#Distance where the fog begins, as a percentage of the Voxy LoD render distance (or the normal render distance if Voxy is not rendering).
+	# Default: 0
+	# Range: -100 ~ 100
+	voxyFogStart = 0
+	#Distance where the fog becomes fully opaque, as a percentage of the Voxy LoD render distance (or the normal render distance if Voxy is not rendering).
+	# Default: 85
+	# Range: 1 ~ 100
+	voxyFogEnd = 85
+	#How much closer the fog gets during rain, snow and thunderstorms. Thunderstorms count for twice as much as rain. 0% disables weather fog.
+	# Default: 90
+	# Range: 0 ~ 100
+	voxyWeatherFogDensity = 90
+	#How much closer the fog gets when you are underground, away from the sky. 0% disables cave fog.
+	# Default: 50
+	# Range: 0 ~ 100
+	voxyCaveFogDensity = 50
+	#How much closer the fog gets in the Nether's hazy air. 0% matches the Overworld.
+	# Default: 50
+	# Range: 0 ~ 100
+	voxyNetherFogDensity = 50
+
+[nether]
+	#Distant terrain in the Nether shimmers in the heat, more strongly and closer up near lava. Also scaled by the Distortion Effects accessibility option.
+	netherHeatHaze = true
+	#Faint drifting mist in the Nether air, tinted by the biome. Follows the Particles setting.
+	netherMist = true
+	#How strongly dark areas of the Nether take on the colour of the biome's air. 0% keeps the vanilla shadows.
+	# Default: 60
+	# Range: 0 ~ 100
+	netherAmbientTint = 60

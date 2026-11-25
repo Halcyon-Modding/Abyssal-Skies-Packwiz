@@ -1,13 +1,13 @@
 name = "Nature's Spirit"
-filename = "natures_spirit-2.2.5-1.21.1.jar"
+filename = "natures_spirit-2.3.2-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "153679dc2dd4601b40beed834799ba1d7c05b08a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/EQReaqUo/natures_spirit-2.3.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "31227b3bb608a2805c625e7bb0f6b1780c66530424c05f389cffa48c32fa2df090c794feb3fa0dc571a00e335843f5545a3ae1e0e0316e51c2f655a74c66a9bf"
 
 [update]
-[update.curseforge]
-file-id = 6962784
-project-id = 1044992
+[update.modrinth]
+mod-id = "WBvnqHfV"
+version = "EQReaqUo"

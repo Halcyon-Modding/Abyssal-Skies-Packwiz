@@ -1,0 +1,13 @@
+name = "Flamy Flames"
+filename = "flamyflames-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CTWQU8rS/versions/hPn7MOnn/flamyflames-1.1.0.jar"
+hash-format = "sha512"
+hash = "2277467b3917c93abb58e5964cff654754cb813853dca3f2b7377ef9a6e0b8a23dd33d6ad3d93814ef2eff5032c8c01a9d4058b963a917be57cd310b2ba5fcc4"
+
+[update]
+[update.modrinth]
+mod-id = "CTWQU8rS"
+version = "hPn7MOnn"
