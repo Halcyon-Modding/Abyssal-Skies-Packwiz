@@ -4921,10 +4921,6 @@ file = "config/ftbultimine-server.snbt"
 hash = "9be65f6e9e41f6cd89be1159df256273a8bb4b31b91b70445e4e1c76b0679bae"
 
 [[files]]
-file = "config/graphene-common.toml"
-hash = "49098d0451050cf11e447b96a637cc18e150292ae28a2dba206f5fec300ec9f1"
-
-[[files]]
 file = "config/hexal-server.toml"
 hash = "34df35249cbd758592110631ee823a2a5ff5ec19c3a7bdb621815d42870ddfb5"
 
@@ -5059,6 +5055,10 @@ hash = "7564aee7b7bf3477b71532d3fda3223c5455182d6b516850887184c4412e8c3d"
 [[files]]
 file = "config/loadingprotection-common.toml"
 hash = "0a8f173b2debd8ca18d0b8390ab09b5e4d01c5e9d978982cd0818b49d05a5a48"
+
+[[files]]
+file = "config/logbegone.json"
+hash = "14e25a744fc9e2bb382f40e148d23b63fe7b14b29592f56d562f721595df63f6"
 
 [[files]]
 file = "config/magicfeather-common.toml"
@@ -6339,7 +6339,7 @@ metafile = true
 
 [[files]]
 file = "mods/cirrus.pw.toml"
-hash = "340449593258ecdcfb3230c9e0be4f4d6fe78b283c6e24b953fd997728885867"
+hash = "af1950394bdc3091402dd11e43bb40983ba78832395d64f7e52e33d8b1aee31c"
 metafile = true
 
 [[files]]
@@ -6917,11 +6917,6 @@ hash = "6bc3b96615f522db24a452d0f23681861890a967ee026819672ebbd02f5719e9"
 metafile = true
 
 [[files]]
-file = "mods/graphene.pw.toml"
-hash = "38bf364bea6e74104e8ca3faecb81b050259165495b2ce6195b64e8ce0ac011a"
-metafile = true
-
-[[files]]
 file = "mods/guideme.pw.toml"
 hash = "afbf995d300c4337cc36704087731f5c9a3d7bc49f9110bcfe72b9c345f24bd7"
 metafile = true
@@ -7001,11 +6996,6 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "3ce90635273fb1111b038524c91c25c5d734c3cbd0fe1af1c081b0afbca04175"
-metafile = true
-
-[[files]]
-file = "mods/jacaranda.pw.toml"
-hash = "b804e233f9e3a2adccd32abb493a6c2e4879db3874e6d8d37e2052082efe34a6"
 metafile = true
 
 [[files]]
@@ -7146,6 +7136,11 @@ metafile = true
 [[files]]
 file = "mods/lodestone.pw.toml"
 hash = "8590e77951c4fb7c1ac4a52f8e1e0fa0103518b8c64ef3ae55ae654bfd6d2594"
+metafile = true
+
+[[files]]
+file = "mods/log-begone.pw.toml"
+hash = "48bd525ac1cd8811759a7842548a49e51bd25455b8044f99a423d464987dfdc0"
 metafile = true
 
 [[files]]
@@ -7634,7 +7629,7 @@ metafile = true
 
 [[files]]
 file = "mods/shadow-drop.pw.toml"
-hash = "f51f004c9539da0fe0b3d764334b086d07db8bd04da4c6947324ea4cc2ea3342"
+hash = "786bea6c09bfdea540c4e753f6158ca523b737df44b8a544cdacc16f718dc8a6"
 metafile = true
 
 [[files]]
@@ -7868,7 +7863,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "1b15aa249e728fe7af88899bfa08ca4a7a629b0f440750138f74a9b36c607292"
+hash = "474541b3552a67949485e97bc62c201895ea68007dbe147090046386e3ab2a76"
 metafile = true
 
 [[files]]

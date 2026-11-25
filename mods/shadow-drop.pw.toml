@@ -11,3 +11,8 @@ hash = "56ea2c35aa36dac7c113eb6c98d0abfedc9a341ba50a6e2a85b5a6680ab95c41390c0aac
 [update.modrinth]
 mod-id = "COZRUliI"
 version = "pIJm1sTM"
+
+[option]
+optional = true
+default = false
+description = "Adds drop shadows to items in GUIs"

@@ -11,3 +11,8 @@ hash = "36915180cd74e94f2279959dc711d5ef61d89286539adac06c8b5fabf83bc0e468f3ef4a
 [update.modrinth]
 mod-id = "SJDzFJH7"
 version = "VHN0gvNp"
+
+[option]
+optional = true
+default = true
+description = "Enhanced skybox and cloud visuals."

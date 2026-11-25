@@ -11,3 +11,8 @@ hash = "d5159e2e745a9c50f16c67c54303b8a991dc5a1954e5cd7edc235c6f24ad2a045cb493e1
 [update.modrinth]
 mod-id = "fxxUqruK"
 version = "H3w2nVdU"
+
+[option]
+optional = true
+default = false
+description = "An LOD mod that extends your render distance past vanilla limits, without the performance impact traditionally expected with such a change. Can still cause performance issues!"

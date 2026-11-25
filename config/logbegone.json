@@ -1,0 +1,14 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "(LoconauticsConstants) "
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "(LoconauticsConstants) "
+    ]
+  }
+}
