@@ -5381,6 +5381,10 @@ file = "config/reliable_remover/items.json"
 hash = "85f9cc0efee4dacded6da315368d014bdcc13dbcc914b9ad32eb6bc1ecd6d4a5"
 
 [[files]]
+file = "config/reliable_remover/mods/spicedcider.json"
+hash = "a1ebf6abcf04c9b8f532b4b5a48e3ec39142bf52d5b83df0ea09a249e811cba2"
+
+[[files]]
 file = "config/reliable_replacer.json"
 hash = "edc895152a7d7023fbfde32e4e6f3cc6f224a15228a3c37e649bdbac6130e9dc"
 
